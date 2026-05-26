@@ -6,6 +6,17 @@
   margin: 0 auto;
 }
 
+/* Reserve sidebar space before partials load -> kein Layout-Shift */
+[data-include*="sidebar"]:empty {
+  display: block;
+  width: var(--sidebar-width);
+  background: var(--bg-elevated);
+  border-right: 1px solid var(--border-subtle);
+}
+@media (max-width: 768px) {
+  [data-include*="sidebar"]:empty { width: 0; }
+}
+
 .sidebar {
   background: var(--bg-elevated);
   border-right: 1px solid var(--border-subtle);
