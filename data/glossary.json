@@ -1,0 +1,152 @@
+{
+  "po8": {
+    "term": "Pieces of Eight",
+    "short": "Endgame-Currency aus Manufactories. Wird für Black Market, Helm Skill Tree und Manufactory-Upgrades benötigt.",
+    "long": "Pieces of Eight (Po8) sind die wichtigste Endgame-Currency in Skull and Bones. Sie werden in Manufactories produziert, die du über Hostile Takeovers oder Buyouts mit uncut rubies erwirbst. Po8 fließen in Black-Market-Käufe, in die Branches des Helm Skill Tree und in Manufactory-Upgrades. Po8 fallen passiv an — Auto-Collect ab Manufactory-Level 4, Sweet Spot bei Level 5.",
+    "tags": ["currency", "endgame", "helm"]
+  },
+  "silver": {
+    "term": "Silver",
+    "short": "Standard-Währung für Crafting, Reparatur, Manufactory-Funding.",
+    "long": "Silver ist die Basis-Währung in Skull and Bones. Sie wird für nahezu alle Routinekosten gebraucht: Crafting beim Shipwright, Reparatur, Manufactory-Funding, Quest-Käufe. Silver droppt aus fast jeder PvE-Aktivität und wird zusätzlich beim Helm-Skill-Tree-Branch 'Distillery/Lab' verstärkt.",
+    "tags": ["currency"]
+  },
+  "sovereigns": {
+    "term": "Sovereigns",
+    "short": "Seasonal-Leaderboard-Currency aus Helm Leaderboards.",
+    "long": "Sovereigns sind die Seasonal-Leaderboard-Währung. Du verdienst sie über Helm Leaderboards (Po8-Lieferungen, Faction-Stand). Sovereigns werden bei Yanita Nara (Le Pont Muet, Sainte-Anne) gegen exklusive Seasonal-Rewards getauscht.",
+    "tags": ["currency", "seasonal"]
+  },
+  "helm-empire": {
+    "term": "Helm Empire",
+    "short": "Endgame-System ab Kingpin: Smuggler-Imperium mit Manufactories, Contraband, Black Market.",
+    "long": "Das Helm Empire schaltet bei Kingpin-Rang über die Quest 'A Nose for Business' bei Yanita Nara frei. Es ist ein Smuggler-Imperium mit drei Säulen: 1) Manufactories produzieren Po8. 2) Distilleries/Laboratories veredeln Rohstoffe zu Contraband (White/Gold Skull Rum, Blue Lotus Opium, Snuff). 3) Black Market verkauft High-End-Items für Po8. Das Helm Empire ist der Haupt-Endgame-Loop für Solo-PvE.",
+    "tags": ["endgame", "mechanic"]
+  },
+  "manufactory": {
+    "term": "Manufactory",
+    "short": "Settlement, das Po8 produziert. Foundries, Lumberyards, Weavers, Distilleries.",
+    "long": "Manufactories sind Settlements, die du im Helm Empire besitzt. Sie produzieren passiv Pieces of Eight. Typen: Foundries (Metalle), Lumberyards (Holz), Weavers (Fiber), Distilleries (Contraband). Unlock per Hostile Takeover (rote Krone = PvP-Variante, blaue Krone = PvE / Legendary Heist) oder per Buyout mit uncut rubies. Auto-Collect ab Level 4. Optimum laut Community: 6–8 Manufactories. Harufu (Coast of Africa) gilt als bester Po8-Produzent.",
+    "tags": ["endgame", "helm"]
+  },
+  "hostile-takeover": {
+    "term": "Hostile Takeover",
+    "short": "PvPvE-Event um eine Manufactory. Höchster Damage gewinnt. Alle ~30 Min.",
+    "long": "Hostile Takeover ist ein PvPvE-Event, bei dem mehrere Spieler um den Besitz einer Manufactory konkurrieren. Wer den höchsten Damage am Settlement austeilt, gewinnt. Alle ~30 Minuten verfügbar. Für Solo-PvE-Spieler ist die Off-Peak-Strategie empfohlen: Vormittag (EU) oder Nacht, in weniger frequentierten Regionen, mit hoher Structure-DPS (Padewakang Detonate-Build). Alternative: Buyout per uncut rubies — keine PvP-Konfrontation.",
+    "tags": ["activity", "helm"]
+  },
+  "legendary-heist": {
+    "term": "Legendary Heist",
+    "short": "PvE-Variante des Hostile Takeover (blaue Krone auf der Helm-Karte).",
+    "long": "Legendary Heist ist die PvE-Variante des Hostile Takeover. Auf der Helm-Karte als blaue Krone markiert (rote Krone = PvP-Hostile-Takeover). Keine PvP-Konkurrenz, dafür anspruchsvollere NPC-Verteidigung. Belohnungen umfassen Po8, seltene Materialien und Manufactory-Besitz ohne PvP-Risiko.",
+    "tags": ["activity", "helm"]
+  },
+  "ascension-module": {
+    "term": "Ascension / Ascension Module",
+    "short": "Item-Upgrade-System: Waffen/Furniture per Modulen verbessern.",
+    "long": "Ascension ist das Item-Upgrade-System in Skull and Bones. Beim Blacksmith verstärkst du Waffen, Armor und Furniture per Ascension Modules. Y3S1 fügte den Mythic-Tier hinzu, der zusätzlich Nightshade Pearl und Deep Iron benötigt. Reforge-Versuche pro Item wurden in Y3S1 auf 100 angehoben (bestehende Items bekamen +25).",
+    "tags": ["mechanic", "crafting"]
+  },
+  "mythic-modification": {
+    "term": "Mythic Modification",
+    "short": "Y3S1-Top-Tier Item-Upgrade. Braucht Nightshade Pearl aus WT3/WT4.",
+    "long": "Mythic Modifications sind das mit Year 3 Season 1 eingeführte Top-Tier-Upgrade über die normale Ascension hinaus. Materialien: Nightshade Pearl (aus WT3/WT4 Domains) und Deep Iron. Reforging wählt bei Mythic-Mods bevorzugt selten gesehene Mod-Pools aus, was den Pool-Pity-Effekt verstärkt. Reforge-Cap: 100 Versuche pro Item.",
+    "tags": ["mechanic", "endgame", "y3s1"]
+  },
+  "nightshade-pearl": {
+    "term": "Nightshade Pearl",
+    "short": "Y3S1-Material aus WT3/WT4 Domains. Pflicht für Mythic Modifications.",
+    "long": "Nightshade Pearl ist das neue Y3S1-Material, das für Mythic Modifications benötigt wird. Drops aus WT3- (Rogue Storms) und WT4-Domains (Brutal Tempest), gelegentlich aus Roaming Fleets. Limitierende Ressource für Endgame-Upgrades — entsprechend selten.",
+    "tags": ["material", "y3s1", "endgame"]
+  },
+  "kingpin": {
+    "term": "Kingpin",
+    "short": "Höchste Infamy-Stufe. Schaltet Helm Empire frei. Hat nummerierte Milestones (Kingpin 1, 14, …).",
+    "long": "Kingpin ist die zehnte und höchste Infamy-Stufe. Ab Kingpin-Rang schaltet die Quest 'A Nose for Business' bei Yanita Nara das Helm Empire frei. Über die Basis-Kingpin-Stufe hinaus gibt es nummerierte Milestones (Kingpin 1, 2, …, 50+), die Seasonal Mastery Points geben. Veteran-Status: Gold/Silver/Copper Kingpin.",
+    "tags": ["rank", "progression"]
+  },
+  "infamy": {
+    "term": "Infamy",
+    "short": "Rang-System. 10 Stufen von Outcast bis Kingpin.",
+    "long": "Infamy ist das Rang-System in Skull and Bones. Zehn Stufen: Outcast → Brigand → Corsair → Cutthroat → Buccaneer → Marauder → Renegade → Raider → Plunderer → Kingpin. Infamy wird durch nahezu jede Aktivität verdient. Höhere Stufen schalten Quests, Schiffe und Spielmechaniken frei. Ab Kingpin: nummerierte Milestones.",
+    "tags": ["rank", "progression"]
+  },
+  "brigantine": {
+    "term": "Brigantine",
+    "short": "Mittleres Schiff. Speed-Ramming-Specialist mit 4 Broadside-Gunports. Squishy.",
+    "long": "Die Brigantine ist ein mittleres Schiff (MED), bekannt für hohe Geschwindigkeit (~20 kn) und ihren Bullhorn-Perk (+45% Ramming-Damage, appliziert Flooded). Sie hat 4 Broadside-Gunports, 1 Bow-, 1 Stern-, 1 Auxiliary-Slot und 5 Furniture-Slots (1 Major, 4 Minor). Squishy — Distanz halten ist Pflicht. Top-3-Schiff für Solo-PvE.",
+    "tags": ["ship"]
+  },
+  "bullhorn": {
+    "term": "Bullhorn",
+    "short": "Synonym für den Brigantine-Perk (siehe Bullhorn Perk).",
+    "long": "Bullhorn ist der populäre Name für den Brigantine-Perk. Siehe Bullhorn Perk.",
+    "tags": ["ship-perk"]
+  },
+  "bullhorn-perk": {
+    "term": "Bullhorn (Brigantine Perk)",
+    "short": "+45% Ramming-Damage, appliziert Flooded, −80% Torn-Sails-Duration.",
+    "long": "Der Brigantine-eigene Schiffs-Perk. Effekt: +45% Ramming-Damage, appliziert beim Rammen den Flooded-Status, und reduziert die Dauer von Torn Sails an deiner eigenen Brigantine um 80%. Macht aus Rammen ein offensives UND defensives Tool — selbst Brigantine-Sails-Kämpfe sind durch −80% Torn-Sails-Duration beherrschbar.",
+    "tags": ["ship-perk"]
+  },
+  "flooded": {
+    "term": "Flooded",
+    "short": "Status-Effekt: Ziel nimmt über Zeit Hull-Damage.",
+    "long": "Flooded ist ein Status-Effekt, der dem Ziel über Zeit Hull-Damage zufügt — ähnlich einem DoT. Wird durch Torpedos, Mortar-Wasserschäden und den Bullhorn-Ram-Perk appliziert. Stackt mit anderen Stati wie Ablaze (Feuer) und Torn Sails. Besonders effektiv gegen hochpanzerte Ziele, da Flooded-Damage Armor weitgehend ignoriert.",
+    "tags": ["status"]
+  },
+  "ablaze": {
+    "term": "Ablaze",
+    "short": "Feuer-Status: DoT-Damage, von Sambuk-Build Scorched profitiert.",
+    "long": "Ablaze ist der Feuer-DoT-Status. Wird durch Fire-Bombards, Blue Specter, Fire Bombards III, Ash Breaker und Burning-Heart-Ammo appliziert. Synergie: Sambuks Scorched-Perk verstärkt Damage gegen brennende Ziele. Gegenstück zu Flooded — beide stackbar.",
+    "tags": ["status"]
+  },
+  "torn-sails": {
+    "term": "Torn Sails",
+    "short": "Status-Effekt: Ziel verliert Geschwindigkeit und Manövrierfähigkeit.",
+    "long": "Torn Sails reduziert die Geschwindigkeit und Manövrierfähigkeit des Ziels für eine bestimmte Dauer. Wichtig in Solo-Encounters um fliehende Targets festzuhalten und im PvP um Distanz aufzubauen. Brigantine ist gegen Torn Sails bei sich selbst dank Bullhorn-Perk weitgehend immun (−80% Duration).",
+    "tags": ["status"]
+  },
+  "world-tier": {
+    "term": "World Tier",
+    "short": "Schwierigkeitsstufe der offenen Welt. WT1–WT4. WT3/WT4 mit Affixes.",
+    "long": "World Tiers regeln die Schwierigkeit der offenen Welt. WT1 (Shallow Waters) als Einstieg, WT2 (Cutthroat Seas) ab Buccaneer. Y3S1-Neuerungen: WT3 (Rogue Storms) mit 1–3 Seasonal Affixes und Roaming Fleets, WT4 (Brutal Tempest) mit bis zu 5 Affixes und Mythic World Events inkl. Kraken. WT2 hat seit Y3S1 KEINE Affixes mehr. WT3/WT4-Quests werden jede Season resettet.",
+    "tags": ["mechanic", "endgame", "y3s1"]
+  },
+  "seasonal-mastery": {
+    "term": "Seasonal Mastery",
+    "short": "Y3S1-Skill-Tree, 80 Level, 500+ Nodes, Perks bei 10/30/60. Resettet pro Season.",
+    "long": "Seasonal Mastery ist der neue Skill-Tree, der mit Year 3 Season 1 eingeführt wurde. 80 Mastery Levels pro Season, 500+ verteilbare Nodes. Punkte verdienst du über Infamy-Gewinn (Ship Rank 13 → 30 möglich). Drei Seasonal Perks schalten bei Level 10, 30 und 60 frei — z.B. Reactive Bulwark (Brace-Explosion 250m, 1000% Armor-Damage) und Deadly Medicine (Healing → gespeicherter Bonus-Damage). Resettet jede Season mit Mid-Season-Carry-Over je nach erreichtem Mastery-Level.",
+    "tags": ["skill-tree", "seasonal", "y3s1"]
+  },
+  "seasonal-affix": {
+    "term": "Seasonal Affix",
+    "short": "Bonus-Eigenschaften von Gegnern in WT3+ (Y3S1).",
+    "long": "Seasonal Affixes sind Bonus-Eigenschaften, die Gegner in WT3 und WT4 erhalten. Y3S1-Pool: Last Resort (Explosion bei Tod), Vengeance (Enraged unter 40% HP), Field Support (Healing-Pulse), Armored (+80% Resistance, −40% pro Ram), Phalanx (+10–12% Resistance pro Ally bis 5). WT3 zieht 1–3 Affixes, WT4 bis zu 5. Seit Y3S1 keine Affixes mehr in WT2.",
+    "tags": ["mechanic", "endgame", "y3s1"]
+  },
+  "divine-thunder": {
+    "term": "Divine Thunder",
+    "short": "Long Gun mit Lightning-Shock. PvE-König laut Community.",
+    "long": "Divine Thunder ist eine epische Long Gun mit Lightning-Element (Shock-Status). Gilt als PvE-King unter den Long Guns: applizziert Shock auf Weak Points, hat solide Damage und passt sowohl in Bow- als auch Stern-Slots. Bezugsquelle: Williams' Rotating Shop oder Dragon-Beast-Monatsdrop. Für Brigantine-Long-Cannon-Builds das Ziel-Item.",
+    "tags": ["weapon", "long-gun"]
+  },
+  "rahmas-legacy": {
+    "term": "Rahma's Legacy",
+    "short": "Torpedo-Set für Broadside. Apppliziert Flooded effektiv.",
+    "long": "Rahma's Legacy ist ein Torpedo-Set aus den Admiral-Rahma-Quests und Telok-Penjarah-Vendoren. Effektive Flooded-Stacks via Broadside-Volley. In Kombination mit Divine Thunder (Shock) und Bombard Works Furniture das Standard-Setup für Solo-PvE-Brigantine. Im Endgame ascendable; alternative Endgame-Wahl ist Heavenly Lance (höhere Reichweite).",
+    "tags": ["weapon", "torpedo"]
+  },
+  "megafort-wolvenhol": {
+    "term": "Megafort Wolvenhol",
+    "short": "Großraid-Aktivität auf Red Isle (WT2). DMC-Fort. Mindestens 6 Spieler.",
+    "long": "Megafort Wolvenhol ist eine Großraid-Aktivität in der Red-Isle-Region (WT2). Commodore: Jonas Vanderkill. Empfohlene Gruppengröße: mindestens 6 Spieler — Solo NICHT empfohlen. Belohnungen: hochwertige Materialien, seltene Furniture, Po8. Schwesterfort: Megafort Oosten.",
+    "tags": ["activity", "endgame"]
+  },
+  "faction-war": {
+    "term": "Faction War",
+    "short": "Y3S1-Saisonevent. 'Safeguard' läuft 12.05.–11.08.2026.",
+    "long": "Faction War ist ein wiederkehrendes Saisonevent zwischen den Fraktionen (DMC, Compagnie Royale, Confederation, Guana). Y3S1-Edition heißt 'Safeguard' und läuft vom 12.05. bis zum 11.08.2026. Verdient War Assets, gibt Territorial-Boni je nach Fraktions-Sieg. Solo-PvE-Spieler können über Faction-PvE-Missionen teilnehmen, ohne PvP zu betreten.",
+    "tags": ["event", "y3s1", "seasonal"]
+  }
+}

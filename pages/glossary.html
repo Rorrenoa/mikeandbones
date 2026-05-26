@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glossar — mikeandbones</title>
+  <meta name="description" content="Skull-and-Bones-Fachbegriffe alphabetisch. Tooltips überall im Guide verlinken hierher.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cinzel:wght@600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/tooltips.css">
+</head>
+<body>
+  <div data-include="/partials/header.html"></div>
+  <div class="page">
+    <div data-include="/partials/sidebar.html"></div>
+    <main class="main">
+      <div class="main__inner">
+
+        <h1>Glossar</h1>
+        <p class="caption">
+          Alle Fachbegriffe alphabetisch. Tooltips im gesamten Guide verlinken hierher.
+          Begriffe in <strong>Englisch</strong>, Erklärungen auf Deutsch.
+        </p>
+
+        <div class="box box-info">
+          <span class="box__title">Beispiel-Tooltip</span>
+          Wenn du im Guide einen Begriff wie <span class="term" data-glossary="po8" tabindex="0">Pieces of Eight</span>,
+          <span class="term" data-glossary="bullhorn-perk" tabindex="0">Bullhorn</span>,
+          <span class="term" data-glossary="divine-thunder" tabindex="0">Divine Thunder</span> oder
+          <span class="term" data-glossary="manufactory" tabindex="0">Manufactory</span> siehst — fahre mit der Maus drüber oder fokussiere ihn per Tab.
+          Im Tooltip ist ein Link zur ausführlichen Erklärung auf dieser Seite.
+        </div>
+
+        <label for="glossary-filter" class="caption" style="display:block;margin:1.5em 0 0.5em;">Filter</label>
+        <input
+          type="search"
+          id="glossary-filter"
+          class="glossary-filter"
+          placeholder="Begriff, Beschreibung oder Tag suchen…"
+          autocomplete="off">
+
+        <ul id="glossary-list" class="glossary-list" aria-live="polite"></ul>
+
+        <div data-include="/partials/footer.html"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/assets/js/includes.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/glossary.js"></script>
+  <script type="module" src="/assets/js/tooltips.js"></script>
+</body>
+</html>

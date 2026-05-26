@@ -1,0 +1,166 @@
+.box {
+  padding: var(--space-4);
+  border-left: 4px solid;
+  border-radius: var(--radius-sm);
+  margin: var(--space-4) 0;
+  background: var(--bg-card);
+}
+.box > :first-child { margin-top: 0; }
+.box > :last-child  { margin-bottom: 0; }
+.box-info    { background: var(--info-bg);    border-color: var(--info-border); }
+.box-warning { background: var(--warning-bg); border-color: var(--warning-border); }
+.box-success { background: var(--success-bg); border-color: var(--success-border); }
+.box-danger  { background: var(--danger-bg);  border-color: var(--danger-border); }
+
+.box__title {
+  font-weight: 700;
+  color: var(--text-heading);
+  margin-bottom: var(--space-2);
+  display: block;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-4);
+  margin: var(--space-5) 0;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  transition: background 120ms ease, border-color 120ms ease, transform 120ms ease;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-strong);
+  transform: translateY(-2px);
+}
+.card__title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin: 0 0 var(--space-2);
+}
+.card__desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin: 0;
+  flex-grow: 1;
+}
+.card__tag {
+  margin-top: var(--space-3);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.table-wrap { overflow-x: auto; margin: var(--space-4) 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+thead { background: var(--bg-elevated); }
+th, td {
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  border-bottom: 1px solid var(--border-subtle);
+}
+th { color: var(--text-heading); font-weight: 600; font-size: 0.9rem; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:hover { background: var(--bg-card-hover); }
+
+.item { font-weight: 600; }
+.item-common    { color: var(--rarity-common); }
+.item-uncommon  { color: var(--rarity-uncommon); }
+.item-rare      { color: var(--rarity-rare); }
+.item-epic      { color: var(--rarity-epic); }
+.item-legendary { color: var(--rarity-legendary); }
+
+.term {
+  border-bottom: 1px dotted var(--accent-muted);
+  cursor: help;
+  color: var(--text-primary);
+}
+.term:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: 2px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15em 0.55em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-strong);
+}
+.badge-tier-beginner     { color: var(--rarity-common);   border-color: var(--rarity-common); }
+.badge-tier-intermediate { color: var(--rarity-uncommon); border-color: var(--rarity-uncommon); }
+.badge-tier-endgame      { color: var(--rarity-epic);     border-color: var(--rarity-epic); }
+
+.you-are-here {
+  background: linear-gradient(90deg, var(--accent-muted), transparent);
+  border-left: 4px solid var(--accent);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  margin: var(--space-4) 0;
+  font-weight: 600;
+}
+
+.glossary-list { list-style: none; padding: 0; }
+.glossary-entry {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-bottom: var(--space-3);
+  scroll-margin-top: var(--space-5);
+}
+.glossary-entry:target { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.glossary-entry h3 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+.glossary-filter {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+}
+.glossary-filter:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: var(--focus-ring);
+}
+
+.verified-tag {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  background: var(--success-bg);
+  color: var(--rarity-common);
+  border: 1px solid var(--success-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
