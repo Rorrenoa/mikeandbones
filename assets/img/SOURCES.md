@@ -22,6 +22,58 @@ mit Ubisoft verbunden, nicht-kommerziell, nicht in Suchmaschinen indexiert
 | `ships/sloop.webp`      | `static.wikia.nocookie.net/skull-bones/images/9/98/20231218091433.jpg` |
 | `ships/snow.webp`       | `static.wikia.nocookie.net/skull-bones/images/e/ee/Snow2.png` |
 
+### Währungen
+| Datei | Quelle |
+|---|---|
+| `currencies/silver.webp` | Fandom-Seite "Silver" |
+| `currencies/sovereigns.webp` | Fandom-Seite "Sovereigns" |
+| `currencies/uncut-rubies.webp` | Fandom-Seite "Uncut Ruby" |
+
+### Waffen
+| Datei | Quelle |
+|---|---|
+| `weapons/basilisk-iii.webp` | Fandom-Seite "Basilisk I" |
+| `weapons/blue-specter.webp` | Fandom-Seite "Blue Specter" |
+| `weapons/bombard-v.webp` | Fandom-Seite "Bombard V" |
+| `weapons/dardanelles-gun.webp` | Fandom-Seite "Dardanelles Gun" |
+| `weapons/fire-bombard.webp` | Fandom-Seite "Fire Bombard I" |
+| `weapons/long-gun-v.webp` | Fandom-Seite "Long Gun V" |
+| `weapons/rahmas-legacy.webp` | Fandom-Seite "Rahma's Legacy" |
+| `weapons/scurlocks-long-nines.webp` | Fandom-Seite "Scurlock's Long Nines" |
+| `weapons/zamzama-iii.webp` | Fandom-Seite "Zamzama III" |
+
+### Furniture
+| Datei | Quelle |
+|---|---|
+| `furniture/termites.webp` | Fandom-Seite "The Termites I" |
+
+### NPCs
+| Datei | Quelle |
+|---|---|
+| `npcs/admiral-rahma.webp` | Fandom-Seite "Admiral Rahma" |
+| `npcs/hubac-twins.webp` | Fandom-Seite "Hubac Twins" |
+| `npcs/john-scurlock.webp` | Fandom-Seite "John Scurlock" |
+| `npcs/william-blackwood.webp` | Fandom-Seite "William Blackwood" |
+| `npcs/yanita-nara.webp` | Fandom-Seite "Yanita Nara" |
+| `npcs/zayn-magoro.webp` | Fandom-Seite "Zayn Magoro" |
+
+### Bosse
+| Datei | Quelle |
+|---|---|
+| `bosses/commodore-vanderkill.webp` | Fandom-Seite "Commodore Vanderkill" |
+| `bosses/la-peste.webp` | Fandom-Seite "Philippe La Peste" |
+| `bosses/maangodin.webp` | Fandom-Seite "Maangodin" |
+| `bosses/megafort-wolvenhol.webp` | Fandom-Seite "Megafort Wolvenhol" |
+| `bosses/shadowbeast.webp` | Fandom-Seite "Shadowbeast" (Dragon-Beast-Monatsdrop) |
+| `bosses/vikram.webp` | Fandom-Seite "Vikram Rajan" |
+
+### Regionen
+| Datei | Quelle |
+|---|---|
+| `regions/coast-of-africa.webp` | Fandom-Seite "Coast of Africa" |
+| `regions/red-isles.webp` | Fandom-Seite "Red Isles" |
+| `regions/telok-penjarah.webp` | Fandom-Seite "Telok Penjarah" |
+
 Hinweis: Fandom liefert alle Bilder als WebP aus, unabhängig von der URL-Extension.
 Die Dateien wurden lokal entsprechend mit `.webp`-Extension gespeichert.
 
