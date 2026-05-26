@@ -1,0 +1,35 @@
+[
+  {
+    "id": "harufu",
+    "name": "Harufu",
+    "region": "Coast of Africa",
+    "type": "foundry",
+    "communityRank": 1,
+    "notes": "Laut Community Top-Po8-Produzent. Coast of Africa hat insgesamt die dichteste Top-Tier-Settlements.",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-26",
+    "sources": ["sources/y3s1-patch-notes.md"]
+  },
+  {
+    "id": "red-isle-cluster",
+    "name": "Red Isle (Auto-Collect-Cluster)",
+    "region": "Red Isle",
+    "type": "mixed",
+    "communityRank": 2,
+    "notes": "Northeast Red Isle bietet dichten Auto-Collect-Cluster. Solid für Brigantine-Solo-Routen ab Sainte-Anne.",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-26",
+    "sources": ["sources/y3s1-patch-notes.md"]
+  },
+  {
+    "id": "telok-penjarah-cluster",
+    "name": "Telok Penjarah Cluster",
+    "region": "Indian Ocean East",
+    "type": "mixed",
+    "communityRank": 3,
+    "notes": "Nahe Admiral-Rahma-Hub. Praktisch wenn der Spieler dort viele Quests + Po8 kombiniert.",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-26",
+    "sources": ["sources/y3s1-patch-notes.md"]
+  }
+]
