@@ -314,3 +314,21 @@ tbody tr:hover { background: var(--bg-card-hover); }
   text-align: center;
   margin-top: var(--space-2);
 }
+
+.sbt-link {
+  color: inherit;
+  border-bottom: 1px dashed var(--accent-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+.sbt-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.sbt-link__ext {
+  font-size: 0.75em;
+  color: var(--accent);
+  opacity: 0.6;
+  margin-left: 0.15em;
+}
+.sbt-link:hover .sbt-link__ext { opacity: 1; }
+
+td.item .sbt-link img { margin-right: var(--space-2); }

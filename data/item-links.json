@@ -1,0 +1,53 @@
+{
+  "_comment": "Verifiziert via site:skullandbonestools.de WebSearch. URL-Pattern: https://skullandbonestools.de/en/codex/item/{sbtSlug}. Items ohne Eintrag werden ohne Link gerendert.",
+  "_source": "Skull and Bones Tools (Community-Datenbank, v1.23 Shattered Seas)",
+
+  "weapons": {
+    "Divine Thunder":          "divineThunder",
+    "Heavenly Thunder":        "heavenlyThunder",
+    "Heavenly Lance":          "heavenlyLance",
+    "Rahma's Legacy":          "rahmasLegacy",
+    "Thunder Dragon Cannons":  "thunderDragonCannon",
+    "Divine Wind":             "divineWind",
+    "Nashkar":                 "nashkar",
+    "La Piqure III":           "laPiqure3",
+    "La Piqúre III":           "laPiqure3",
+    "La Piqure I":             "laPiqure1",
+    "Long Gun I":              "longGun1",
+    "Long Gun V":              "longGun5",
+    "Fire Long Gun III":       "fireLongGun3",
+    "Bombard Works I":         "bombardWorks1",
+    "Bombard I":               "bombard1",
+    "Bombard II":              "bombard2",
+    "Scurlock's Long Nines":   "scurlocksLongNines",
+    "Zamzama II":              "zamzama2",
+    "Zamzama III":             "zamzama3",
+    "Basilisk II":             "basilisk2",
+    "Basilisk III":            "basilisk3",
+    "Roaring Meg":             "roaringMeg",
+    "Dardanelles Gun":         "dardanellesGun",
+    "Leopold III":             "leopold3",
+    "Blue Specter":            "blueSpecter",
+    "Fire Bombard I":          "fireBombard1",
+    "Fire Bombard II":         "fireBombard2",
+    "Fire Bombard III":        "fireBombard3"
+  },
+
+  "armor": {
+    "Ouroboros":         "ouroboros",
+    "Buccaneer's Oath":  "buccaneersOath"
+  },
+
+  "furniture": {
+    "Bombard Works I":   "bombardWorks1"
+  },
+
+  "ships": {
+    "Brigantine":  "brigantine",
+    "Frigate":     "frigate",
+    "Garuda":      "garuda",
+    "Padewakang":  "padewakang",
+    "Sambuk":      "sambuk",
+    "Schooner":    "schooner"
+  }
+}

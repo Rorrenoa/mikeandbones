@@ -149,3 +149,27 @@ Analog zu `weapons.json` mit Feldern `id`, `name`, `rarity`, `source`, `effect`,
 - `verifiedSeason` — auf welchem Patch-Stand verifiziert
 - `lastUpdated` — ISO-Datum der letzten manuellen Prüfung
 - `sources` — Pfade zu Quellen in `/sources/`
+
+## item-links.json
+
+Mapping von Item-Namen (wie sie in HTML-Tabellen stehen) auf `skullandbonestools.de`-Slugs.
+Wird von `assets/js/item-links.js` geladen und wickelt erkannte Items automatisch in
+externe Links mit ↗-Symbol. Der URL-Aufbau ist immer:
+
+```
+https://skullandbonestools.de/en/codex/item/{slug}
+```
+
+Struktur:
+```jsonc
+{
+  "weapons": { "Item Name": "camelCaseSlug" },
+  "armor":   { ... },
+  "furniture": { ... },
+  "ships":   { ... }
+}
+```
+
+Items ohne Eintrag werden ohne Link gerendert (kein Fehler). Neue Items: Slug via
+Google-Suche `site:skullandbonestools.de "Item Name"` verifizieren bevor eintragen,
+weil Vercel direkt curl/WebFetch mit HTTP 429 blockt.
