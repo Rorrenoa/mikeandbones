@@ -20,6 +20,15 @@ Year 3 Season 1 "Shattered Seas". Zielgruppe: Solo-Spieler ab Kingpin-Rank.
 - Mobile-first, aber Dark Theme only (kein Light-Mode-Toggle).
 - WCAG AA Minimum: Focus-Ring, Kontraste, `tabindex` auf Tooltip-Trigger.
 
+## SEO-Block (Pflicht in JEDER HTML-Seite)
+Direkt nach dem `viewport`-Meta einsetzen:
+```html
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="googlebot" content="noindex, nofollow">
+```
+`/robots.txt` blockt zusätzlich alle Crawler. Die Seite soll nicht von Suchmaschinen
+oder KI-Crawlern indexiert werden.
+
 ## Glossar-Regel (kritisch)
 - Jeder Fachbegriff im Text → `<span class="term" data-glossary="KEY" tabindex="0">Begriff</span>`.
 - `KEY` referenziert `/data/glossary.json`.
