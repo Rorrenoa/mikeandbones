@@ -16,7 +16,7 @@
     "armor": { "item": "Ouroboros", "rarity": "epic", "note": "Oder beste verfügbare Epic-Armor." },
     "furniture": {
       "major": "Megaphone",
-      "minor": ["Bombard Works", "Spirit Collar", "Iron Cladding Station", "Maintenance Forge"]
+      "minor": ["Tuning Station", "Spirit Collar", "Iron Cladding Station", "Maintenance Forge"]
     },
     "ammo": ["Standard Cannonball", "Burning Heart (situativ)"],
     "rotation": "1) 600–800m Long-Gun-Opener. 2) Side-Pass: Torpedo-Broadside. 3) Reposition. 4) Bei Schaden: Brace + Maintenance-Forge-Self-Repair. Nicht rammen ohne Bullhorn-Plan.",

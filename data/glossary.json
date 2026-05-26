@@ -149,6 +149,18 @@
     "long": "Faction War 'Safeguard' (Y3S1) ist eine PvE-Co-op-Survival-Challenge: Verteidige Manufactories deiner Fraktion gegen feindliche Wellen. Triggert in jedem alliierten Faction-POI in umkämpften Territorien, jeder Verbündete kann beitreten. Belohnungen: War Assets und (bei eigener Manufactory) Production-Boost. Timeline: Start 12.05.2026, Ceasefire 04.08.2026, War-Ende 11.08.2026. Solo-tauglich.",
     "tags": ["event", "y3s1", "seasonal"]
   },
+  "major-furniture": {
+    "term": "Major Furniture",
+    "short": "Mächtige Furniture mit signifikantem Build-Impact. NUR 1 Slot pro Schiff. Immer Epic.",
+    "long": "Major Furniture sind die größten Furniture-Items, die deinen Build definieren — Bombard Works (Reload+Damage), Royal Ramming Works (Punctured), Hull Marker's Table (Cannonball-Boost), Megaphone (Reload), Ramrod Workshop (Reload). Jedes Schiff hat genau EINEN Major-Slot (laut Ingame-Hinweis 'You can only install one Major Furniture on a ship'). Alle Major-Items in der SBT-Datenbank sind Epic-Rarity — es gibt keine Rare- oder Uncommon-Major-Furniture.",
+    "tags": ["furniture", "mechanic"]
+  },
+  "minor-furniture": {
+    "term": "Minor Furniture",
+    "short": "Kleinere Furniture-Slots mit spezifischen Buffs. Brigantine hat 4 davon. Mischung aus Rare und Epic.",
+    "long": "Minor Furniture sind die kleineren Furniture-Slots, die spezifische Buffs liefern — Tuning Station (Damage), Hubac Tuning Rack (Reload), Iron Cladding Station (Armor), Maintenance Forge (Self-Repair), Lrange Barrel (Range), Spirit Collar (Mortar), Termites (Structure). Brigantine hat 4 Minor-Slots, größere Schiffe mehr. Anders als Major: nicht alle Minor-Items haben Epic-Versionen — manche sind nur in Rare oder Uncommon verfügbar. Realistisches Ziel: Mix aus Rare und Epic, nicht alle Epic.",
+    "tags": ["furniture", "mechanic"]
+  },
   "power-score": {
     "term": "Power-Score",
     "short": "Schiff-Gesamtwert oben im Loadout-Menü. Bestimmt WT-Tauglichkeit.",
