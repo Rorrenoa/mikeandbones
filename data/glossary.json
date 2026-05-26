@@ -149,6 +149,12 @@
     "long": "Faction War 'Safeguard' (Y3S1) ist eine PvE-Co-op-Survival-Challenge: Verteidige Manufactories deiner Fraktion gegen feindliche Wellen. Triggert in jedem alliierten Faction-POI in umkämpften Territorien, jeder Verbündete kann beitreten. Belohnungen: War Assets und (bei eigener Manufactory) Production-Boost. Timeline: Start 12.05.2026, Ceasefire 04.08.2026, War-Ende 11.08.2026. Solo-tauglich.",
     "tags": ["event", "y3s1", "seasonal"]
   },
+  "power-score": {
+    "term": "Power-Score",
+    "short": "Schiff-Gesamtwert oben im Loadout-Menü. Bestimmt WT-Tauglichkeit.",
+    "long": "Power-Score ist der aggregierte Schiff-Gesamtwert, der oben rechts im Ship-Loadout-Menü angezeigt wird (z.B. 2330/2350). Er kombiniert Ship Rank, alle Waffen-Werte, Armor und Furniture-Stats. Faustregel für World Tiers: WT2 ab ~2800, WT3 ab ~3500, WT4 ab ~4200. Unter diesen Werten reinzugehen führt schnell zu One-Shots durch reguläre Patrouillen-NPCs.",
+    "tags": ["mechanic", "progression"]
+  },
   "punctured": {
     "term": "Punctured",
     "short": "Y3S1-Status. Reduziert Armor Rating, verstärkt Piercing-Damage.",
