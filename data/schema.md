@@ -152,24 +152,33 @@ Analog zu `weapons.json` mit Feldern `id`, `name`, `rarity`, `source`, `effect`,
 
 ## item-links.json
 
-Mapping von Item-Namen (wie sie in HTML-Tabellen stehen) auf `skullandbonestools.de`-Slugs.
-Wird von `assets/js/item-links.js` geladen und wickelt erkannte Items automatisch in
-externe Links mit ↗-Symbol. Der URL-Aufbau ist immer:
+Mapping von Item-Namen (wie in HTML-Tabellen) auf **Item-IDs** der `SkullAndBonesData`-
+Repo (https://github.com/SkullAndBonesTools/SkullAndBonesData, AGPL-3.0). `assets/js/item-links.js`:
 
-```
-https://skullandbonestools.de/en/codex/item/{slug}
-```
+1. Lädt beim ersten Hover die JSON-Daten direkt von `raw.githubusercontent.com`:
+   - `data/items.json` (alle Items mit Stats, Perks, Materials)
+   - `languages/en/en_items.json` (Item-Namen + Beschreibungen)
+   - `languages/en/en_perks.json` (Perk-Texte)
+2. Wickelt jedes erkannte Item in der HTML in einen Link.
+3. Bei Hover öffnet ein Tooltip im Icy-Veins-Stil mit echten Werten.
+4. Klick öffnet `https://skullandbonestools.de/en/codex/item/{id}` in neuem Tab.
 
 Struktur:
 ```jsonc
 {
-  "weapons": { "Item Name": "camelCaseSlug" },
-  "armor":   { ... },
-  "furniture": { ... },
-  "ships":   { ... }
+  "items": {
+    "Divine Thunder": "divineThunder",
+    "Long Gun V":     "longGun",        // SBT speichert nur Basis-Items,
+                                        // Tier-Suffixe (V, III) werden zur Basis gemappt
+    "Rahma's Legacy": "rahmasLegacy"
+  }
 }
 ```
 
-Items ohne Eintrag werden ohne Link gerendert (kein Fehler). Neue Items: Slug via
-Google-Suche `site:skullandbonestools.de "Item Name"` verifizieren bevor eintragen,
-weil Vercel direkt curl/WebFetch mit HTTP 429 blockt.
+Items ohne Eintrag bleiben unverlinkt. Tier-Suffixe und Klammer-Zusätze
+("Divine Thunder (ascended)", "Pacea (Heal-on-Ram)") werden vom JS automatisch
+gestripped und auf die Basis-Item-ID gemappt.
+
+**Neue Items:** Item-ID in SBT-Data-Repo nachsehen — entweder lokal das Repo klonen,
+oder `curl https://raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData/main/languages/en/en_items.json`
+und nach Namen suchen.

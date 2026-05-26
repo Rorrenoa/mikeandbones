@@ -321,6 +321,7 @@ tbody tr:hover { background: var(--bg-card-hover); }
   display: inline-flex;
   align-items: center;
   gap: 0.25em;
+  cursor: help;
 }
 .sbt-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .sbt-link__ext {
@@ -332,3 +333,93 @@ tbody tr:hover { background: var(--bg-card-hover); }
 .sbt-link:hover .sbt-link__ext { opacity: 1; }
 
 td.item .sbt-link img { margin-right: var(--space-2); }
+
+/* === Item-Hover-Tooltip im Icy-Veins/Wowhead-Stil === */
+.item-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bg-tooltip);
+  color: var(--text-primary);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--accent-strong);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  width: 340px;
+  max-width: calc(100vw - 16px);
+  box-shadow: var(--shadow-lg);
+  z-index: 1000;
+  pointer-events: auto;
+  display: none;
+}
+.item-tooltip[data-show] { display: block; }
+
+.item-tooltip__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border-subtle);
+}
+.item-tooltip__name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+.item-tooltip__gs {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.item-tooltip__desc {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 0 0 var(--space-3);
+  font-size: 0.85rem;
+}
+
+.item-tooltip__stats {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.15rem 0.6rem;
+  margin: 0 0 var(--space-3);
+}
+.item-tooltip__stats dt { color: var(--text-muted); font-size: 0.82rem; }
+.item-tooltip__stats dd { margin: 0; color: var(--text-primary); font-weight: 600; }
+
+.item-tooltip__perks {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.item-tooltip__perk strong { color: var(--accent); display: block; font-size: 0.92rem; }
+.item-tooltip__perk-desc {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  margin-top: 2px;
+}
+
+.item-tooltip__obtain {
+  margin: var(--space-3) 0 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+.item-tooltip__obtain strong { color: var(--text-secondary); }
+
+.item-tooltip__source {
+  margin: var(--space-3) 0 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: right;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: var(--space-2);
+}
+.item-tooltip__source a { color: var(--accent); }
