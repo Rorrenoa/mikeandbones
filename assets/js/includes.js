@@ -16,12 +16,10 @@ async function loadIncludes(root = document) {
 }
 
 function markCurrentNav() {
-  const path = location.pathname.replace(/\/index\.html$/, '/') || '/';
+  const currentUrl = new URL(location.href);
   document.querySelectorAll('.sidebar__nav a').forEach((a) => {
-    const href = a.getAttribute('href');
-    if (!href) return;
-    const normalized = href.replace(/\/index\.html$/, '/');
-    if (normalized === path) {
+    const target = new URL(a.href);
+    if (target.pathname === currentUrl.pathname) {
       a.setAttribute('aria-current', 'page');
       const group = a.closest('details.sidebar__group');
       if (group) group.open = true;

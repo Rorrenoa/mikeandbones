@@ -29,6 +29,17 @@ Direkt nach dem `viewport`-Meta einsetzen:
 `/robots.txt` blockt zusätzlich alle Crawler. Die Seite soll nicht von Suchmaschinen
 oder KI-Crawlern indexiert werden.
 
+## Pfade (Pflicht in JEDER HTML-Seite)
+GitHub Pages serviert das Repo unter `/mikeandbones/`, nicht unter `/`. Deshalb:
+- KEINE absoluten Pfade mit führendem `/` verwenden (`/assets/...`, `/data/...`, `/pages/...`).
+- Stattdessen `<base>` direkt nach `viewport` setzen mit relativem Pfad zum Repo-Root:
+  - `index.html`, `404.html` (Root): `<base href="./">`
+  - `pages/*.html` (eine Ebene tief): `<base href="../">`
+  - `pages/builds/*.html`, `pages/mechanics/*.html` (zwei Ebenen tief): `<base href="../../">`
+- Alle Links und Asset-Pfade dann ohne führenden Slash: `assets/css/...`, `pages/glossary.html`, `partials/sidebar.html`.
+- Sidebar-Brand-Link und „Übersicht"-Link in der Sidebar: `href="./"`.
+- In JS: `fetch('data/...')` und `fetch('partials/...')` — kein führender `/`.
+
 ## Glossar-Regel (kritisch)
 - Jeder Fachbegriff im Text → `<span class="term" data-glossary="KEY" tabindex="0">Begriff</span>`.
 - `KEY` referenziert `/data/glossary.json`.

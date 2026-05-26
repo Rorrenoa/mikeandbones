@@ -1,0 +1,106 @@
+{
+  "major": [
+    {
+      "id": "royal-ramming-works",
+      "name": "Royal Ramming Works",
+      "rarity": "epic",
+      "effect": "Rammen baut sofort 50% Punctured-Status auf dem Ziel auf. Ziel -20% Speed für 20s. Punctured-Targets nehmen +15% Damage von Piercing-Weapons. Targets in 250m bekommen +7% Punctured-Status-Charge.",
+      "synergy": "Brigantine-Bullhorn, Piercing-Weapons (Hullcarver, L'Aiguille), Needle-Shield-Armor.",
+      "addedIn": "Y3S1",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-26",
+      "sources": ["sources/y3s1-patch-notes.md"]
+    },
+    {
+      "id": "bombard-works",
+      "name": "Bombard Works",
+      "rarity": "epic",
+      "effect": "Erhöht Damage und Reload-Speed aller Bombards (Long Cannons inkl.).",
+      "synergy": "Long-Cannon-Builds, Divine Thunder.",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-26",
+      "sources": ["sources/y3s1-patch-notes.md"]
+    },
+    {
+      "id": "ramrod-workshop",
+      "name": "Ramrod Workshop",
+      "rarity": "epic",
+      "effect": "Erhöht Reload-Speed signifikant.",
+      "synergy": "Long-Cannon-Builds, Torpedo-Builds.",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-26",
+      "sources": ["sources/y3s1-patch-notes.md"]
+    },
+    {
+      "id": "megaphone",
+      "name": "Megaphone",
+      "rarity": "rare",
+      "effect": "Beginner-Reload-Speed-Furniture.",
+      "synergy": "Frühe Long-Cannon-Builds.",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-26",
+      "sources": ["sources/y3s1-patch-notes.md"]
+    },
+    {
+      "id": "hull-markers-table",
+      "name": "Hull Marker's Table",
+      "rarity": "epic",
+      "effect": "Broadside-Treffer haben 5% Chance auf 'Impact Mark' → Ziel nimmt +20% Damage von Cannonball-Ammo für 20s. Pro Cannonball-Ammo-Weapon +5% Sekundär-Damage.",
+      "synergy": "Broadside-Cannonball-Builds (Galleon, Garuda).",
+      "addedIn": "Y3S1",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-26",
+      "sources": ["sources/y3s1-patch-notes.md"]
+    }
+  ],
+  "minor": [
+    {
+      "id": "tuning-station",
+      "name": "Tuning Station",
+      "rarity": "rare",
+      "effect": "Weapon-Damage-Buff."
+    },
+    {
+      "id": "hubok-tuning-rack",
+      "name": "Hubok Tuning Rack",
+      "rarity": "rare",
+      "effect": "Reload-Speed-Buff."
+    },
+    {
+      "id": "lrange-barrel",
+      "name": "Lrange Barrel",
+      "rarity": "rare",
+      "effect": "Increased Long-Gun-Range."
+    },
+    {
+      "id": "iron-cladding-station",
+      "name": "Iron Cladding Station",
+      "rarity": "rare",
+      "effect": "Armor-Buff."
+    },
+    {
+      "id": "maintenance-forge",
+      "name": "Maintenance Forge",
+      "rarity": "rare",
+      "effect": "Self-Repair-Speed."
+    },
+    {
+      "id": "strange-elixir",
+      "name": "Strange Elixir",
+      "rarity": "epic",
+      "effect": "Crit-Chance-Buff."
+    },
+    {
+      "id": "termites-iii",
+      "name": "Termites III",
+      "rarity": "epic",
+      "effect": "Structure-Damage-Buff. Synergie mit Padewakang Detonate."
+    },
+    {
+      "id": "spirit-collar",
+      "name": "Spirit Collar",
+      "rarity": "rare",
+      "effect": "Mortar-Reload-Speed."
+    }
+  ]
+}

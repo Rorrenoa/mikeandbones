@@ -1,0 +1,81 @@
+[
+  {
+    "id": "brigantine-longcannons-beginner",
+    "name": "Brigantine Long Cannons + Torpedos (Beginner)",
+    "ship": "Brigantine",
+    "tier": "beginner",
+    "tags": ["solo", "pve", "long-cannon", "torpedo"],
+    "activities": ["world-events", "convoys", "elite-ships"],
+    "requirementsText": "Ausrüstungslevel 8–12. Frisch nach Brigantine-Blueprint vom Ruined Lighthouse.",
+    "slots": {
+      "bow": { "item": "Scurlock's Long Nines", "rarity": "uncommon", "altItem": "Long Gun V" },
+      "broadside": { "item": "Hubac's Wrath III ×4", "rarity": "rare" },
+      "stern": { "item": "Long Gun V", "rarity": "uncommon" },
+      "auxiliary": { "item": "Leopold III", "rarity": "rare" }
+    },
+    "armor": { "item": "Ouroboros", "rarity": "epic", "note": "Oder beste verfügbare Epic-Armor." },
+    "furniture": {
+      "major": "Megaphone",
+      "minor": ["Bombard Works", "Spirit Collar", "Iron Cladding Station", "Maintenance Forge"]
+    },
+    "ammo": ["Standard Cannonball", "Burning Heart (situativ)"],
+    "rotation": "1) 600–800m Long-Gun-Opener. 2) Side-Pass: Torpedo-Broadside. 3) Reposition. 4) Bei Schaden: Brace + Maintenance-Forge-Self-Repair. Nicht rammen ohne Bullhorn-Plan.",
+    "materials": ["Shipwright-Standard-Items", "Scurlock-Quests (Sainte-Anne)"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-26",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "brigantine-longcannons-intermediate",
+    "name": "Brigantine Long Cannons + Torpedos (Intermediate)",
+    "ship": "Brigantine",
+    "tier": "intermediate",
+    "tags": ["solo", "pve", "long-cannon", "torpedo"],
+    "activities": ["world-events", "elite-ships", "convoys", "wt2-content"],
+    "requirementsText": "Kingpin-Rank, Ausrüstungslevel 12–14. Williams' Shop besucht für Divine Thunder.",
+    "slots": {
+      "bow": { "item": "Divine Thunder", "rarity": "epic", "note": "Williams' Rotating Shop / Dragon-Beast-Drop." },
+      "broadside": { "item": "Rahma's Legacy ×4", "rarity": "epic" },
+      "stern": { "item": "Divine Thunder", "rarity": "epic", "altItem": "La Piqure III" },
+      "auxiliary": { "item": "Leopold III", "rarity": "rare", "altItem": "Roaring Meg" }
+    },
+    "armor": { "item": "Pacea", "rarity": "epic", "note": "Heal-on-Ram, synergiert mit Bullhorn." },
+    "furniture": {
+      "major": "Bombard Works",
+      "minor": ["Tuning Station", "Hubok Tuning Rack", "Lrange Barrel", "Iron Cladding Station"]
+    },
+    "ammo": ["Burning Heart", "Antipersonnel", "Standard Cannonball"],
+    "rotation": "1) Spyglass-Scan 800–1000m → Weakpoints. 2) Bow-Opener Divine Thunder auf Weakpoint (Shock). 3) 90°-Side-Pass → Rahma's-Legacy-Broadside (Flooded-Burst). 4) Leopold-III als AOE auf Gruppen/Türme. 5) Reposition mit ~20kn Speed. 6) Bei Bedarf rammen für +45% Damage + Flooded + Pacea-Heal.",
+    "materials": ["Divine Thunder: Williams' Shop / Dragon Beast monatlich", "Rahma's Legacy: Admiral-Rahma-Quests / Telok-Penjarah", "Pacea: Endgame-Vendor"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-26",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "brigantine-longcannons-endgame",
+    "name": "Brigantine Long Cannons + Torpedos (Endgame, Y3S1)",
+    "ship": "Brigantine",
+    "tier": "endgame",
+    "tags": ["solo", "pve", "long-cannon", "torpedo", "punctured", "y3s1"],
+    "activities": ["wt3", "wt4", "mythic-bosses", "roaming-fleets"],
+    "requirementsText": "Kingpin 30+, WT3/WT4 freigeschaltet, Mythic Modifications verfügbar.",
+    "slots": {
+      "bow": { "item": "Divine Thunder (ascended + Mythic Mod)", "rarity": "epic", "altItem": "Hullcarver (Y3S1 Piercing)" },
+      "broadside": { "item": "Rahma's Legacy ×4 (ascended)", "rarity": "epic", "altItem": "Heavenly Lance ×4 (long-range)" },
+      "stern": { "item": "Divine Thunder (ascended)", "rarity": "epic" },
+      "auxiliary": { "item": "Roaring Meg", "rarity": "epic", "altItem": "De Breker (Y3S1 — gegen Flooded-Targets +60%)" }
+    },
+    "armor": { "item": "Pacea (ascended)", "rarity": "epic", "altItem": "Needle Shield (Y3S1) bei Piercing-Pivot" },
+    "furniture": {
+      "major": "Royal Ramming Works (Y3S1)",
+      "majorAlt": "Bombard Works (klassisch, ohne Piercing-Pivot)",
+      "minor": ["Tuning Station", "Hubok Tuning Rack", "Lrange Barrel", "Strange Elixir"]
+    },
+    "ammo": ["Burning Heart", "Antipersonnel", "Piercing-Cannonball (situativ)"],
+    "rotation": "1) Spyglass-Scan. 2) Bow-Opener auf Weakpoint. 3) Side-Pass-Broadside (Rahma's Legacy → Flooded). 4) Auxiliary auf Gruppen oder Flooded-Targets (De Breker +60%!). 5) RAM für Punctured (Royal Ramming Works baut 50% Punctured + -20% Speed 20s) → folgende Long-Gun-Treffer profitieren von +15% Piercing-Damage auf Punctured-Targets. 6) Reposition. Kombination Flooded + Punctured = neues Y3S1-Meta.",
+    "materials": ["Nightshade Pearl (WT3/WT4 Domains)", "Deep Iron (WT3/WT4)", "Royal Ramming Works (Drop / Crafted Y3S1)"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-26",
+    "verifiedSeason": "Y3S1"
+  }
+]

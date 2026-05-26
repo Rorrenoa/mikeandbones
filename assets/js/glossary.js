@@ -3,7 +3,7 @@ async function renderGlossary() {
   const filter = document.getElementById('glossary-filter');
   if (!container) return;
 
-  const data = await fetch('/data/glossary.json').then((r) => r.json());
+  const data = await fetch('data/glossary.json').then((r) => r.json());
   const entries = Object.entries(data)
     .map(([key, val]) => ({ key, ...val }))
     .sort((a, b) => a.term.localeCompare(b.term, 'de'));

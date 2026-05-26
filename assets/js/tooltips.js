@@ -10,7 +10,7 @@ import {
 let glossaryPromise = null;
 function getGlossary() {
   if (!glossaryPromise) {
-    glossaryPromise = fetch('/data/glossary.json')
+    glossaryPromise = fetch('data/glossary.json')
       .then((r) => r.json())
       .catch((err) => {
         console.warn('[tooltips] glossary fetch failed', err);
@@ -39,7 +39,7 @@ function renderContent(contentEl, entry, key) {
   contentEl.innerHTML = `
     <span class="tooltip__title"></span>
     <span class="tooltip__short"></span>
-    <a class="tooltip__link" href="/pages/glossary.html#${key}">→ Mehr im Glossar</a>
+    <a class="tooltip__link" href="pages/glossary.html#${key}">→ Mehr im Glossar</a>
   `;
   contentEl.querySelector('.tooltip__title').textContent = entry.term || key;
   contentEl.querySelector('.tooltip__short').textContent = long;

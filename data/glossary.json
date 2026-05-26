@@ -145,8 +145,86 @@
   },
   "faction-war": {
     "term": "Faction War",
-    "short": "Y3S1-Saisonevent. 'Safeguard' läuft 12.05.–11.08.2026.",
-    "long": "Faction War ist ein wiederkehrendes Saisonevent zwischen den Fraktionen (DMC, Compagnie Royale, Confederation, Guana). Y3S1-Edition heißt 'Safeguard' und läuft vom 12.05. bis zum 11.08.2026. Verdient War Assets, gibt Territorial-Boni je nach Fraktions-Sieg. Solo-PvE-Spieler können über Faction-PvE-Missionen teilnehmen, ohne PvP zu betreten.",
+    "short": "Y3S1-Saisonevent. 'Safeguard' läuft 12.05.–11.08.2026 (Ceasefire 04.08.).",
+    "long": "Faction War 'Safeguard' (Y3S1) ist eine PvE-Co-op-Survival-Challenge: Verteidige Manufactories deiner Fraktion gegen feindliche Wellen. Triggert in jedem alliierten Faction-POI in umkämpften Territorien, jeder Verbündete kann beitreten. Belohnungen: War Assets und (bei eigener Manufactory) Production-Boost. Timeline: Start 12.05.2026, Ceasefire 04.08.2026, War-Ende 11.08.2026. Solo-tauglich.",
     "tags": ["event", "y3s1", "seasonal"]
+  },
+  "punctured": {
+    "term": "Punctured",
+    "short": "Y3S1-Status. Reduziert Armor Rating, verstärkt Piercing-Damage.",
+    "long": "Punctured ist ein Status-Effekt, der mit Year 3 Season 1 ins Zentrum der Endgame-Meta rückte. Er reduziert das Armor Rating des Ziels und wird von Piercing-Weapons (Hullcarver Culverin, L'Aiguille Springloader) sowie von Royal Ramming Works (50% Punctured-Aufbau beim Rammen) appliziert. Punctured-Targets nehmen +15% Damage von Piercing-Weapons, wenn Royal Ramming Works equipped ist. Punctured stackt mit Flooded (Wasserschaden) — die Kombination ist das aktuelle Solo-PvE-Meta.",
+    "tags": ["status", "y3s1"]
+  },
+  "piercing": {
+    "term": "Piercing",
+    "short": "Damage-Typ aus Y3S1, der gegen Punctured-Targets verstärkt wirkt.",
+    "long": "Piercing ist ein Damage-Typ, der mit Y3S1 deutlich gestärkt wurde. Piercing-Damage profitiert von Punctured (Armor-Reduktion am Ziel). Neue Piercing-Waffen: Hullcarver Culverin (Pulverize-Stacks, +100% auf Weakpoints), L'Aiguille Springloader (30% Splinter-Chance auf instant Punctured). Synergiert mit Royal Ramming Works (+15% Piercing-Damage auf Punctured-Targets) und Needle Shield (Brackish Bite gibt nach Brace gegen Punctured-Targets +9% Piercing-Damage für 30s).",
+    "tags": ["damage-type", "y3s1"]
+  },
+  "shock": {
+    "term": "Shock",
+    "short": "Lightning-Status, appliziert u.a. von Divine Thunder. Stört Gegner kurzzeitig.",
+    "long": "Shock ist der Lightning-Status. Wird primär von Divine Thunder appliziert. Effekt: kurze Stör-Phase + Damage-Burst. Synergie mit Wet/Flooded-Targets (Lightning auf nasse Ziele verstärkt).",
+    "tags": ["status"]
+  },
+  "weakpoint": {
+    "term": "Weakpoint",
+    "short": "Markierte Schwachstelle an Schiffen/Forts. Multiplier-Damage.",
+    "long": "Weakpoints sind markierte Schwachstellen an feindlichen Schiffen, Forts und Sea Monsters. Treffer auf Weakpoints geben Multiplier-Damage. Mit dem Spyglass aus großer Distanz scannbar (essentiell für Brigantine-Long-Gun-Builds). Piercing-Weapons wie Hullcarver geben +100% Damage auf Weakpoints, L'Aiguille +75%.",
+    "tags": ["mechanic"]
+  },
+  "spyglass": {
+    "term": "Spyglass",
+    "short": "Fernrohr-Tool. Scannt Ziele auf Weakpoints, Cargo, Schiff-Tier.",
+    "long": "Das Spyglass ist ein Standard-Tool, das aus 800–1000m Distanz Ziele scannt. Zeigt Weakpoints, Cargo (für Plünder-Priorisierung) und Schiff-Tier an. Essentiell für Long-Cannon-Builds: ohne Spyglass-Vorscan kein gezielter Bow-Opener.",
+    "tags": ["mechanic"]
+  },
+  "ram": {
+    "term": "Ram / Ramming",
+    "short": "Schiff-zu-Schiff-Kollisionsangriff. Brigantine-Speziallität.",
+    "long": "Ramming ist ein offensiver Kollisionsangriff. Brigantine bekommt durch ihren Bullhorn-Perk +45% Ramming-Damage und appliziert Flooded. Mit Royal Ramming Works (Y3S1) wird zusätzlich 50% Punctured-Status sofort aufgebaut und das Ziel verlangsamt. Pacea-Armor heilt beim Rammen. Diese drei zusammen ergeben den 'Ram-Loop' der aktuellen Brigantine-Meta.",
+    "tags": ["mechanic", "ship"]
+  },
+  "blacksmith": {
+    "term": "Blacksmith",
+    "short": "NPC-Service zum Ascending/Reforging von Items.",
+    "long": "Der Blacksmith ist der NPC, an dem du Items ascendest und reforgest. Y3S1 hob das Reforge-Cap auf 100 Versuche pro Item (bestehende Items +25), und das Reforge-Logic-Update bevorzugt selten gesehene Mod-Pools. Mythic Modifications werden ebenfalls hier appliziert (mit Nightshade Pearl).",
+    "tags": ["mechanic", "npc"]
+  },
+  "williams-shop": {
+    "term": "Williams' Rotating Shop",
+    "short": "Monats-rotierender Vendor. Quelle für Divine Thunder.",
+    "long": "Williams' Rotating Shop ist ein Vendor mit monatlich rotierendem Sortiment. Wichtigste Quelle für Divine Thunder (alternativ: Dragon-Beast-Monatsdrop). Lohnt sich monatlich zu prüfen — verpasste Rotationen kommen erst Monate später wieder.",
+    "tags": ["vendor"]
+  },
+  "dragon-beast": {
+    "term": "Dragon Beast",
+    "short": "Monatlich respawnender Boss. Drops Divine Thunder.",
+    "long": "Dragon Beast ist ein monatlich respawnender Boss-Encounter. Drop-Pool enthält Divine Thunder (alternative Quelle zu Williams' Shop). Termin pro Monat festgelegt — Community-Trackers nutzen.",
+    "tags": ["boss", "event"]
+  },
+  "world-ascension": {
+    "term": "World Ascension",
+    "short": "Quest-Reihe um höhere World Tiers freizuschalten.",
+    "long": "World Ascension bezeichnet die Quest-Reihen, die WT2, WT3 und WT4 freischalten. Y3S1-Neuerung: WT3- und WT4-Quests werden jede Season resettet — du musst sie also jede Saison neu absolvieren, um Zugang zu behalten. WT2 bleibt permanent.",
+    "tags": ["progression", "y3s1"]
+  },
+  "scurlock": {
+    "term": "John Scurlock",
+    "short": "NPC in Sainte-Anne. Gibt erste Main-Quests.",
+    "long": "John Scurlock ist der NPC in Sainte-Anne, der die ersten Main-Quests vergibt. Seine Questreihe führt aus dem Tutorial (Schiffbruch) durch die Outcast-Brigand-Phase. Belohnungen u.a. Scurlock's Long Nines (Beginner-Long-Gun).",
+    "tags": ["npc", "progression"]
+  },
+  "admiral-rahma": {
+    "term": "Admiral Rahma",
+    "short": "NPC in Telok Penjarah. Quest-Quelle für Rahma's Legacy.",
+    "long": "Admiral Rahma ist ein NPC in Telok Penjarah (Indian Ocean). Seine Quest-Reihe ist Hauptquelle für Rahma's Legacy (Torpedo-Set). Die Open-Seas-Überquerung von Sainte-Anne zu Telok Penjarah ist Pflicht-Milestone in der Corsair-Phase.",
+    "tags": ["npc", "progression"]
+  },
+  "yanita-nara": {
+    "term": "Yanita Nara",
+    "short": "NPC in Le Pont Muet (Sainte-Anne). Schaltet Helm Empire frei.",
+    "long": "Yanita Nara ist die zentrale Endgame-NPC. Bei Erreichen von Kingpin-Rank gibt sie die Quest 'A Nose for Business', die das Helm Empire freischaltet. Anschließend ist sie Anlaufpunkt für Po8-Quests, Helm Leaderboards und Sovereigns-Tausch.",
+    "tags": ["npc", "helm"]
   }
 }

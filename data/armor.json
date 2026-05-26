@@ -1,0 +1,43 @@
+[
+  {
+    "id": "pacea",
+    "name": "Pacea",
+    "rarity": "epic",
+    "effect": "Heal-on-Ram. Synergiert mit Brigantine-Bullhorn-Perk.",
+    "source": "Endgame-Quest / Vendor",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-26",
+    "sources": ["sources/y3s1-patch-notes.md"]
+  },
+  {
+    "id": "ouroboros",
+    "name": "Ouroboros",
+    "rarity": "epic",
+    "effect": "Allround-Epic-Armor. Balance aus HP und Resistance.",
+    "source": "Vendor",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-26",
+    "sources": ["sources/y3s1-patch-notes.md"]
+  },
+  {
+    "id": "buccaneers-oath",
+    "name": "Buccaneer's Oath",
+    "rarity": "epic",
+    "effect": "Offensive Armor. Damage-Buff bei niedrigem HP.",
+    "source": "Quest / Vendor",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-26",
+    "sources": ["sources/y3s1-patch-notes.md"]
+  },
+  {
+    "id": "needle-shield",
+    "name": "Needle Shield",
+    "rarity": "epic",
+    "effect": "Brackish Bite: Bracing-Hits von Punctured-Targets geben +5% Armor Rating (max 15%) und +3% Piercing-Weapon-Damage (max 9%) für 30s.",
+    "source": "Y3S1 — WT3/WT4 Drop",
+    "addedIn": "Y3S1",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-26",
+    "sources": ["sources/y3s1-patch-notes.md"]
+  }
+]
