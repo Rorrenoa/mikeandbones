@@ -149,7 +149,7 @@
     },
     "ammo": ["Burning Heart (Ashbreaker-Burst)", "Standard Cannonball (Soulsnatcher Mending-Heal-Loop)", "Piercing (Hullcarver-Weakpoint)"],
     "rotation": "1) Approach 600m mit Hullcarver Bow — Pulverize-Stacks (6 Hits = +12%, +18% bei Punctured). 2) Bei voller HP: Ashbreaker-Seite (Starboard) für Burst — Marauder-Perk baut Vulnerable-Status auf. 3) Bei <60% HP: zur Soulsnatcher-Seite pivotieren (Port) → Haunting Mend: 20-60% Damage = Hull-Heal (60% bei 3+ Targets in Blast). 4) Drowned Organ triggert: +20% Mending-Damage <60% Hull, +1% Max-HP pro Mending-Weapon (13 Soulsnatcher = +13% Max HP = +16.692 effektive HP). 5) Eye of Heaven kontinuierlich für Tempest-Lightning-Arc auf Adds. 6) Floodbound Tide of Restoration heilt zusätzlich aus Brace-Damage.",
-    "materials": ["Soulsnatcher x13 (!): The Honorless Event 12.05.-09.06.2026 — zeitlich limitiert!", "Drowned Organ: The Honorless Event", "Hullcarver: Smuggler Pass / WT3-Drops", "Ashbreaker: Williams' Weekly", "Floodbound: Williams' Seasonal Y3S1"],
+    "materials": ["Soulsnatcher x13 (!): The Honorless Event 12.05.-09.06.2026 — zeitlich limitiert!", "Drowned Organ: The Honorless Event", "Hullcarver: Smuggler Pass / WT3-Drops", "Ashbreaker x13: Moonshine Larceny Event 30.06.-28.07.2026 (Moonshine Strongbox / Account Ledger Sainte-Anne / Ascended Ashbreaker Chest fuer 1800 Illicit Moonshine)", "Floodbound: Williams' Seasonal Y3S1"],
     "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
     "lastUpdated": "2026-05-27",
     "verifiedSeason": "Y3S1"
