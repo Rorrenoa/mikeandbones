@@ -9,7 +9,7 @@
     "requirementsText": "Ausrüstungslevel 8–12. Frisch nach Brigantine-Blueprint vom Ruined Lighthouse.",
     "slots": {
       "bow": { "item": "Scurlock's Long Nines", "rarity": "uncommon", "altItem": "Long Gun V" },
-      "broadside": { "item": "Hubac's Wrath III ×4", "rarity": "rare" },
+      "broadside": { "item": "Hubac's Wrath III", "rarity": "rare" },
       "stern": { "item": "Long Gun V", "rarity": "uncommon" },
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
@@ -35,7 +35,7 @@
     "requirementsText": "Kingpin-Rank, Ausrüstungslevel 12–14. Williams' Shop besucht für Divine Thunder.",
     "slots": {
       "bow": { "item": "Divine Thunder", "rarity": "epic", "note": "Williams' Rotating Shop / Dragon-Beast-Drop." },
-      "broadside": { "item": "Rahma's Legacy ×4", "rarity": "epic" },
+      "broadside": { "item": "Rahma's Legacy", "rarity": "epic" },
       "stern": { "item": "Divine Thunder", "rarity": "epic", "altItem": "La Piqure III" },
       "auxiliary": { "item": "Leopold III", "rarity": "rare", "altItem": "Roaring Meg" }
     },
@@ -61,7 +61,7 @@
     "requirementsText": "Kingpin 30+, WT3/WT4 freigeschaltet, Mythic Modifications verfügbar.",
     "slots": {
       "bow": { "item": "Divine Thunder (ascended + Mythic Mod)", "rarity": "epic", "altItem": "Hullcarver (Y3S1 Piercing)" },
-      "broadside": { "item": "Rahma's Legacy ×4 (ascended)", "rarity": "epic", "altItem": "Heavenly Lance ×4 (long-range)" },
+      "broadside": { "item": "Rahma's Legacy (ascended)", "rarity": "epic", "altItem": "Heavenly Lance (long-range)" },
       "stern": { "item": "Divine Thunder (ascended)", "rarity": "epic" },
       "auxiliary": { "item": "Roaring Meg", "rarity": "epic", "altItem": "De Breker (Y3S1 — gegen Flooded-Targets +60%)" }
     },
