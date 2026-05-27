@@ -16,6 +16,16 @@
     "Ash Breaker": "ashbreaker",
     "Blue Specter": "blueSpecter",
     "Scurlock's Long Nines": "scurlocksLongNines",
+    "Lange Kartouwe": "langeKartouwe",
+    "Soulsnatcher": "soulsnatcher",
+    "Eye of Heaven": "eyeOfHeaven",
+    "Atma's Toll": "atmasToll",
+    "Alecto": "alecto",
+    "Carronade": "carronade",
+    "Blightbearer": "blightbearer",
+    "Endless Requiem": "endlessRequiem",
+    "Phoenix Talons": "phoenixTalons",
+    "The Warhammer": "theWarhammer",
 
     "Long Gun I": "longGun1",
     "Long Gun II": "longGun2",
@@ -52,6 +62,8 @@
 
     "Ouroboros": "ouroboros",
     "Buccaneer's Oath": "buccaneersOath",
+    "Royal Custodian": "royalCustodian",
+    "Floodbound": "floodbound",
     "Needle Shield": "needleShield",
 
     "Royal Ramming Works": "royalRammingWorks",
@@ -63,6 +75,10 @@
     "Maintenance Forge": "maintenanceForge1",
     "Strange Elixir": "strangeElixir",
     "Hubac Tuning Rack": "hubacTuningRack",
-    "Bombard Works": "bombardWorks1"
+    "Bombard Works": "bombardWorks1",
+    "Drowned Organ": "drownedOrgan",
+    "Floodwarden Station": "floodwardenStation",
+    "Hull Marker's Table": "hullMarkersTable",
+    "Iron Capstan": "ironCapstan"
   }
 }

@@ -1,76 +1,130 @@
 {
   "major": [
     {
+      "id": "drowned-organ",
+      "name": "Drowned Organ",
+      "rarity": "epic",
+      "perks": "Primary: Mending-Weapons +20% Damage wenn Hull <60%. Secondary: Mending-Weapons +1% Sec-Damage pro 1% Hull-Missing max 30%. Tertiary: +1% Max-Hull pro Mending-Weapon.",
+      "synergy": "Mending-Weapons (Soulsnatcher, Atma's Toll). Top-Major fuer Sustain-Builds, die niedrige Hull-Health aktiv halten.",
+      "source": "The Honorless Event (Y3S1)",
+      "sbtId": "drownedOrgan",
+      "addedIn": "Y3S1",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-27",
+      "sources": ["sources/y3s1-patch-notes.md"]
+    },
+    {
       "id": "royal-ramming-works",
       "name": "Royal Ramming Works",
       "rarity": "epic",
-      "effect": "Rammen baut sofort 50% Punctured-Status auf dem Ziel auf. Ziel -20% Speed für 20s. Punctured-Targets nehmen +15% Damage von Piercing-Weapons. Targets in 250m bekommen +7% Punctured-Status-Charge.",
-      "synergy": "Brigantine-Bullhorn, Piercing-Weapons (Hullcarver, L'Aiguille), Needle-Shield-Armor.",
+      "perks": "Primary: Ram baut 50% Punctured + -20% Speed 20s auf. Secondary: Punctured-Targets nehmen +15% Piercing-Damage. Tertiary: Targets <250m +7% Punctured-Aufbau.",
+      "synergy": "Brigantine-Bullhorn (Ram-Boost), Hullcarver (+100% Weakpoint mit Piercing III), Needle-Shield (Bracing-Bonus auf Punctured).",
+      "source": "Y3S1-Drop / Crafting",
+      "sbtId": "royalRammingWorks",
       "addedIn": "Y3S1",
       "verifiedSeason": "Y3S1",
-      "lastUpdated": "2026-05-26",
+      "lastUpdated": "2026-05-27",
       "sources": ["sources/y3s1-patch-notes.md"]
     },
     {
-      "id": "bombard-works",
-      "name": "Bombard Works",
+      "id": "floodwarden-station",
+      "name": "Floodwarden Station",
       "rarity": "epic",
-      "effect": "Erhöht Damage und Reload-Speed aller Bombards (Long Cannons inkl.).",
-      "synergy": "Long-Cannon-Builds, Divine Thunder.",
+      "perks": "Konsekutive Hits +2% Flooding-Charges & +2% Damage max 20% (Fehlschuss = Reset). +10% Damage von Flooded-Gegnern. Flooded-Dauer +10%.",
+      "synergy": "Flooding-Builds mit Carronade/Endless Requiem/Rahma's Legacy. Alternative zu Drowned Organ wenn kein Mending-Weapon equipped.",
+      "source": "Williams' Seasonal (Y3S1)",
+      "sbtId": "floodwardenStation",
+      "addedIn": "Y3S1",
       "verifiedSeason": "Y3S1",
-      "lastUpdated": "2026-05-26",
-      "sources": ["sources/y3s1-patch-notes.md"]
-    },
-    {
-      "id": "ramrod-workshop",
-      "name": "Ramrod Workshop",
-      "rarity": "epic",
-      "effect": "Erhöht Reload-Speed signifikant.",
-      "synergy": "Long-Cannon-Builds, Torpedo-Builds.",
-      "verifiedSeason": "Y3S1",
-      "lastUpdated": "2026-05-26",
-      "sources": ["sources/y3s1-patch-notes.md"]
-    },
-    {
-      "id": "megaphone",
-      "name": "Megaphone",
-      "rarity": "rare",
-      "effect": "Beginner-Reload-Speed-Furniture.",
-      "synergy": "Frühe Long-Cannon-Builds.",
-      "verifiedSeason": "Y3S1",
-      "lastUpdated": "2026-05-26",
+      "lastUpdated": "2026-05-27",
       "sources": ["sources/y3s1-patch-notes.md"]
     },
     {
       "id": "hull-markers-table",
       "name": "Hull Marker's Table",
       "rarity": "epic",
-      "effect": "Broadside-Treffer haben 5% Chance auf 'Impact Mark' → Ziel nimmt +20% Damage von Cannonball-Ammo für 20s. Pro Cannonball-Ammo-Weapon +5% Sekundär-Damage.",
-      "synergy": "Broadside-Cannonball-Builds (Galleon, Garuda).",
+      "perks": "Primary: Broadside-Treffer 5% Chance auf 'Impact Mark' = +20% Cannonball-Damage 20s. Secondary: Pro Cannonball-Weapon +5% Sec-Damage.",
+      "synergy": "Broadside-Cannonball-Builds (Galleon, Garuda) — nicht Mending/Piercing.",
+      "source": "Y3S1-Drop",
+      "sbtId": "hullMarkersTable",
       "addedIn": "Y3S1",
       "verifiedSeason": "Y3S1",
-      "lastUpdated": "2026-05-26",
+      "lastUpdated": "2026-05-27",
       "sources": ["sources/y3s1-patch-notes.md"]
+    },
+    {
+      "id": "megaphone",
+      "name": "Megaphone",
+      "rarity": "epic",
+      "perks": "Konsekutive Hits -0.5% Reload-Time max 15% (Reset nach 10s).",
+      "synergy": "Reload-Speed-Builds. Solid Default-Major bevor Build-spezifische Synergie verfuegbar.",
+      "source": "Vendor / Crafting",
+      "sbtId": "megaphone",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-27",
+      "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
+    },
+    {
+      "id": "ramrod-workshop",
+      "name": "Ramrod Workshop",
+      "rarity": "epic",
+      "perks": "Reload-Speed-Buff (SBT-Wortlaut: siehe en_perks).",
+      "synergy": "Long-Cannon-Builds mit langen Reload-Zeiten (Divine Thunder 7.2s, Lange Kartouwe 7.2s).",
+      "source": "Vendor / Crafting",
+      "sbtId": "ramrodWorkshop",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-27",
+      "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
+    },
+    {
+      "id": "iron-capstan",
+      "name": "Iron Capstan",
+      "rarity": "epic",
+      "perks": "Brace-Recovery-Buff (SBT-Wortlaut: siehe en_perks).",
+      "synergy": "Snow/Tenacity-Builds mit aggressivem Brace-Pattern. Bei Reactive-Bulwark-Build oft redundant.",
+      "source": "Vendor",
+      "sbtId": "ironCapstan",
+      "verifiedSeason": "Y3S1",
+      "lastUpdated": "2026-05-27",
+      "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
     }
   ],
   "minor": [
     {
       "id": "tuning-station",
       "name": "Tuning Station",
-      "rarity": "rare",
-      "effect": "Weapon-Damage-Buff."
+      "rarity": "epic",
+      "effect": "Generisches Weapon-Damage-Buff (Offensive-Furniture-Minor)."
     },
     {
-      "id": "hubok-tuning-rack",
-      "name": "Hubok Tuning Rack",
-      "rarity": "rare",
-      "effect": "Reload-Speed-Buff."
+      "id": "long-gun-grinder",
+      "name": "Long Gun Grinder",
+      "rarity": "epic",
+      "effect": "Spezifischer Long-Gun-Reload- oder Damage-Buff. Synergie mit Divine Thunder / Lange Kartouwe."
     },
     {
-      "id": "lrange-barrel",
-      "name": "Lrange Barrel",
+      "id": "front-powder-kegs",
+      "name": "Front Powder Kegs",
+      "rarity": "epic",
+      "effect": "Damage-Buff fuer Bow-Slot-Weapons. Synergie mit Hullcarver / Divine Thunder Bow."
+    },
+    {
+      "id": "mortar-powderbench",
+      "name": "Mortar Powderbench",
+      "rarity": "epic",
+      "effect": "Mortar-Reload- oder Speed-Buff. Synergie mit Eye of Heaven / Leopold."
+    },
+    {
+      "id": "double-planked-hull",
+      "name": "Double-planked Hull",
+      "rarity": "epic",
+      "effect": "Hull-HP-Buff (Utility-Furniture-Minor)."
+    },
+    {
+      "id": "maintenance-forge",
+      "name": "Maintenance Forge",
       "rarity": "rare",
-      "effect": "Increased Long-Gun-Range."
+      "effect": "Self-Repair-Speed-Buff. Synergiert mit Royal-Custodian-Refortify-Cycle."
     },
     {
       "id": "iron-cladding-station",
@@ -79,10 +133,10 @@
       "effect": "Armor-Buff."
     },
     {
-      "id": "maintenance-forge",
-      "name": "Maintenance Forge",
-      "rarity": "rare",
-      "effect": "Self-Repair-Speed."
+      "id": "hubac-tuning-rack",
+      "name": "Hubac Tuning Rack",
+      "rarity": "epic",
+      "effect": "Reload-Speed-Buff. Solid Default-Minor."
     },
     {
       "id": "strange-elixir",
@@ -91,10 +145,10 @@
       "effect": "Crit-Chance-Buff."
     },
     {
-      "id": "termites-iii",
-      "name": "Termites III",
+      "id": "termites",
+      "name": "The Termites",
       "rarity": "epic",
-      "effect": "Structure-Damage-Buff. Synergie mit Padewakang Detonate."
+      "effect": "Structure-Damage-Buff. Synergie mit Padewakang Detonate fuer Fort-Builds."
     },
     {
       "id": "spirit-collar",

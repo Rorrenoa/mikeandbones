@@ -1,43 +1,63 @@
 [
   {
-    "id": "pacea",
-    "name": "Pacea",
+    "id": "royal-custodian",
+    "name": "Royal Custodian",
     "rarity": "epic",
-    "effect": "Heal-on-Ram. Synergiert mit Brigantine-Bullhorn-Perk.",
-    "source": "Endgame-Quest / Vendor",
+    "perks": "Refortify (12s 'Fortified' nach Repair-Kit-Aktivierung, +35% Armor).",
+    "effect": "Burst-Armor-Spike via Repair-Kit-Trigger. Solo-PvE-Top-Pick wenn man Repair-Kits aktiv timed.",
+    "source": "Williams' / Endgame-Vendor",
+    "sbtId": "royalCustodian",
     "verifiedSeason": "Y3S1",
-    "lastUpdated": "2026-05-26",
+    "lastUpdated": "2026-05-27",
+    "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
+  },
+  {
+    "id": "floodbound",
+    "name": "Floodbound",
+    "rarity": "epic",
+    "perks": "Tide of Restoration (20% Weapon-Brace-Damage gegen Flooded-Targets in 150m als Hull-Heal).",
+    "effect": "Sustain-Armor — funktioniert NUR mit kontinuierlichem Flooded-Output (z.B. Carronade + Bullhorn). Ohne Flooding-Setup wertlos.",
+    "source": "Williams' Seasonal (Y3S1)",
+    "sbtId": "floodbound",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-27",
     "sources": ["sources/y3s1-patch-notes.md"]
   },
   {
     "id": "ouroboros",
     "name": "Ouroboros",
     "rarity": "epic",
-    "effect": "Allround-Epic-Armor. Balance aus HP und Resistance.",
+    "perks": "(SBT-Wortlaut: siehe en_perks für ouroboros). Allround-Epic-Armor mit Heal-on-Death-Mechanik.",
+    "effect": "Balance aus HP-Buff und Regen. Solid Default-Armor wenn keine spezifische Synergie verfügbar.",
     "source": "Vendor",
+    "sbtId": "ouroboros",
     "verifiedSeason": "Y3S1",
-    "lastUpdated": "2026-05-26",
-    "sources": ["sources/y3s1-patch-notes.md"]
+    "lastUpdated": "2026-05-27",
+    "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
   },
   {
     "id": "buccaneers-oath",
     "name": "Buccaneer's Oath",
     "rarity": "epic",
-    "effect": "Offensive Armor. Damage-Buff bei niedrigem HP.",
+    "perks": "Blood and Gold (bei Kill: +25% Weapon-Damage und +25% Armor für 30s).",
+    "effect": "Offensive Armor mit Kill-Stack-Buff. Stark gegen Patrouillen mit vielen Mob-Kills.",
     "source": "Quest / Vendor",
+    "sbtId": "buccaneersOath",
     "verifiedSeason": "Y3S1",
-    "lastUpdated": "2026-05-26",
-    "sources": ["sources/y3s1-patch-notes.md"]
+    "lastUpdated": "2026-05-27",
+    "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
   },
   {
     "id": "needle-shield",
     "name": "Needle Shield",
     "rarity": "epic",
-    "effect": "Brackish Bite: Bracing-Hits von Punctured-Targets geben +5% Armor Rating (max 15%) und +3% Piercing-Weapon-Damage (max 9%) für 30s.",
-    "source": "Y3S1 — WT3/WT4 Drop",
+    "perks": "Brackish Bite (Bracing-Hits von Punctured-Targets: +5% Armor max 15%, +3% Piercing-Weapon-Damage max 9%, 30s).",
+    "effect": "Synergiert mit Hullcarver + Royal Ramming Works fuer den Y3S1 Punctured/Piercing-Build.",
+    "source": "Y3S1 - WT3/WT4 Drop",
+    "sbtId": "needleShield",
     "addedIn": "Y3S1",
     "verifiedSeason": "Y3S1",
-    "lastUpdated": "2026-05-26",
+    "lastUpdated": "2026-05-27",
     "sources": ["sources/y3s1-patch-notes.md"]
   }
 ]

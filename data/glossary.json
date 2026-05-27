@@ -85,8 +85,8 @@
   },
   "bullhorn-perk": {
     "term": "Bullhorn (Brigantine Perk)",
-    "short": "+45% Ramming-Damage, appliziert Flooded, −80% Torn-Sails-Duration.",
-    "long": "Der Brigantine-eigene Schiffs-Perk. Effekt: +45% Ramming-Damage, appliziert beim Rammen den Flooded-Status, und reduziert die Dauer von Torn Sails an deiner eigenen Brigantine um 80%. Macht aus Rammen ein offensives UND defensives Tool — selbst Brigantine-Sails-Kämpfe sind durch −80% Torn-Sails-Duration beherrschbar.",
+    "short": "+45% Ramming-Damage, +Speed bei Pursuit <300m, +20% Flooding-Weapon-Damage, +20% gegen Flooded-Targets.",
+    "long": "Der Brigantine-eigene Schiffs-Perk laut Y3S1-Datenstand (SBT-Datenbank). Effekte: (1) +45% Damage beim Rammen, (2) Zusätzliche Geschwindigkeit beim Verfolgen eines feindlichen Schiffes in 300m Distanz, (3) +20% Flooding-Weapon-Damage, (4) +20% Weapon-Damage gegen Flooded-Targets. Die früher kursierende Behauptung 'appliziert Flooded beim Rammen' oder '−80% Torn-Sails-Duration' ist im aktuellen Datenstand nicht verifizierbar — vermutlich Y2-Mythos. Bullhorn macht die Brigantine zum Flooding-Build-Träger: Torpedos oder Carronade applizieren Flooded → Bullhorn verstärkt nachfolgenden Long-Gun-Damage signifikant.",
     "tags": ["ship-perk"]
   },
   "flooded": {
@@ -154,6 +154,30 @@
     "short": "Mächtige Furniture mit signifikantem Build-Impact. NUR 1 Slot pro Schiff. Immer Epic.",
     "long": "Major Furniture sind die größten Furniture-Items, die deinen Build definieren — Bombard Works (Reload+Damage), Royal Ramming Works (Punctured), Hull Marker's Table (Cannonball-Boost), Megaphone (Reload), Ramrod Workshop (Reload). Jedes Schiff hat genau EINEN Major-Slot (laut Ingame-Hinweis 'You can only install one Major Furniture on a ship'). Alle Major-Items in der SBT-Datenbank sind Epic-Rarity — es gibt keine Rare- oder Uncommon-Major-Furniture.",
     "tags": ["furniture", "mechanic"]
+  },
+  "mending": {
+    "term": "Mending",
+    "short": "Y3S1-Mechanik. Weapons mit Heal-on-Damage-Perk (Soulsnatcher, Atma's Toll).",
+    "long": "Mending bezeichnet Weapons mit Self-Heal-Perks im Y3S1-Datenstand. Bekannte Mending-Weapons: Soulsnatcher (Haunting Mend: 20% Damage als Hull-Heal, skaliert bis 60% bei multiple Targets), Atma's Toll (Mystic Mend: 10% Damage als Heal, bei 16+ Treffer in einer Salve +35% für 16s). Drowned Organ Major Furniture verstärkt Mending-Weapons signifikant (+20% Damage <60% Hull, +1% Max-Hull pro Mending-Weapon). Mending-Builds basieren auf aggressivem Low-Hull-Play: bewusst niedrige HP halten, dann via Mending-Damage-Output heilen.",
+    "tags": ["mechanic", "y3s1"]
+  },
+  "refortify": {
+    "term": "Refortify",
+    "short": "Royal-Custodian-Armor-Perk: +35% Armor 12s nach Repair-Kit-Aktivierung.",
+    "long": "Refortify ist der Royal-Custodian-Armor-Perk. Effekt: 12 Sekunden nach Aktivierung eines Repair-Kits erhält dein Schiff den 'Fortified'-Status mit +35% Armor. Bei Base-Armor 1207 wird das zu effektiven 1630 für 12 Sekunden. Synergiert mit Reactive-Bulwark-Mastery-Perk (Lv10): höhere Armor während Burst-Phasen = stärkere AoE-Brace-Explosionen.",
+    "tags": ["armor-perk", "y3s1"]
+  },
+  "pulverize-loop": {
+    "term": "Pulverize-Loop",
+    "short": "Hullcarver-Perk-Mechanik. Nach 6 consecutive Hits +12% Damage 25s (+18% auf Punctured).",
+    "long": "Pulverize ist der Hullcarver-Perk. Effekt: Nach 6 aufeinanderfolgenden Treffern +12% Weapon-Damage für 25s. Auf Punctured-Targets +18%. Fehlschuss = Reset. Der 'Loop' ist die Spielweise: Punctured via Royal Ramming Works oder Needle-Shield-Setup applizieren → Hullcarver-Salven landen → Pulverize-Stack baut auf → 18% Damage-Buff hält 25s. Treffsicherheit kritisch.",
+    "tags": ["weapon-perk", "y3s1"]
+  },
+  "long-cannon-mending-hybrid": {
+    "term": "Long-Cannon Mending Hybrid",
+    "short": "Y3S1-Solo-PvE-Build: Long Cannons (Range) + Mending-Bombard (Sustain) + Mortar (AOE).",
+    "long": "Build-Konzept aus Y3S1-Datenanalyse: Brigantine mit 1000m-Long-Cannons (Divine Thunder, Lange Kartouwe), Mending-Bombard (Soulsnatcher) für Sustain bei Low-Hull, Eye-of-Heaven-Mortar für Mob-Clearance via Tempest-Arc. Armor Royal Custodian für Refortify-Burst. Major Furniture Drowned Organ für Mending-Synergie. Spielweise: 800-1000m Kite mit Long Cannons, bei Hull <60% Close-Range schließen für Mending-Heal-Trigger. Top-Build laut Datenanalyse für solo-WT2-Eintritt mit Brigantine.",
+    "tags": ["build", "y3s1"]
   },
   "minor-furniture": {
     "term": "Minor Furniture",
