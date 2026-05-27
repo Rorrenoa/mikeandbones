@@ -48,6 +48,30 @@
     "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
   },
   {
+    "id": "black-prince",
+    "name": "Black Prince",
+    "rarity": "epic",
+    "perks": "Resolute: Reduziert Damage um 40% wenn Hull Health unter 33%.",
+    "effect": "Armor 1200. Resi: Explosive 35% / Fire 18% / Piercing 20% / Toxic 20%. Top-Tank-Armor für Builds die bewusst HP-niedrig spielen.",
+    "source": "Community-Vendor / Quest",
+    "sbtId": "blackPrince",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-27",
+    "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
+  },
+  {
+    "id": "phoenix-crest",
+    "name": "Phoenix Crest",
+    "rarity": "epic",
+    "perks": "Revile (Brace-Hits applizieren Taunted-Status auf den Angreifer) + Gloat (+100% Brace-Strength-Recovery pro Taunted-Ship das dich aktiv anvisiert, max 10 Schiffe).",
+    "effect": "Armor 1240. Resi: Fire 35% / Explosive 15% / Piercing 10%. Top-Synergie mit Frigate-Grit/Resolve-Tank-Identität — multipliziert Brace-Recovery in Mob-Encountern.",
+    "source": "Endgame-Vendor / Quest",
+    "sbtId": "phoenixCrest",
+    "verifiedSeason": "Y3S1",
+    "lastUpdated": "2026-05-27",
+    "sources": ["raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"]
+  },
+  {
     "id": "needle-shield",
     "name": "Needle Shield",
     "rarity": "epic",

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../../">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>Frigate Grit-Tank — mikeandbones</title>
+  <meta name="description" content="Frigate Grit-Tank Build mit Frostwail-Broadside. Solo-PvE-Empfehlung für Y3S1.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cinzel:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/tooltips.css">
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <div class="page">
+    <div data-include="partials/sidebar.html"></div>
+    <main class="main">
+      <div class="main__inner">
+
+        <p class="caption"><a href="./">Start</a> › <a href="pages/builds/index.html">Builds</a> › Frigate Grit-Tank</p>
+
+        <h1>Frigate Grit-Tank <span class="badge">Empfehlung</span></h1>
+        <p class="caption"><span class="badge badge-tier-endgame">Endgame</span> Frostwail-Broadside · Tank-Brawler · Solo-PvE-Top-Pick</p>
+
+        <div class="ship-portrait">
+          <img src="assets/img/ships/frigate.webp" alt="Frigate — Large Tank-Schiff Y2S2" loading="lazy" decoding="async">
+        </div>
+
+        <h2>Warum dieser Build?</h2>
+        <p>Die Frigate ist explizit als Tank-Brawler designed. Ihre beiden Hull-Perks — <span class="term" data-glossary="grit" tabindex="0">Grit</span> (Stack-Armor durch Damage) und <span class="term" data-glossary="resolve" tabindex="0">Resolve</span> (Brace-Burst bei 10 Grit-Stacks) — belohnen aktives Eingehen von Schaden. Dieser Build maximiert diese DNA.</p>
+
+        <div class="box box-info">
+          <span class="box__title">Frigate-Identität verstehen</span>
+          Anders als die Brigantine ist die Frigate <strong>kein Long-Range-Kite-Schiff</strong>. Sie hat 128.400 Hull HP (Upgrade VII), 38.520 Brace, und 13 Broadside-Slots pro Seite — das Schiff ist zum Tanken UND Bombardieren gleichzeitig gebaut. Dieser Build nutzt beides: Tank-Loop via Grit, Bombard-Burst via 13 Frostwails pro Seite.
+        </div>
+
+        <h2>Loadout</h2>
+        <div class="table-wrap">
+        <table>
+          <thead><tr><th>Slot</th><th>Item</th><th>Quelle</th><th>Effekt</th></tr></thead>
+          <tbody>
+            <tr><td>Bow ×6</td><td class="item item-epic">Divine Thunder</td><td>Williams' Shop / Smuggler Pass</td><td>1000m Pull-Aggro, baut Stormstruck-Setup</td></tr>
+            <tr><td>Port Broadside ×13</td><td class="item item-epic">Frostwail</td><td>Williams' Weekly</td><td>443 DPS/Slot · Countdown-Delayed-Explosion</td></tr>
+            <tr><td>Starboard Broadside ×13</td><td class="item item-epic">Frostwail</td><td>Williams' Weekly</td><td>Symmetrisch — Side-Pivot-Strategie</td></tr>
+            <tr><td>Stern ×2</td><td class="item item-epic">Divine Thunder</td><td>Williams'</td><td>Rückzug-Damage</td></tr>
+            <tr><td>Auxiliary ×2</td><td class="item item-epic">Eye of Heaven</td><td>Williams' Weekly</td><td>Tempest-Lightning-Arc 150m für Adds</td></tr>
+            <tr><td>Armor</td><td class="item item-epic">Phoenix Crest</td><td>Endgame-Vendor</td><td>Revile + Gloat — Brace-Recovery skaliert mit Taunted-Ships</td></tr>
+            <tr><td>Major Furniture</td><td class="item item-epic">Iron Capstan</td><td>Vendor</td><td>-15% Damage + 100% Threat während Anchored</td></tr>
+            <tr><td>Minor ×5</td><td>War Drums · Megaphone · Front Powder Kegs · Hubac Tuning Rack · Iron Cladding Station</td><td>Vendor / Williams'</td><td>Brace + Reload + Armor</td></tr>
+          </tbody>
+        </table>
+        </div>
+
+        <p><strong>Alternative Armor:</strong> Black Prince (Resolute: -40% Damage bei <33% Hull HP) für Endurance-Encounter.</p>
+        <p><strong>Alternative Major:</strong> Gunner's Quadrant (-15% Reload nach Weakpoint-Hit) für offensiveren Stil.</p>
+
+        <h2>DPS-Math</h2>
+        <ul>
+          <li><strong>Frostwail Burst-Salvo:</strong> 13 × 3.321 DMG = <strong>43.173 Burst-Damage</strong> pro Vollsalve.</li>
+          <li><strong>Sustained DPS pro Seite:</strong> 13 × (3.321/7.5s) ≈ <strong>5.756 DPS</strong>.</li>
+          <li><strong>Countdown-Procs:</strong> Bei Roaming-Fleet (5+ Targets): 75% Chance auf 2.500 Delayed-Explosion pro Hit. ~9-10 zusätzliche Explosions pro Vollsalve = +22.500-25.000 Burst.</li>
+          <li><strong>Mit Grit 10 Stacks:</strong> +400 Armor + -20% incoming Damage Reduction.</li>
+        </ul>
+
+        <h2>Rotation</h2>
+        <ol>
+          <li><strong>Approach 800–1000m:</strong> Divine Thunder Bow feuert auf Weakpoints — Pull-Aggro, baut Heaven's-Eye-Lightning-Procs auf.</li>
+          <li><strong>Schließen auf 400–550m</strong> (Frostwail-Range 550m).</li>
+          <li><strong>Bewusst Hits absorbieren</strong> — Grit-Stacks aufbauen (max 10, je +40 Armor). Bei 10 Stacks triggert <span class="term" data-glossary="resolve" tabindex="0">Resolve</span>: +10% Brace, +100% Threat, -20% Status-Damage.</li>
+          <li><strong>Phoenix Crest Brace-Loop:</strong> Brace-Hits applizieren Taunted auf Angreifer → Gloat skaliert Brace-Recovery um +100% pro Taunted-Ship (max 10). In Mob-Encountern wird Brace praktisch sofort wieder voll.</li>
+          <li><strong>Frostwail-Vollsalve</strong> (Port oder Starboard, eine Seite zur Zeit): 43.173 Burst + 5-10 Countdown-Explosions.</li>
+          <li><strong>Side-Pivot:</strong> Während Erst-Seite reloadet (7.5s), drehe zur anderen Broadside.</li>
+          <li><strong>Eye of Heaven kontinuierlich</strong> auf Adds für Tempest-Lightning-Arc.</li>
+          <li>Bei <strong><33% Hull HP:</strong> Repair-Kit + Reposition. Bei Phoenix-Crest-Armor: weiter, Brace-Recovery hält dich am Leben. Bei Black-Prince-Armor: Resolute triggert (-40% Damage).</li>
+        </ol>
+
+        <h2>Engagement-Distanzen pro Situation</h2>
+        <div class="table-wrap">
+        <table>
+          <thead><tr><th>Situation</th><th>Distanz</th><th>Strategie</th></tr></thead>
+          <tbody>
+            <tr><td>Standard-Mob WT2</td><td>500m</td><td>Side-Pivot, Frostwail-Salvo, Grit-Stack-Aufbau</td></tr>
+            <tr><td>Roaming Fleet (5+ Ships)</td><td>500m Center-Stack</td><td>Countdown skaliert auf 75% Chance bei 5+ Targets — Vollsalve auf Mitte</td></tr>
+            <tr><td>Elite Warship</td><td>450m</td><td>Divine Thunder Bow auf Weakpoint, dann Side-Pivot mit Frostwail</td></tr>
+            <tr><td>Boss-Encounter (La Peste)</td><td>500m</td><td>Tank-Mode: Aggro halten, Phoenix-Crest-Loop, Repair-Kit gezielt</td></tr>
+            <tr><td>Megafort-Engagement</td><td>550m</td><td>Iron Capstan Anchor-Modus: -15% Damage + Threat-Hold</td></tr>
+          </tbody>
+        </table>
+        </div>
+
+        <h2>Beschaffungs-Reihenfolge</h2>
+        <ol>
+          <li><strong>Frigate Blueprint</strong>: Smuggler Pass Stufe 45 (free track). Kein Sovereign-Aufwand.</li>
+          <li><strong>Frigate Upgrade I–IV</strong> mit Silver + Deep Iron (Megafort Wolvenhol, Faction War).</li>
+          <li><strong>Frostwail</strong> aus Williams' Weekly Rotation — bei Verfügbarkeit sofort 26× kaufen (2 Seiten × 13).</li>
+          <li><strong>Phoenix Crest</strong> oder <strong>Black Prince</strong> aus Endgame-Vendor / Quest.</li>
+          <li><strong>Iron Capstan</strong> aus Vendor.</li>
+          <li><strong>Frigate Upgrade V–VII</strong> (Deep Iron Plates + Masterwork Kits) — Power-Score auf 3500+ ziehen.</li>
+        </ol>
+
+        <h2>Wann nimm einen anderen Build?</h2>
+        <ul>
+          <li><strong>Solo-Boss-Encounters ohne Repair-Kit-Verfügbarkeit:</strong> <a href="pages/builds/frigate-mending-hybrid.html">Frigate Mending Hybrid</a> für Self-Heal-Loop.</li>
+          <li><strong>WT3/WT4-Speedruns:</strong> <a href="pages/builds/frigate-punctured-piercing.html">Frigate Punctured Piercing</a> für maximales DPS-Ceiling.</li>
+        </ul>
+
+        <p class="caption" style="margin-top:2em;">
+          <span class="verified-tag">Verifiziert: Y3S1 · Stand 27.05.2026</span><br>
+          Quelle: <a href="sources/y3s1-patch-notes.md">Ubisoft Y3S1 Patch Notes</a> · SkullAndBonesData-Repo (AGPL-3.0).
+        </p>
+
+        <div data-include="partials/footer.html"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/item-links.js"></script>
+  <script type="module" src="assets/js/tooltips.js"></script>
+</body>
+</html>

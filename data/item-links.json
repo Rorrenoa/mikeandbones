@@ -26,6 +26,11 @@
     "Endless Requiem": "endlessRequiem",
     "Phoenix Talons": "phoenixTalons",
     "The Warhammer": "theWarhammer",
+    "Frostwail": "frostwail",
+    "Ashbreaker": "ashbreaker",
+    "Urban's Great Gun": "urbansGreatGun",
+    "Thousand-Year Monsoon": "thousandYearMonsoon",
+    "Divine Wind": "divineWind",
 
     "Long Gun I": "longGun1",
     "Long Gun II": "longGun2",
@@ -64,6 +69,8 @@
     "Buccaneer's Oath": "buccaneersOath",
     "Royal Custodian": "royalCustodian",
     "Floodbound": "floodbound",
+    "Black Prince": "blackPrince",
+    "Phoenix Crest": "phoenixCrest",
     "Needle Shield": "needleShield",
 
     "Royal Ramming Works": "royalRammingWorks",
@@ -79,6 +86,10 @@
     "Drowned Organ": "drownedOrgan",
     "Floodwarden Station": "floodwardenStation",
     "Hull Marker's Table": "hullMarkersTable",
-    "Iron Capstan": "ironCapstan"
+    "Iron Capstan": "ironCapstan",
+    "Gunner's Quadrant": "gunnersQuadrant",
+    "War Drums": "warDrums",
+    "Wyrm's Breath Churner": "wyrmsBreathChurner",
+    "Scoping Station": "scopingStation"
   }
 }

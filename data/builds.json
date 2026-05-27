@@ -102,26 +102,82 @@
     "verifiedSeason": "Y3S1"
   },
   {
-    "id": "frigate-coven",
-    "name": "Frigate Coven (Fire/Storm Elemental)",
+    "id": "frigate-grit-tank",
+    "name": "Frigate Grit-Tank (Frostwail Broadside) — Empfehlung",
     "ship": "Frigate",
-    "tier": "intermediate",
-    "tags": ["solo", "pve", "elemental", "fire", "lightning"],
-    "activities": ["fleet-battles", "wt2-farms", "convoys"],
-    "requirementsText": "Kingpin-Rank, Frigate-Blueprint, mehrere Element-Waffen.",
+    "tier": "endgame",
+    "tags": ["solo", "pve", "tank", "broadside", "bombard", "grit", "y3s1"],
+    "activities": ["wt2-open-world", "roaming-fleets", "convoys", "megafort"],
+    "requirementsText": "Frigate Blueprint (Smuggler Pass Stufe 45). Williams' Weekly Frostwail. Ship Rank 18+, Upgrade IV+ empfohlen.",
     "slots": {
-      "bow": { "item": "Thunder Dragon Cannons", "rarity": "epic" },
-      "broadside": { "item": "Ash Breaker x4", "rarity": "epic", "note": "Fire-DoT Stacks" },
-      "stern": { "item": "Thunder Dragon Cannons", "rarity": "epic" },
-      "auxiliary": { "item": "Infernal Moss Mine", "rarity": "epic" }
+      "bow":       { "item": "Divine Thunder x6", "rarity": "epic", "note": "1000m Pull-Aggro, baut Stormstruck-Setup auf" },
+      "broadside": { "item": "Frostwail x13 (pro Seite)", "rarity": "epic", "note": "443 DPS/Slot, Countdown-Delayed-Explosion bei Mehrfachzielen" },
+      "stern":     { "item": "Divine Thunder x2", "rarity": "epic" },
+      "auxiliary": { "item": "Eye of Heaven x2", "rarity": "epic", "note": "Tempest-Lightning-Arc 150m" }
     },
-    "armor": { "item": "Buccaneer's Oath", "rarity": "epic" },
-    "furniture": { "major": "Bombard Works", "minor": ["Strange Elixir", "Tuning Station", "Lrange Barrel"] },
-    "ammo": ["Burning Heart", "Antipersonnel"],
-    "rotation": "Opener mit Ash Breaker - Ablaze-Stacks legen. Bow/Stern Thunder Dragon fuer Lightning auf nasse/brennende Ziele. Infernal Moss Mine als AOE-Trap auf Flotten-Choke-Points. Element-Synergie: Ablaze + Shock potenziert Damage.",
-    "materials": ["Element-Waffen aus Vendor / WT2-Drops"],
-    "sources": ["sources/y3s1-patch-notes.md"],
-    "lastUpdated": "2026-05-26",
+    "armor": { "item": "Phoenix Crest", "rarity": "epic", "note": "Revile (Brace-Hits applizieren Taunted) + Gloat (+100% Brace-Recovery pro Taunted-Ship max 10). Perfekte Frigate-Tank-Synergie." },
+    "furniture": {
+      "major": "Iron Capstan",
+      "majorAlt": "Gunner's Quadrant (offensiv: -15% Reload nach Weakpoint-Hit)",
+      "minor": ["War Drums", "Megaphone", "Front Powder Kegs", "Hubac Tuning Rack", "Iron Cladding Station"]
+    },
+    "ammo": ["Standard Cannonball", "Burning Heart (gegen Tanks)", "Piercing-Cannonball (Boss-Weakpoints)"],
+    "rotation": "1) Approach 800-1000m mit Divine Thunder Bow (Pull-Aggro). 2) Schließe auf 400-550m (Frostwail-Range). 3) Bewusst Hits absorbieren — Grit-Stacks aufbauen (max 10, je +40 Armor + 20% Damage Reduction). 4) Bei 10 Stacks triggert Resolve: +10% Brace, +100% Threat, -20% Status-Damage. 5) Phoenix Crest macht jeden Brace-Hit zu Taunted-Stack → +100% Brace-Recovery pro Taunted-Ship (max 10). 6) Frostwail-Vollsalve 13x = 43.173 Burst-Damage + Countdown-Explosions. 7) Side-Pivot zur anderen Broadside während Erstseite reloaded. 8) Bei <33% HP: Black-Prince-Resolute aktiviert -40% Damage Reduction. Repair-Kit als Backup.",
+    "materials": ["Frostwail: Williams' Weekly Rotation", "Black Prince: Community-Vendor / Quest", "Phoenix Crest: Endgame-Vendor", "Divine Thunder: Williams' Shop / Smuggler Pass"],
+    "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
+    "lastUpdated": "2026-05-27",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "frigate-mending-hybrid",
+    "name": "Frigate Mending Hybrid (Sustain Solo-Boss)",
+    "ship": "Frigate",
+    "tier": "endgame",
+    "tags": ["solo", "pve", "mending", "sustain", "bombard", "y3s1"],
+    "activities": ["solo-boss", "la-peste", "vikram", "kraken", "megafort", "sea-monsters"],
+    "requirementsText": "Frigate Blueprint. The Honorless Event (Soulsnatcher + Drowned Organ, bis 09.06.2026!).",
+    "slots": {
+      "bow":       { "item": "Hullcarver x6", "rarity": "epic", "note": "Pulverize-Stack + Piercing III auf Boss-Weakpoints" },
+      "broadside": { "item": "Port: 13x Soulsnatcher (Mending) / Starboard: 13x Ashbreaker (Burst)", "rarity": "epic", "note": "Pivot-Spielweise: HP-volle Seite = Burst, HP-niedrig = Mending" },
+      "stern":     { "item": "Divine Thunder x2", "rarity": "epic" },
+      "auxiliary": { "item": "Eye of Heaven x2", "rarity": "epic" }
+    },
+    "armor": { "item": "Floodbound", "rarity": "epic", "note": "Tide of Restoration: zusätzlicher Heal bei Flooded-Targets in 150m." },
+    "furniture": {
+      "major": "Drowned Organ",
+      "minor": ["Mortar Powderbench", "Long Gun Grinder", "Maintenance Forge", "Munitions Mixer", "Front Powder Kegs"]
+    },
+    "ammo": ["Burning Heart (Ashbreaker-Burst)", "Standard Cannonball (Soulsnatcher Mending-Heal-Loop)", "Piercing (Hullcarver-Weakpoint)"],
+    "rotation": "1) Approach 600m mit Hullcarver Bow — Pulverize-Stacks (6 Hits = +12%, +18% bei Punctured). 2) Bei voller HP: Ashbreaker-Seite (Starboard) für Burst — Marauder-Perk baut Vulnerable-Status auf. 3) Bei <60% HP: zur Soulsnatcher-Seite pivotieren (Port) → Haunting Mend: 20-60% Damage = Hull-Heal (60% bei 3+ Targets in Blast). 4) Drowned Organ triggert: +20% Mending-Damage <60% Hull, +1% Max-HP pro Mending-Weapon (13 Soulsnatcher = +13% Max HP = +16.692 effektive HP). 5) Eye of Heaven kontinuierlich für Tempest-Lightning-Arc auf Adds. 6) Floodbound Tide of Restoration heilt zusätzlich aus Brace-Damage.",
+    "materials": ["Soulsnatcher x13 (!): The Honorless Event 12.05.-09.06.2026 — zeitlich limitiert!", "Drowned Organ: The Honorless Event", "Hullcarver: Smuggler Pass / WT3-Drops", "Ashbreaker: Williams' Weekly", "Floodbound: Williams' Seasonal Y3S1"],
+    "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
+    "lastUpdated": "2026-05-27",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "frigate-punctured-piercing",
+    "name": "Frigate Punctured Piercing (Endgame DPS-Ceiling)",
+    "ship": "Frigate",
+    "tier": "endgame",
+    "tags": ["solo", "pve", "punctured", "piercing", "burst", "wt3", "wt4", "y3s1"],
+    "activities": ["wt3", "wt4", "mythic-bosses", "endgame-speedrun"],
+    "requirementsText": "Frigate Upgrade VI+, Royal Ramming Works (Faction War Reward), Needle Shield (WT3/4 Drop). Power-Score 4000+.",
+    "slots": {
+      "bow":       { "item": "Hullcarver x6", "rarity": "epic", "note": "Pulverize-Stack-Setup, baut Punctured auf" },
+      "broadside": { "item": "Urban's Great Gun x13 (pro Seite)", "rarity": "epic", "note": "461 DPS/Slot — höchster Culverin-DPS, 4.0s Reload" },
+      "stern":     { "item": "Hullcarver x2", "rarity": "epic", "note": "Pulverize-Stack-Erhalt von beiden Richtungen" },
+      "auxiliary": { "item": "Eye of Heaven x2", "rarity": "epic" }
+    },
+    "armor": { "item": "Needle Shield", "rarity": "epic", "note": "Brackish Bite: gegen Punctured-Targets +15% Armor + +9% Piercing-Damage." },
+    "furniture": {
+      "major": "Royal Ramming Works",
+      "minor": ["Long Gun Grinder", "Front Powder Kegs", "Gunner's Quadrant", "Scoping Station", "Spikes Station"]
+    },
+    "ammo": ["Piercing-Cannonball (Pulverize-Synergie)", "Standard (Reload-Effizienz)"],
+    "rotation": "1) Approach 600m mit Hullcarver Bow — Pulverize 6 Stacks aufbauen. 2) Ram-Distanz schließen (250m) — RAM triggert Royal Ramming Works: 50% Punctured + -20% Speed 20s. 3) Side-Pass mit 13x Urban's Great Gun (4.0s Reload = praktisch dauernde Vollsalven). 4) Pulverize geht von +12% auf +18% (Punctured-Bonus). 5) Brackish Bite Brace-Hits geben +9% Piercing-Damage 30s. 6) Burst pro Side-Salvo: 13 × 1845 DMG = 23.985 alle 4s = 5.996 DPS pro Seite. Mit Pulverize+Brackish: ~7.700 DPS/Seite. 7) Eye of Heaven für Add-Cleanup zwischen Salvos. 8) Bei niedrigem HP: Repair Kit + Reposition.",
+    "materials": ["Urban's Great Gun: Williams' Vendor / Y3S1-Drop", "Royal Ramming Works: Dominion War Effort Reward (Faction War)", "Needle Shield: WT3/WT4 Domain-Drop", "Hullcarver: Smuggler Pass"],
+    "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
+    "lastUpdated": "2026-05-27",
     "verifiedSeason": "Y3S1"
   },
   {

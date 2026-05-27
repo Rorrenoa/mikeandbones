@@ -155,6 +155,18 @@
     "long": "Major Furniture sind die größten Furniture-Items, die deinen Build definieren — Bombard Works (Reload+Damage), Royal Ramming Works (Punctured), Hull Marker's Table (Cannonball-Boost), Megaphone (Reload), Ramrod Workshop (Reload). Jedes Schiff hat genau EINEN Major-Slot (laut Ingame-Hinweis 'You can only install one Major Furniture on a ship'). Alle Major-Items in der SBT-Datenbank sind Epic-Rarity — es gibt keine Rare- oder Uncommon-Major-Furniture.",
     "tags": ["furniture", "mechanic"]
   },
+  "grit": {
+    "term": "Grit (Frigate Perk)",
+    "short": "Frigate-Hull-Perk. Stack auf Damage, +40 Armor pro Stack, max 10 = -20% Damage Reduction.",
+    "long": "Grit ist der Frigate-Hull-Perk. Bei jedem eingehenden Damage erhält die Frigate einen Grit-Stack: +40 Armor pro Stack, max 10 Stacks (= +400 Armor). Jeder Stack hält 15 Sekunden. Bei 10 Stacks: -20% Damage Reduction insgesamt. Plus: Verbündete XSML/SML/MED-Schiffe in 200m nehmen -10% Damage (-10% wird zu -20% bei 10 Grit-Stacks). Grit definiert die Frigate-DNA als Tank-Brawler: bewusst Damage absorbieren ist die Strategie.",
+    "tags": ["ship-perk", "frigate"]
+  },
+  "resolve": {
+    "term": "Resolve (Frigate Perk)",
+    "short": "Frigate-Hull-Perk (unlocked Upgrade VI). Bei 10 Grit-Stacks: +10% Brace, +100% Threat, -20% Status-Damage.",
+    "long": "Resolve ist der zweite Frigate-Hull-Perk, freigeschaltet bei Frigate Upgrade VI. Trigger: 10 Grit-Stacks + eingehender Damage. Effekt für 10 Sekunden: +10% Brace-Strength Restoration sofort, +100% Threat Generation, -20% Status-Effect-Damage. Threat-Generation hält Aggro auf der Frigate (Co-Op-Relevanz) und ist der Sustain-Anker. Mit Phoenix-Crest-Armor wird der Brace-Recovery-Bonus durch jedes Taunted-Ship verstärkt.",
+    "tags": ["ship-perk", "frigate"]
+  },
   "mending": {
     "term": "Mending",
     "short": "Y3S1-Mechanik. Weapons mit Heal-on-Damage-Perk (Soulsnatcher, Atma's Toll).",
