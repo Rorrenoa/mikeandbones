@@ -19,3 +19,6 @@ node_modules/
 
 # Lokale Planungs-/Kontextdateien (nicht ins Remote)
 START.md
+inventory/user-inventory.md
+inventory/williams-store.md
+inventory/INVENTORY-LOG.md

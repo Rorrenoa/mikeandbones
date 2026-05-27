@@ -75,6 +75,14 @@ Bei neuem Patch:
 - Lokales Testing: `python -m http.server 8000` im Repo-Root, dann http://localhost:8000
 - Deploy: `git push origin main` (GitHub Pages serviert automatisch)
 
+## Inventar + Rotating Store (Pflicht-Lektuere vor Build-Empfehlungen)
+- `/inventory/user-inventory.md` — was Mike (User) im Lager hat. GITIGNORED. Quelle der Wahrheit fuer "verfuegbar weil bereits besessen".
+- `/inventory/williams-store.md` — aktuelle Williams' Rotating Store + Black Market Rotation. GITIGNORED.
+- `/inventory/INVENTORY-LOG.md` — optional, Change-Log.
+- **Bei jeder Build-Empfehlung:** beide Files lesen. Items die NICHT im Lager UND NICHT im Williams' Store UND NICHT permanent erreichbar sind, NICHT empfehlen.
+- Mike updated diese Files manuell wenn sich was aendert. Daten koennen veraltet sein — bei Diskrepanz nachfragen.
+- Verifiziere unsichere Items zusaetzlich gegen SBT: `https://raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData/main/data/items.json` — Felder `season`, `event`, `obtainable[]` zeigen Verfuegbarkeit.
+
 ## Was NICHT tun
 - Keine SPA, kein Client-Side-Routing.
 - Kein HTML im Client aus JSON generieren.
