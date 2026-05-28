@@ -34,11 +34,11 @@
         </div>
 
         <h2>Konzept</h2>
-        <p>Anders als der reine Tank-Build setzt dieser auf <span class="term" data-glossary="mending" tabindex="0">Mending</span>-Lifesteal: Soulsnatcher heilt dich beim Damage-Output zurück (20-60% des Damage als Hull-Heal). Drowned Organ verstärkt Mending-Damage unter 60% HP. Beide Broadsides Soulsnatcher = permanenter Heal-Loop, praktisch unbegrenzte Sustain in Solo-Boss-Encountern.</p>
+        <p>Asymmetrische Broadsides: <strong>Port = Soulsnatcher</strong> (Mending-Heal-Loop), <strong>Starboard = Mons Meg III</strong> (Structure-Burst). Drowned Organ verstärkt Mending-Damage unter 60% HP. Soulsnatcher heilt dich beim Damage-Output (20-60% Lifesteal), Mons Meg III liefert Siege +50% Structure-Damage gegen Bosse — zwei Reload-Zyklen versetzt, also nie gleichzeitig in Cooldown.</p>
 
         <div class="box box-info">
-          <span class="box__title">Slot-Mechanik verstehen</span>
-          Du brauchst <strong>nur ein Soulsnatcher-Item pro Broadside-Slot</strong> (also 2 Items total: Port + Starboard). Die Frigate-Broadside hat 13 Geschütze pro Seite die alle gleichzeitig feuern wenn ein Item dort installiert ist. Das gilt für jeden Build: Pro Slot ein Item.
+          <span class="box__title">Slot-Mechanik + Asymmetrie</span>
+          Frigate-Broadside = 13 Geschütze pro Seite, <strong>1 Item pro Slot</strong>. Hier: 1 Soulsnatcher (Port) + 1 Mons Meg III (Starboard). Beide haben 7.5s Reload aber unterschiedliche Schadens-Charakteristik: Soulsnatcher heilt (3280 DMG/Geschütz), Mons Meg III burstet Strukturen (3075 DMG/Geschütz, +50% Structure via Siege).
         </div>
 
         <h2>Loadout</h2>
@@ -47,8 +47,8 @@
           <thead><tr><th>Slot</th><th>Item</th><th>Quelle</th><th>Effekt</th></tr></thead>
           <tbody>
             <tr><td>Bow</td><td class="item item-epic">Hullcarver</td><td>Smuggler Pass</td><td>Pulverize-Stack + Piercing III (+100% Weakpoint). Bow hat 6 Geschütze.</td></tr>
-            <tr><td>Port Broadside</td><td class="item item-epic">Soulsnatcher</td><td>The Honorless Event (bis 09.06.2026!)</td><td>Mending-Heal — 20-60% Damage als Hull-Heal. 13 Geschütze.</td></tr>
-            <tr><td>Starboard Broadside</td><td class="item item-epic">Soulsnatcher</td><td>The Honorless Event (bis 09.06.2026!)</td><td>Zweiter Mending-Slot — beide Seiten heilen. Du brauchst ZWEI Soulsnatcher-Items insgesamt.</td></tr>
+            <tr><td>Port Broadside</td><td class="item item-epic">Soulsnatcher</td><td>The Honorless Event (bis 09.06.2026!)</td><td>Mending-Heal — 20-60% Damage als Hull-Heal. 3280 DMG/Geschütz × 13 = 42.640 Burst.</td></tr>
+            <tr><td>Starboard Broadside</td><td class="item item-rare">Mons Meg III</td><td>Moonshine/Harbingers/Bloodied Strongbox (permanent farmable)</td><td>Rare-Tier aber 3075 DMG + Siege +50% Structure-Damage. 13 × 3075 = 39.975 Burst. Reload-versetzt zum Soulsnatcher.</td></tr>
             <tr><td>Stern</td><td class="item item-epic">Divine Thunder</td><td>Williams'</td><td>Long-Gun-Rückzug.</td></tr>
             <tr><td>Auxiliary</td><td class="item item-epic">Eye of Heaven</td><td>Williams' Weekly</td><td>Tempest-Lightning-Arc.</td></tr>
             <tr><td>Armor</td><td class="item item-epic">Floodbound</td><td>Williams' Seasonal Y3S1</td><td>Tide of Restoration — Heal bei Flooded-Targets in 150m</td></tr>
@@ -60,27 +60,28 @@
 
         <div class="box box-warning">
           <span class="box__title">Zeitkritisch — Honorless Event!</span>
-          Du brauchst <strong>2× Soulsnatcher + 1× Drowned Organ</strong> aus dem <em>The Honorless Event</em>. Das läuft nur bis <strong>09.06.2026</strong>. Wenn du diesen Build willst, jetzt sofort Event-Farm starten — sonst musst du auf eine zukünftige Event-Rotation warten.
+          Du brauchst <strong>1× Soulsnatcher + 1× Drowned Organ</strong> aus dem <em>The Honorless Event</em> (bis 09.06.2026). Mons Meg III ist permanent farmbar über Moonshine/Harbingers/Bloodied-Strongbox. Wenn du Mending willst, jetzt Event-Farm.
         </div>
 
         <h2>DPS + Heal-Math</h2>
         <ul>
-          <li><strong>Soulsnatcher Burst pro Seite (13 Geschütze):</strong> 13 × 3.280 = <strong>42.640 Burst-Damage</strong> pro Vollsalve.</li>
-          <li><strong>Sustained DPS pro Seite:</strong> 13 × ~437 = <strong>~5.681 DPS</strong> (Reload 7.5s).</li>
+          <li><strong>Soulsnatcher Burst (Port, 13 Geschütze):</strong> 13 × 3.280 = <strong>42.640 Burst</strong> pro Vollsalve. Sustained DPS: 5.681.</li>
+          <li><strong>Mons Meg III Burst (Starboard, 13 Geschütze):</strong> 13 × 3.075 = <strong>39.975 Burst</strong> + Siege +50% Structure auf Bosse. Sustained DPS: 5.330.</li>
           <li><strong>Mending-Heal pro Soulsnatcher-Vollsalve:</strong> bei 3+ Targets in Blast → 60% Lifesteal: <strong>~25.500 Hull-Heal</strong> pro Salvo (vor Resi).</li>
           <li><strong>Drowned-Organ-Boost:</strong> +20% Mending-Damage unter 60% Hull = ~30.500 Heal pro Salvo in Low-HP-Phase.</li>
-          <li><strong>Max-HP-Boost:</strong> +1% Max-Hull pro installierter Mending-Weapon. Mit 2 Slots = +2% Max Hull (das skaliert per Slot, nicht per Geschütz).</li>
+          <li><strong>Max-HP-Boost:</strong> +1% Max-Hull pro installierter Mending-Weapon. Mit 1 Slot = +1% Max Hull (Bonus durch 2. Soulsnatcher wäre nicht signifikant, dafür verlierst du Burst).</li>
         </ul>
 
         <h2>Rotation</h2>
         <ol>
           <li><strong>Approach 600m</strong> mit Hullcarver Bow — Pulverize-Stack aufbauen (6 Hits = +12%, +18% bei Punctured).</li>
-          <li><strong>Schließen auf 550m</strong> (Soulsnatcher Optimal-Range = 600m).</li>
-          <li><strong>Soulsnatcher-Vollsalve</strong> auf eine Seite — bei 3+ Targets in Blast ~25.500 Hull-Heal. Bei einsamen Bossen weniger Heal, aber dafür voller Burst.</li>
-          <li><strong>Side-Pivot:</strong> Während Erst-Seite reloadet (7.5s), drehe zur anderen Broadside und feuere erneut. Heal-Loop läuft permanent.</li>
-          <li><strong>Wenn HP < 60% fällt:</strong> Drowned Organ aktiv (+20% Mending-Damage) — Heal-Throughput steigt auf ~30.500 pro Salvo. Du heilst dich aus dem Loch raus.</li>
+          <li><strong>Schließen auf 550m</strong> (beide Broadsides Optimal-Range ~600m).</li>
+          <li><strong>Erste Salve Port (Soulsnatcher)</strong> — bei 3+ Targets in Blast ~25.500 Hull-Heal. Du baust Heal-Buffer auf.</li>
+          <li><strong>Side-Pivot zu Starboard (Mons Meg III)</strong> während Port reloadet — voller 39.975-Burst auf Boss-Structure mit Siege +50%.</li>
+          <li><strong>Side-Pivot zurück zu Port (Soulsnatcher)</strong> — Heal-Refill. Loop läuft permanent.</li>
+          <li><strong>Wenn HP < 60% fällt:</strong> Drowned Organ aktiv (+20% Mending-Damage) — Heal steigt auf ~30.500 pro Salvo. Du heilst dich aus dem Loch raus.</li>
           <li><strong>Floodbound</strong> heilt zusätzlich aus Brace-Damage gegen Flooded-Targets in 150m.</li>
-          <li><strong>Eye of Heaven kontinuierlich</strong> für Add-Cleanup und Stormstruck-Setup zwischen Salvos.</li>
+          <li><strong>Eye of Heaven kontinuierlich</strong> für Add-Cleanup zwischen Salvos.</li>
           <li><strong>Bei voller HP wieder:</strong> weiter Side-Pivot. Repair-Kit nur bei massivem Burst-Eingang sparen.</li>
         </ol>
 
