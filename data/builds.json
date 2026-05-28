@@ -79,6 +79,75 @@
     "verifiedSeason": "Y3S1"
   },
   {
+    "id": "brigantine-floodbreaker",
+    "name": "Brigantine Floodbreaker — Empfehlung",
+    "ship": "Brigantine",
+    "tier": "endgame",
+    "tags": ["solo", "pve", "flooding", "ramming", "bullhorn", "y3s1"],
+    "activities": ["wt2-quest-sweep", "convoys", "hostile-takeovers", "deep-iron-farming"],
+    "requirementsText": "Brigantine Upgrade 7/7, Kingpin 14+. Items alle im Lager beschaffbar.",
+    "slots": {
+      "bow": { "item": "Basilisk III", "rarity": "rare" },
+      "broadside": { "item": "Hullcarver x2 (1 pro Slot)", "rarity": "epic" },
+      "stern": { "item": "Farscourge III", "rarity": "rare" },
+      "auxiliary": { "item": "Leopold III", "rarity": "rare" }
+    },
+    "armor": { "item": "Floodbound", "rarity": "epic", "note": "Tide of Restoration — Heal bei Flooded-Targets" },
+    "furniture": { "major": "Drowned Organ", "minor": ["Munitions Mixer", "Floodwarden Station", "Culverin Works I", "Maintenance Forge I"] },
+    "ammo": ["Standard Cannonball", "Piercing Cannonball"],
+    "rotation": "Approach 600m mit Basilisk-Bow → Ram auf 250m (Bullhorn +45% + Flooded) → Hullcarver Side-Pivot beide Seiten → Drowned Organ Flooded-AOE bei <60% HP → Floodbound Self-Heal-Loop. Speed-Disengage bei Low-HP.",
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass", "Floodbound: Williams Seasonal", "Drowned Organ: Honorless Event (bis 09.06.2026)"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-28",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "brigantine-ramming-maniac",
+    "name": "Brigantine Ramming Maniac",
+    "ship": "Brigantine",
+    "tier": "endgame",
+    "tags": ["solo", "pve", "ramming", "tank", "demicannon", "bullhorn", "y3s1"],
+    "activities": ["mob-cleanup", "hostile-takeovers", "aggro-hold"],
+    "requirementsText": "Brigantine 7/7. Wrathful Ward + Iron Capstan im Lager.",
+    "slots": {
+      "bow": { "item": "Basilisk III", "rarity": "rare" },
+      "broadside": { "item": "Hullcarver (Port) + Zamzama III (Starboard)", "rarity": "epic" },
+      "stern": { "item": "Farscourge III", "rarity": "rare" },
+      "auxiliary": { "item": "Leopold III", "rarity": "rare" }
+    },
+    "armor": { "item": "Wrathful Ward", "rarity": "epic", "note": "Venomous Vengeance — Reflect-Damage" },
+    "furniture": { "major": "Iron Capstan", "minor": ["Demi-Cannon Works I", "Munitions Mixer", "Sea Fire Works I", "Iron Cladding Station I"] },
+    "ammo": ["Standard Cannonball", "Burning Heart"],
+    "rotation": "Approach 600m → Ram → Iron Capstan Anchor → Side-Pivot Zamzama-Spam + Hullcarver-Burst → Wrathful Ward reflektiert Damage passiv. Leopold-Mortar auf Adds.",
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass", "Wrathful Ward: The Helm permanent", "Iron Capstan: Vendor permanent"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-28",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "brigantine-boss-sustain",
+    "name": "Brigantine Boss-Sustain (Mending Bow)",
+    "ship": "Brigantine",
+    "tier": "endgame",
+    "tags": ["solo", "pve", "mending", "boss", "sustain", "y3s1"],
+    "activities": ["la-peste", "maelstrom", "sea-monsters", "long-convoys"],
+    "requirementsText": "Brigantine 7/7. Soulsnatcher aus Honorless Event (bis 09.06.2026).",
+    "slots": {
+      "bow": { "item": "Soulsnatcher", "rarity": "epic", "note": "Mending-Heal-Loop auf 4 Bow-Geschuetzen" },
+      "broadside": { "item": "Hullcarver (Port) + The Termites III (Starboard)", "rarity": "epic" },
+      "stern": { "item": "Farscourge III", "rarity": "rare" },
+      "auxiliary": { "item": "Leopold III", "rarity": "rare" }
+    },
+    "armor": { "item": "Royal Custodian", "rarity": "epic", "note": "Refortify — +35% Armor 12s nach Repair-Kit" },
+    "furniture": { "major": "First Aid Station", "minor": ["Bombard Works I", "Culverin Works I", "Scoping Station", "Munitions Mixer"] },
+    "ammo": ["Standard Cannonball", "Piercing Cannonball"],
+    "rotation": "Soulsnatcher Bow-Salve auf Boss → Hullcarver Side-Pass Port → Termites Starboard auf Adds → bei Burst-Phase Repair-Kit + Refortify + First Aid Station. Soulsnatcher-Mending-Loop heilt kontinuierlich.",
+    "materials": ["Soulsnatcher: Honorless Event (bis 09.06.2026)", "Hullcarver: Y3S1 Smuggler Pass", "Royal Custodian: World Event Merchant Convoy"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-28",
+    "verifiedSeason": "Y3S1"
+  },
+  {
     "id": "schooner-reaper",
     "name": "Schooner Reaper (Fort-Killer)",
     "ship": "Schooner",

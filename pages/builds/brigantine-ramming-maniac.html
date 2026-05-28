@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../../">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>Brigantine Ramming Maniac — mikeandbones</title>
+  <meta name="description" content="Brigantine Ramming Maniac Build mit Iron Capstan + Zamzama III + Wrathful Ward. Aggressivste Bullhorn-Variante für Y3S1.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cinzel:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/tooltips.css">
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <div class="page">
+    <div data-include="partials/sidebar.html"></div>
+    <main class="main">
+      <div class="main__inner">
+
+        <p class="caption"><a href="./">Start</a> › <a href="pages/builds/index.html">Builds</a> › Brigantine Ramming Maniac</p>
+
+        <h1>Brigantine Ramming Maniac</h1>
+        <p class="caption"><span class="badge badge-tier-endgame">Endgame</span> Aggressivste Bullhorn-Variante · Hit-and-Brawl · JETZT spielbar</p>
+
+        <div class="ship-portrait">
+          <img src="assets/img/ships/brigantine.webp" alt="Brigantine" loading="lazy" decoding="async">
+        </div>
+
+        <h2>Konzept</h2>
+        <p>Maximum-Aggression-Variante. Anchor-Tank-Modus via Iron Capstan + Wrathful Ward Reflect-Damage. Demicannon-Pellets (Zamzama III) statt Long-Range-Setup — du tankst aktiv, lässt dich beschießen, reflektierst Damage. Niedrigste Forgiveness der drei Brigantine-Builds, aber höchster Threat-Hold. Funktioniert in Mob-Phasen wo du Aggro halten willst.</p>
+
+        <div class="box box-warning">
+          <span class="box__title">Skill-Test</span>
+          Dieser Build verlangt aktives Anchor-Setzen und Reflect-Timing. Wenn du noch nicht Power-Score 2800+ hast, ist <a href="pages/builds/brigantine-floodbreaker.html">Floodbreaker</a> sicherer.
+        </div>
+
+        <h2>Loadout</h2>
+        <div class="table-wrap">
+        <table>
+          <thead><tr><th>Slot</th><th>Item</th><th>Quelle</th><th>Effekt</th></tr></thead>
+          <tbody>
+            <tr><td>Bow</td><td class="item item-rare">Basilisk III</td><td>Darktide Chest (Lager)</td><td>Raider + Piercing II. Opener-Damage aus 600m.</td></tr>
+            <tr><td>Port Broadside</td><td class="item item-epic">Hullcarver</td><td>Y3S1 Smuggler Pass (Lager)</td><td>Pulverize + Piercing III. 4 × 1307 = 5.228 Burst.</td></tr>
+            <tr><td>Starboard Broadside</td><td class="item item-rare">Zamzama III</td><td>Crazed Nian / Bloodied Strongbox (Lager)</td><td>Demicannon 4 × (373×4) = 5.968 Burst + Raider + Burning II. Close-Range-Spam.</td></tr>
+            <tr><td>Stern</td><td class="item item-rare">Farscourge III</td><td>Moonshine Chest (Lager)</td><td>Raider + Flooding + Piercing.</td></tr>
+            <tr><td>Auxiliary</td><td class="item item-rare">Leopold III</td><td>Vanderkill's Locker (Lager)</td><td>11.275 Mortar-Burst.</td></tr>
+            <tr><td>Armor</td><td class="item item-epic">Wrathful Ward</td><td>The Helm (permanent, Lager)</td><td>Venomous Vengeance — reflektiert Damage während Hit-Streaks.</td></tr>
+            <tr><td>Major Furniture</td><td class="item item-epic">Iron Capstan</td><td>Vendor (permanent, Lager)</td><td>Während Anchored: -15% Incoming Damage + 100% Threat-Hold.</td></tr>
+            <tr><td>Minor ×4 (1 Item pro Slot)</td><td>Demi-Cannon Works I · Munitions Mixer · Sea Fire Works I · Iron Cladding Station I</td><td>Vendor / Lager</td><td>Demicannon-Buff + Burst-Bonus + Armor.</td></tr>
+          </tbody>
+        </table>
+        </div>
+
+        <p><strong>Alternative Armor:</strong> <em>Buccaneer's Oath</em> (Blood and Gold — +Damage bei niedrigem HP, im Lager) für maximalen Burst-Loop.</p>
+
+        <h2>DPS-Math</h2>
+        <ul>
+          <li><strong>Hullcarver Port Burst (4 Geschütze):</strong> 4 × 1.307 = <strong>5.228</strong> + Pulverize.</li>
+          <li><strong>Zamzama III Starboard Burst (4 Geschütze):</strong> 4 × (373×4 Pellets) = <strong>5.968</strong> + Burning II. Reload nur 4.2s = höhere Frequenz als Hullcarver.</li>
+          <li><strong>Sustained DPS pro Seite:</strong> Hullcarver 872 / Zamzama 1.422 DPS (Zamzama höher wegen 4.2s Reload).</li>
+          <li><strong>Iron Capstan Anchor:</strong> -15% Incoming + 100% Threat = du hältst die Aggro, alle anderen schießen auf dich.</li>
+          <li><strong>Wrathful Ward Reflect:</strong> 25-35% des erhaltenen Schadens reflected zurück. Mehr Treffer = mehr Reflect.</li>
+        </ul>
+
+        <h2>Rotation</h2>
+        <ol>
+          <li><strong>Approach 600m</strong> mit Basilisk III Bow — Raider-Opener.</li>
+          <li><strong>RAM</strong> das Hauptziel — Bullhorn +45% Damage + Flooded.</li>
+          <li><strong>Iron Capstan setzen (Anchor)</strong> — du wirst zum Threat-Magnet.</li>
+          <li><strong>Side-Pass-Pivot mit Zamzama III</strong> (Starboard) — Burning-Stacks aufbauen.</li>
+          <li><strong>Pivot zu Hullcarver-Seite (Port)</strong> — Pulverize-Stack auf bereits Punctured-Target = +18% Damage.</li>
+          <li><strong>Wrathful Ward Reflect</strong> läuft passiv solange Hits eingehen.</li>
+          <li><strong>Leopold III Mortar</strong> für Add-Cleanup.</li>
+          <li>Bei <strong>&lt;33% HP:</strong> Anchor lösen, Repair-Kit + Speed-Disengage. Wrathful Ward bleibt aktiv solange Schlag eingeht — falls Verfolger, reflektierst du weiter.</li>
+        </ol>
+
+        <h2>Wann anderer Build?</h2>
+        <ul>
+          <li><strong>WT2-Standard / Convoys:</strong> <a href="pages/builds/brigantine-floodbreaker.html">Floodbreaker</a> mit Floodbound + Drowned Organ ist sicherer.</li>
+          <li><strong>Solo-Boss-Sustain:</strong> <a href="pages/builds/brigantine-boss-sustain.html">Boss-Sustain</a> mit Soulsnatcher-Bow für aktiven Heal.</li>
+        </ul>
+
+        <p class="caption" style="margin-top:2em;">
+          <span class="verified-tag">Verifiziert: Y3S1 · Stand 28.05.2026</span><br>
+          Quelle: <a href="sources/y3s1-patch-notes.md">Ubisoft Y3S1 Patch Notes</a> · SkullAndBonesData-Repo · Community-Recherche.
+        </p>
+
+        <div data-include="partials/footer.html"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/item-links.js"></script>
+  <script type="module" src="assets/js/tooltips.js"></script>
+</body>
+</html>
