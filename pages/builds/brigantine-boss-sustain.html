@@ -7,7 +7,7 @@
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <meta name="googlebot" content="noindex, nofollow">
   <title>Brigantine Boss-Sustain — mikeandbones</title>
-  <meta name="description" content="Brigantine Boss-Sustain Build mit Soulsnatcher Bow + Hullcarver Broadside. Solo-Boss-Sustain für La Peste und Maelstrom Y3S1.">
+  <meta name="description" content="Brigantine Boss-Sustain Build mit Soulsnatcher-Broadside + Floodbound + Drowned Organ. Triple-Heal-Stream für Solo-Boss in Y3S1.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cinzel:wght@600;700&display=swap">
@@ -27,72 +27,96 @@
         <p class="caption"><a href="./">Start</a> › <a href="pages/builds/index.html">Builds</a> › Brigantine Boss-Sustain</p>
 
         <h1>Brigantine Boss-Sustain</h1>
-        <p class="caption"><span class="badge badge-tier-endgame">Endgame</span> Mending-Bow · Solo-Boss · Maelstrom & La Peste · JETZT spielbar</p>
+        <p class="caption"><span class="badge badge-tier-endgame">Endgame</span> Soulsnatcher-Broadside · Triple-Heal-Stream · Solo-Boss & Maelstrom · JETZT spielbar</p>
 
         <div class="ship-portrait">
           <img src="assets/img/ships/brigantine.webp" alt="Brigantine" loading="lazy" decoding="async">
         </div>
 
         <h2>Konzept</h2>
-        <p>Variante für Solo-Boss-Phasen, in denen Ramming zu riskant ist (Maelstrom-Adds, La Peste-Spread-Phasen, Sea-Monster-Encounters). Soulsnatcher auf Bow heilt dich bei jedem Treffer — die Brigantine wird zur portablen Heilstation. Hullcarver-Port + Dardanelles-Starboard für asymmetrische Piercing-vs-Explosive-Output. Niedrigerer Throughput als Floodbreaker, aber höchste Survivability.</p>
+        <p>Variante für Solo-Boss-Phasen, in denen Ramming zu riskant ist (Maelstrom-Adds, La Peste-Spread-Phasen, Sea-Monster-Encounters). <strong>Drei sich verstärkende Heal-Quellen</strong>:</p>
+        <ul>
+          <li><strong>Soulsnatcher Mending-Lifesteal</strong> auf der Port-Broadside (20-60% Damage als Hull-Heal)</li>
+          <li><strong>Floodbound Tide of Restoration</strong> (passive Heal bei Flooded-Targets in 150m)</li>
+          <li><strong>Drowned Organ</strong> verstärkt Mending-Damage +20% unter 60% Hull + AOE auf Flooded-Targets</li>
+        </ul>
+        <p>Hullcarver auf Bow + Starboard liefert Pulverize-Stacks + Piercing III. Rahma's Ambition Stern appliziert Flooded → triggert Floodbound + Drowned-Organ-AOE.</p>
+
+        <div class="box box-info">
+          <span class="box__title">Slot-Mechanik (kritisch verstehen)</span>
+          Brigantine hat <strong>4 Slots</strong> auf jeder Broadside-Seite (top 2 + lower 2) <strong>plus 4 weitere Slots</strong> (top 4 + lower 4) — Moment, korrekt: <strong>Brigantine-Broadside = 1 Item-Slot mit 8 Geschützen pro Seite</strong> (top 4 + lower 4). Aber: <strong>Bombards (wie Soulsnatcher) sind <em>Top-Deck-only</em></strong> — sie feuern nur aus den oberen 4 Geschützen, nicht aus allen 8. <strong>Culverins (wie Hullcarver) sind <em>All-Deck</em></strong> — sie feuern aus allen 8 Geschützen. Das ist eine Item-Eigenschaft, kein Slot-Limit.
+        </div>
 
         <h2>Loadout</h2>
         <div class="table-wrap">
         <table>
-          <thead><tr><th>Slot</th><th>Item</th><th>Quelle</th><th>Effekt</th></tr></thead>
+          <thead><tr><th>Slot</th><th>Item</th><th>Typ</th><th>Quelle</th><th>Effekt</th></tr></thead>
           <tbody>
-            <tr><td>Bow</td><td class="item item-epic">Soulsnatcher</td><td>The Honorless Event (The Helm Event, bis 09.06.2026)</td><td>Haunting Mend — 20-60% Damage als Hull-Heal. Bow hat 2 Geschütze auf Brigantine. 2 × 3280 = 6.560 Burst + Heal-Loop.</td></tr>
-            <tr><td>Port Broadside</td><td class="item item-epic">Hullcarver</td><td>Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store</td><td>Pulverize + Piercing III. 8 Geschütze pro Seite × 1307 = 10.456 Burst + Sustained-DPS auf Boss-Hull.</td></tr>
-            <tr><td>Starboard Broadside</td><td class="item item-epic">Dardanelles Gun</td><td>Legacy Cache 1 / Williams' Black Market Blueprint (gerade verfügbar)</td><td>Bombard 2613 DMG + Unison + Explosive III. 8 × 2613 = 20.904 Burst. Reload-versetzt zum Hullcarver.</td></tr>
-            <tr><td>Stern</td><td class="item item-rare">Farscourge III</td><td>Moonshine Chest / Moonshine Strongbox / Haunted Reapers Cache</td><td>Raider + Flooding + Piercing.</td></tr>
-            <tr><td>Auxiliary</td><td class="item item-rare">Leopold III</td><td>Vanderkill's Locker</td><td>11.275 Mortar-Burst + Flooding II auf Adds.</td></tr>
-            <tr><td>Armor</td><td class="item item-epic">Royal Custodian</td><td>World Event Merchant Convoy / Exotic Armor Ascended Cache</td><td>Refortify — bei Repair-Kit: +35% Armor 12s. Boss-Burst-Phasen absorbieren.</td></tr>
-            <tr><td>Major Furniture</td><td class="item item-epic">First Aid Station</td><td>Blueprint kaufen bei Outpost Vorona Falls, dann craften</td><td>Heal-Burst on-demand. Synergiert mit Soulsnatcher-Mending-Loop.</td></tr>
-            <tr><td>Minor ×4 (1 Item pro Slot)</td><td>Bombard Works I · Culverin Works I · Iron Cladding Station I · Maintenance Forge I</td><td>Blueprints: Bombard Works I (Outpost Fort Louis), Culverin Works I (Outpost Khmoy Estate), Iron Cladding I (Outpost Royal Burial Ground), Maintenance Forge I (Rahma — Telok Penjarah)</td><td>Dardanelles-Bombard + Hullcarver-Culverin-Damage + Armor + Self-Repair.</td></tr>
+            <tr><td>Bow</td><td class="item item-epic">Hullcarver</td><td>Culverin (All-Deck)</td><td>Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store</td><td>Pulverize + Piercing III. Bow = 4 Geschütze (top 2 + lower 2). 4 × 1307 = 5.228 Burst. Baut Punctured-Status auf für nachfolgende Salven.</td></tr>
+            <tr><td>Port Broadside</td><td class="item item-epic">Soulsnatcher</td><td>Bombard (Top-Deck)</td><td>The Honorless Event (The Helm Event, bis 09.06.2026)</td><td>Haunting Mend — 20-60% Damage als Hull-Heal. Bombard = Top-Deck-only, feuert nur aus 4 von 8 Broadside-Geschützen. 4 × 3280 = 13.120 Burst + Heal-Loop.</td></tr>
+            <tr><td>Starboard Broadside</td><td class="item item-epic">Hullcarver</td><td>Culverin (All-Deck)</td><td>Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store</td><td>All-Deck → feuert aus allen 8 Broadside-Geschützen. 8 × 1307 = 10.456 Burst + Pulverize-Stacks aufbauen. Reload 6s — versetzt zu Soulsnatcher 7.5s.</td></tr>
+            <tr><td>Stern</td><td class="item item-epic">Rahma's Ambition</td><td>Torpedo (Top-Deck)</td><td>The Helm Vendor (permanent) via Rahma — Telok Penjarah</td><td>Cataclysmic + Arming + Flooding II. Stern = 2 Top-Deck-Geschütze. 2 × 816 = 1.632 Burst + Flooded-Apply auf Verfolger → triggert Floodbound + Drowned-Organ-AOE.</td></tr>
+            <tr><td>Auxiliary</td><td class="item item-rare">Leopold III</td><td>Mortar (Aux-only)</td><td>Vanderkill's Locker</td><td>2 × 11.275 = 22.550 Mortar-Burst + Flooding II auf Adds-Cluster. Schließt den Flooded-Apply-Loop für Heal-Stream.</td></tr>
+            <tr><td>Armor</td><td class="item item-epic">Floodbound</td><td>Armor</td><td>Williams' Y3S1 Seasonal Item (Shattered Seas)</td><td>Tide of Restoration — kontinuierlicher Heal-Tick bei Flooded-Targets in 150m. Zweiter Heal-Stream parallel zu Soulsnatcher.</td></tr>
+            <tr><td>Major Furniture</td><td class="item item-epic">Drowned Organ</td><td>Major Furniture</td><td>The Honorless Event (The Helm Event, bis 09.06.2026)</td><td>+20% Mending-Damage unter 60% Hull + AOE-Damage auf Flooded-Targets + 1% Max-Hull pro Mending-Weapon im Loadout (mit Soulsnatcher = +1%).</td></tr>
+            <tr><td>Minor ×4 (1 Item pro Slot)</td><td colspan="2">Bombard Works I · Culverin Works I · Maintenance Forge I · Iron Cladding Station I</td><td>Blueprints: Bombard Works I (Outpost Fort Louis), Culverin Works I (Outpost Khmoy Estate), Maintenance Forge I (Rahma — Telok Penjarah), Iron Cladding I (Outpost Royal Burial Ground)</td><td>Soulsnatcher-Damage-Buff + Hullcarver-Damage-Buff + Self-Repair + Armor.</td></tr>
           </tbody>
         </table>
         </div>
 
-        <p><strong>Alternative Armor:</strong> <em>Floodbound</em> (Tide of Restoration) wenn Flooded-Setup im Encounter — Floodwarden Station als Minor dann sinnvoll.</p>
-        <p><strong>Alternative Aux:</strong> <em>Eye of Heaven</em> (10.660 Mortar + Tempest-Arc, im Lager) wenn Adds in Stormstruck-Range bleiben.</p>
+        <div class="box box-info">
+          <span class="box__title">Major-Slot-Alternative</span>
+          Drowned Organ ist Pflicht, solange das Honorless Event läuft (bis 09.06.2026). Nach 09.06.: <strong>First Aid Station</strong> (Blueprint Outpost Vorona Falls) als Heal-AoE-Burst-Ersatz — aber dann fällt der +20% Mending-Multiplier weg, und der Build verliert ~30% seiner Heal-Throughput.
+        </div>
+
+        <p><strong>Alternative Armor:</strong> <em>Royal Custodian</em> (World Event Merchant Convoy / Exotic Armor Ascended Cache) — Refortify: +35% Armor 12s nach Repair-Kit. Backup wenn Floodbound noch nicht ausgerüstet.</p>
+        <p><strong>Alternative Aux:</strong> <em>Eye of Heaven</em> (Williams' Rotating Store / Smuggler Pass Pinnacle Store) — 10.660 Mortar + Tempest-Lightning-Arc 150m. Wenn du Stormstruck-Setup statt Flooding-Apply willst.</p>
 
         <h2>Heal + DPS-Math</h2>
         <ul>
-          <li><strong>Soulsnatcher Burst (Bow, 2 Geschütze):</strong> 2 × 3.280 = <strong>6.560 Burst</strong> + Mending-Heal-Loop.</li>
-          <li><strong>Mending-Heal pro Salvo:</strong> bei 1 Boss-Target → 20% Lifesteal = ~2.624 Hull-Heal. Bei 3+ Adds in Blast → 60% = ~7.870 Heal.</li>
-          <li><strong>Hullcarver Port (8 Geschütze):</strong> 10.456 Burst + Pulverize +18% auf Punctured.</li>
-          <li><strong>Dardanelles Gun Starboard (8 Geschütze):</strong> 8 × 2.613 = <strong>20.904 Burst</strong> + Unison + Explosive III. Reload 6.8s = versetzt zu Hullcarver (6.0s).</li>
-          <li><strong>Refortify Burst-Recovery:</strong> Repair-Kit triggert +35% Armor 12s — überlebt Boss-Burst-Phasen.</li>
+          <li><strong>Soulsnatcher Port Burst (4 Geschütze, Top-Deck-only):</strong> 4 × 3.280 = <strong>13.120 Burst</strong> alle 7.5s. Sustained: ~1.749 DPS.</li>
+          <li><strong>Mending-Heal pro Soulsnatcher-Salvo:</strong>
+            <ul>
+              <li>vs 1 Boss-Target → 20% Lifesteal = <strong>~2.624 Hull-Heal</strong> pro Salvo</li>
+              <li>vs 3+ Adds in Blast → 60% Lifesteal = <strong>~7.870 Hull-Heal</strong> pro Salvo</li>
+              <li>Mit Drowned Organ &lt;60% HP +20% = bis <strong>~9.450 Heal</strong> pro Salvo</li>
+            </ul>
+          </li>
+          <li><strong>Hullcarver Bow (4 Geschütze, All-Deck):</strong> 4 × 1.307 = <strong>5.228 Burst</strong> alle 6s + Pulverize-Stacks (max +12%, +18% auf Punctured).</li>
+          <li><strong>Hullcarver Starboard (8 Geschütze, All-Deck):</strong> 8 × 1.307 = <strong>10.456 Burst</strong> alle 6s. Sustained: ~1.744 DPS.</li>
+          <li><strong>Floodbound Heal:</strong> ~3% Hull/Sek pro Flooded-Target in 150m. Bei 2-4 Targets = 6-12% Hull/Sek (zusätzlich zu Soulsnatcher).</li>
+          <li><strong>Refortify-Alternative:</strong> +35% Armor 12s nach Repair-Kit — überlebt Boss-Burst-Phasen, wenn du Royal Custodian statt Floodbound nutzt.</li>
         </ul>
 
         <h2>Rotation</h2>
         <ol>
-          <li><strong>Approach 600m:</strong> Soulsnatcher Bow-Salve auf Boss — sofort Heal-Buffer aufbauen.</li>
-          <li><strong>Side-Pass auf 500m:</strong> Hullcarver-Vollsalve Port → Pulverize-Stacks.</li>
-          <li><strong>Pivot zu Starboard:</strong> Dardanelles Gun-Vollsalve = 20.904 Explosive-Burst auf Boss-Hull.</li>
-          <li><strong>Leopold III Mortar</strong> kontinuierlich auf Adds.</li>
-          <li><strong>Bei Boss-Burst-Phase:</strong> Repair-Kit → Royal Custodian Refortify (+35% Armor 12s) → Reposition.</li>
-          <li><strong>First Aid Station</strong> bei kritischem HP-Drop — Burst-Heal.</li>
-          <li><strong>Soulsnatcher-Loop:</strong> jede Bow-Salve regeneriert Hull → du kannst Encounter-Länge unbegrenzt durchhalten.</li>
+          <li><strong>Approach 600m</strong> mit Hullcarver Bow auf Boss-Weakpoint — erste Pulverize-Stacks aufbauen.</li>
+          <li><strong>Schließen auf 500m</strong> (Soulsnatcher Optimal-Range = 600m).</li>
+          <li><strong>Port-Salve (Soulsnatcher)</strong> — 13.120 Burst + 2.624 Hull-Heal (Boss-Single-Target) oder ~7.870 wenn Adds in Blast.</li>
+          <li><strong>Side-Pivot zu Starboard (Hullcarver)</strong> während Port reloadet — 10.456 Burst + Pulverize-Stacks treffen Punctured-Boss → +18% Damage.</li>
+          <li><strong>Leopold III Mortar</strong> kontinuierlich auf Adds-Cluster — Flooding-Apply triggert Floodbound + Drowned-Organ-AOE.</li>
+          <li><strong>Rahma's Ambition Stern-Torpedo</strong> bei Wegfahrbewegung — appliziert Flooded auf Verfolger.</li>
+          <li><strong>Bei &lt;60% HP:</strong> Drowned Organ aktiv (+20% Mending) — Soulsnatcher-Heal steigt auf ~9.450. Du heilst dich aus dem Loch raus, ohne Repair-Kit.</li>
+          <li><strong>Bei Boss-Burst-Phase:</strong> Brace + Repair-Kit als Notnagel. Reposition auf 600m, Heal-Stream läuft weiter solange Flooded-Targets in Range.</li>
         </ol>
 
         <h2>Beste Aktivitäten</h2>
         <ul>
-          <li><strong>La Peste Solo</strong> (Y3S1 elementangreifbar)</li>
-          <li><strong>Maelstrom-Phasen</strong> mit Add-Spawns</li>
-          <li><strong>Sea Monsters</strong> (Y3S1 jetzt vulnerable für Status)</li>
+          <li><strong>La Peste Solo</strong> (Y3S1 elementangreifbar — Soulsnatcher-Bombard ist Burning II, perfekte Synergie)</li>
+          <li><strong>Sea Monsters</strong> (Y3S1 jetzt vulnerable für alle Status)</li>
+          <li><strong>Vikram / Maelstrom-Bosse</strong> mit Add-Phasen (Floodbound + Drowned-Organ skaliert mit Add-Count)</li>
           <li><strong>Lange Convoy-Eskorten</strong> wo Repair-Kit-Cooldown nicht reicht</li>
         </ul>
 
         <h2>Wann anderer Build?</h2>
         <ul>
-          <li><strong>WT2 Quest-Sweep / Convoys:</strong> <a href="pages/builds/brigantine-floodbreaker.html">Floodbreaker</a> ist schneller im Throughput.</li>
+          <li><strong>WT2 Quest-Sweep / Convoys:</strong> <a href="pages/builds/brigantine-floodbreaker.html">Floodbreaker</a> ist schneller im Throughput (kein Heal-Investment).</li>
           <li><strong>Aggressive Anchor-Brawl:</strong> <a href="pages/builds/brigantine-ramming-maniac.html">Ramming Maniac</a> für maximale Threat-Hold-Aktivitäten.</li>
         </ul>
 
         <p class="caption" style="margin-top:2em;">
           <span class="verified-tag">Verifiziert: Y3S1 · Stand 28.05.2026</span><br>
-          Quelle: <a href="sources/y3s1-patch-notes.md">Ubisoft Y3S1 Patch Notes</a> · SkullAndBonesData-Repo · Community-Recherche.
+          Quelle: <a href="sources/y3s1-patch-notes.md">Ubisoft Y3S1 Patch Notes</a> · SkullAndBonesData-Repo · Slot-Mechanik via Ubisoft DevBlog (Loadout Customisation) + Skull & Bones Fandom Wiki (All Deck vs Top Deck).
         </p>
 
         <div data-include="partials/footer.html"></div>
