@@ -96,7 +96,7 @@
     "furniture": { "major": "Drowned Organ", "minor": ["Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I", "Brazing Furnace I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
     "rotation": "Approach 600m mit Basilisk-Bow → Ram auf 250m (Bullhorn +45% + Flooded) → Hullcarver Side-Pivot beide Seiten → Drowned Organ Flooded-AOE bei <60% HP → Floodbound Self-Heal-Loop. Speed-Disengage bei Low-HP.",
-    "materials": ["Hullcarver: Y3S1 Smuggler Pass", "Floodbound: Williams Seasonal", "Drowned Organ: Honorless Event (bis 09.06.2026)"],
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store", "Floodbound: Williams' Y3S1 Seasonal Item (Shattered Seas)", "Drowned Organ: The Honorless Event (The Helm Event, bis 09.06.2026)", "Basilisk III: Darktide Chest / Haunted Reapers Cache / Crazed Nian Strongbox", "Farscourge III: Moonshine Chest / Moonshine Strongbox / Haunted Reapers Cache", "Leopold III: Vanderkill's Locker"],
     "sources": ["sources/y3s1-patch-notes.md"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -119,7 +119,7 @@
     "furniture": { "major": "Iron Capstan", "minor": ["Demi-Cannon Works I", "Culverin Works I", "Iron Cladding Station I", "Brazing Furnace I"] },
     "ammo": ["Standard Cannonball", "Burning Heart"],
     "rotation": "Approach 600m → Ram → Iron Capstan Anchor → Side-Pivot Zamzama-Spam + Hullcarver-Burst → Wrathful Ward reflektiert Damage passiv. Leopold-Mortar auf Adds.",
-    "materials": ["Hullcarver: Y3S1 Smuggler Pass", "Wrathful Ward: The Helm permanent", "Iron Capstan: Vendor permanent"],
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store", "Wrathful Ward: The Helm Vendor (permanent) / La Peste's Strongbox / Legacy Cache 1", "Iron Capstan: Blueprint kaufen bei Rahma — Den Telok Penjarah, dann craften", "Zamzama III: Crazed Nian Strongbox / Bloodied Strongbox", "Basilisk III: Darktide Chest / Haunted Reapers Cache / Crazed Nian Strongbox", "Farscourge III: Moonshine Chest / Moonshine Strongbox / Haunted Reapers Cache", "Leopold III: Vanderkill's Locker"],
     "sources": ["sources/y3s1-patch-notes.md"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -133,16 +133,16 @@
     "activities": ["la-peste", "maelstrom", "sea-monsters", "long-convoys"],
     "requirementsText": "Brigantine 7/7. Soulsnatcher aus Honorless Event (bis 09.06.2026).",
     "slots": {
-      "bow": { "item": "Soulsnatcher", "rarity": "epic", "note": "Mending-Heal-Loop auf 4 Bow-Geschuetzen" },
-      "broadside": { "item": "Hullcarver (Port) + The Termites III (Starboard)", "rarity": "epic" },
+      "bow": { "item": "Soulsnatcher", "rarity": "epic", "note": "Mending-Heal-Loop auf 2 Bow-Geschuetzen" },
+      "broadside": { "item": "Hullcarver (Port) + Dardanelles Gun (Starboard)", "rarity": "epic", "note": "Brigantine = 8 Geschuetze pro Seite" },
       "stern": { "item": "Farscourge III", "rarity": "rare" },
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
     "armor": { "item": "Royal Custodian", "rarity": "epic", "note": "Refortify — +35% Armor 12s nach Repair-Kit" },
     "furniture": { "major": "First Aid Station", "minor": ["Bombard Works I", "Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
-    "rotation": "Soulsnatcher Bow-Salve auf Boss → Hullcarver Side-Pass Port → Termites Starboard auf Adds → bei Burst-Phase Repair-Kit + Refortify + First Aid Station. Soulsnatcher-Mending-Loop heilt kontinuierlich.",
-    "materials": ["Soulsnatcher: Honorless Event (bis 09.06.2026)", "Hullcarver: Y3S1 Smuggler Pass", "Royal Custodian: World Event Merchant Convoy"],
+    "rotation": "Soulsnatcher Bow-Salve auf Boss → Hullcarver Side-Pass Port → Dardanelles Starboard Burst → bei Burst-Phase Repair-Kit + Refortify + First Aid Station. Soulsnatcher-Mending-Loop heilt kontinuierlich.",
+    "materials": ["Soulsnatcher: The Honorless Event (The Helm Event, bis 09.06.2026)", "Hullcarver: Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store", "Dardanelles Gun: Legacy Cache 1 / Williams' Black Market Blueprint", "Royal Custodian: World Event Merchant Convoy / Exotic Armor Ascended Cache", "First Aid Station: Blueprint Outpost Vorona Falls", "Farscourge III: Moonshine Chest / Moonshine Strongbox", "Leopold III: Vanderkill's Locker"],
     "sources": ["sources/y3s1-patch-notes.md"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -192,7 +192,7 @@
     },
     "ammo": ["Standard Cannonball", "Burning Heart (gegen Tanks)"],
     "rotation": "1) Approach 800-1000m mit Divine Thunder Bow. 2) Schliesse auf 350-500m (Carronade-Range 600m). 3) Iron Capstan setzen sobald Position. 4) Grit-Stacks aufbauen (max 10, +40 Armor/Stack). 5) Wrathful Ward Resolute triggert bei Hit-Streak. 6) Carronade-Vollsalve 13x = 19.630 Burst + Riptide + Flooding-Apply. 7) Side-Pivot 5.5s Reload. 8) Eye of Heaven Mortar fuer Adds. 9) Bei <33% HP: Anchor loesen, Repair-Kit + Reposition.",
-    "materials": ["Carronade: Williams' Rotating Store (Weekly)", "Wrathful Ward: The Helm permanent / La Peste Strongbox", "Iron Capstan: Vendor permanent", "Divine Thunder: Williams' Rotating Store"],
+    "materials": ["Carronade: Williams' Rotating Store (Weekly) / Smuggler Pass Pinnacle Store (Y1 Raging Tides)", "Wrathful Ward: The Helm Vendor (permanent) / La Peste's Strongbox / Legacy Cache 1", "Iron Capstan: Blueprint kaufen bei Rahma — Den Telok Penjarah, dann craften", "Divine Thunder: Smuggler Pass Pinnacle Store (Y2 Into the Dragon's Wake) / Williams' Rotating Store (Weekly)", "Eye of Heaven: Smuggler Pass Pinnacle Store (Y2 Shadows of the Deep) / Williams' Rotating Store (Weekly)"],
     "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -218,7 +218,7 @@
     },
     "ammo": ["Standard Cannonball", "Burning Heart", "Piercing Cannonball"],
     "rotation": "1) Approach 600m mit Hullcarver Bow. 2) Schliessen auf 550m. 3) Port Soulsnatcher = ~25.500 Heal-Loop. 4) Side-Pivot Starboard Mons Meg III = 39.975 Burst + Siege. 5) Bei <60% HP: Drowned Organ +20% Mending = ~30.500 Heal. 6) Floodbound heilt aus Brace-Damage gegen Flooded-Targets. 7) Eye of Heaven Mortar fuer Adds.",
-    "materials": ["Soulsnatcher: The Honorless Event (bis 09.06.2026)", "Drowned Organ: The Honorless Event", "Hullcarver: Y3S1 Smuggler Pass", "Mons Meg III: Moonshine/Harbingers/Bloodied Strongbox", "Floodbound: Williams' Y3S1 Seasonal"],
+    "materials": ["Soulsnatcher: The Honorless Event (The Helm Event, bis 09.06.2026)", "Drowned Organ: The Honorless Event (The Helm Event, bis 09.06.2026)", "Hullcarver: Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store", "Mons Meg III: Moonshine Chest / Moonshine Strongbox / Harbingers Strongbox / Bloodied Strongbox (permanent)", "Floodbound: Williams' Y3S1 Seasonal Item (Shattered Seas)", "Divine Thunder: Smuggler Pass Pinnacle Store / Williams' Rotating Store", "Eye of Heaven: Smuggler Pass Pinnacle Store / Williams' Rotating Store"],
     "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -244,7 +244,7 @@
     },
     "ammo": ["Piercing Cannonball", "Standard"],
     "rotation": "1) Approach 800m mit Divine Thunder Bow — Pull-Aggro. 2) Ram-Distanz schliessen (250m) — Royal Ramming Works triggert: 50% Punctured + -20% Speed 20s + +15% Piercing-Damage 20s. 3) Side-Pass-Pivot mit Hullcarver beide Seiten. 4) Pulverize-Stack: +12% (auf Punctured +18%). 5) Brackish Bite +9% Piercing 30s. 6) Sustained DPS pro Seite mit Royal Ramming Works ~4.189. 7) Rahma's Ambition Stern-Torpedo bei Side-Pass. 8) Eye of Heaven fuer Adds.",
-    "materials": ["Hullcarver: Y3S1 Smuggler Pass / Pinnacle Store", "Royal Ramming Works: Y3S1 Dominion War Effort Reward", "Needle Shield: Y3S1 Smuggler Pass", "Divine Thunder: Williams' Rotating Store"],
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store", "Royal Ramming Works: Dominion War Effort Reward (Y3S1 Faction War Track)", "Needle Shield: Y3S1 Smuggler Pass (Free Track)", "Divine Thunder: Smuggler Pass Pinnacle Store (Y2 Into the Dragon's Wake) / Williams' Rotating Store (Weekly)", "Rahma's Ambition: The Helm Vendor (permanent) via Rahma — Telok Penjarah", "Eye of Heaven: Smuggler Pass Pinnacle Store / Williams' Rotating Store"],
     "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -405,7 +405,7 @@
     "furniture": { "major": "Gunner's Quadrant", "minor": ["Tuning Station I", "Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
     "rotation": "Approach 600m mit Long-Gun-Bow, Stacks aufbauen. Schliessen auf 350-400m, Port-Vollsalve (14 Hullcarver-Geschuetze, Cap erreicht). Side-Pivot zu Starboard. Leopold-Mortar auf Adds. Maintenance Forge heilt passiv.",
-    "materials": ["Hullcarver: Y3S1 Smuggler Pass Free Track", "Needle Shield: Y3S1 Smuggler Pass Free Track", "Leopold III: Vanderkill's Locker"],
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store", "Needle Shield: Y3S1 Smuggler Pass (Free Track)", "Leopold III: Vanderkill's Locker", "Basilisk III: Darktide Chest / Haunted Reapers Cache / Crazed Nian Strongbox", "Gunner's Quadrant: Legacy Cache 1/3/4 / Blueprint via The Helm", "Long Gun V: Blueprint Outpost Three Brothers", "Tuning Station I: The Helm Seasonal / Legacy Cache 1+3 / Williams' Black Market Blueprint", "Corvette Blueprint: Y2S3 Eye-of-the-Beast Smuggler Pass Tier 45 (heute via Founding Celebratory Chest / Pinnacle Store mit Tokens)"],
     "sources": ["sources/y3s1-patch-notes.md"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -428,7 +428,7 @@
     "furniture": { "major": "Drowned Organ", "minor": ["Bombard Works I", "Iron Cladding Station I", "Maintenance Forge I", "Brazing Furnace I"] },
     "ammo": ["Standard Cannonball", "Burning Heart"],
     "rotation": "Approach 500m Demi-Cannon, Flagbearer-Stacks. Schliessen auf 400m. Port Soulsnatcher-Vollsalve = 27500 Heal. Side-Pivot zu Starboard. Bei <60% HP: Drowned Organ +20% Mending. First Aid Station bei kritischem HP.",
-    "materials": ["Soulsnatcher: Honorless Event (bis 09.06.2026)", "Drowned Organ: Honorless Event", "Wyrmhide: Williams' Rotating Store"],
+    "materials": ["Soulsnatcher: The Honorless Event (The Helm Event, bis 09.06.2026)", "Drowned Organ: The Honorless Event (The Helm Event, bis 09.06.2026)", "Wyrmhide: Smuggler Pass Pinnacle Store (Y2 Oaths of War) / Williams' Rotating Store (Weekly, wenn rotiert)", "Demi-Cannon: Blueprint Outpost Poacher's Cache", "Leopold III: Vanderkill's Locker"],
     "sources": ["sources/y3s1-patch-notes.md"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
@@ -451,7 +451,7 @@
     "furniture": { "major": "Floodwarden Station", "minor": ["Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I", "Tuning Station I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
     "rotation": "Approach 800m mit Hullcarver-Bow + Blightbearer Port, Flooded-Status aufbauen. Schliessen auf 500m. Starboard Carronade-Vollsalve auf Flooded = Riptide +50% Severe. Floodbound heilt aus Flooded-Targets in 150m. Eye-of-Heaven Mortar fuer Adds.",
-    "materials": ["Hullcarver: Y3S1 Smuggler Pass Free Track", "Blightbearer + Floodbound + Floodwarden Station: Williams' Y3S1 Seasonal", "Carronade + Eye of Heaven: Williams' Weekly Rotation"],
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass (Free Track) / Smuggler Pass Pinnacle Store", "Blightbearer: Williams' Y3S1 Seasonal Item (Shattered Seas)", "Floodbound: Williams' Y3S1 Seasonal Item (Shattered Seas)", "Floodwarden Station: Williams' Y3S1 Seasonal Item (Shattered Seas)", "Carronade: Williams' Rotating Store (Weekly) / Smuggler Pass Pinnacle Store (Y1 Raging Tides)", "Eye of Heaven: Smuggler Pass Pinnacle Store (Y2 Shadows of the Deep) / Williams' Rotating Store (Weekly)", "Basilisk III: Darktide Chest / Haunted Reapers Cache"],
     "sources": ["sources/y3s1-patch-notes.md"],
     "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
