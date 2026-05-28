@@ -41,8 +41,8 @@
     },
     "armor": { "item": "Pacea", "rarity": "epic", "note": "Heal-on-Ram, synergiert mit Bullhorn." },
     "furniture": {
-      "major": "Bombard Works",
-      "minor": ["Tuning Station", "Hubok Tuning Rack", "Lrange Barrel", "Iron Cladding Station"]
+      "major": "Megaphone",
+      "minor": ["Bombard Works I", "Tuning Station I", "Hubac Tuning Rack", "Iron Cladding Station I"]
     },
     "ammo": ["Burning Heart", "Antipersonnel", "Standard Cannonball"],
     "rotation": "1) Spyglass-Scan 800–1000m → Weakpoints. 2) Bow-Opener Divine Thunder auf Weakpoint (Shock). 3) 90°-Side-Pass → Rahma's-Legacy-Broadside (Flooded-Burst). 4) Leopold-III als AOE auf Gruppen/Türme. 5) Reposition mit ~20kn Speed. 6) Bei Bedarf rammen für +45% Damage + Flooded + Pacea-Heal.",
@@ -93,7 +93,7 @@
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
     "armor": { "item": "Floodbound", "rarity": "epic", "note": "Tide of Restoration — Heal bei Flooded-Targets" },
-    "furniture": { "major": "Drowned Organ", "minor": ["Munitions Mixer", "Floodwarden Station", "Culverin Works I", "Maintenance Forge I"] },
+    "furniture": { "major": "Drowned Organ", "minor": ["Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I", "Brazing Furnace I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
     "rotation": "Approach 600m mit Basilisk-Bow → Ram auf 250m (Bullhorn +45% + Flooded) → Hullcarver Side-Pivot beide Seiten → Drowned Organ Flooded-AOE bei <60% HP → Floodbound Self-Heal-Loop. Speed-Disengage bei Low-HP.",
     "materials": ["Hullcarver: Y3S1 Smuggler Pass", "Floodbound: Williams Seasonal", "Drowned Organ: Honorless Event (bis 09.06.2026)"],
@@ -116,7 +116,7 @@
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
     "armor": { "item": "Wrathful Ward", "rarity": "epic", "note": "Venomous Vengeance — Reflect-Damage" },
-    "furniture": { "major": "Iron Capstan", "minor": ["Demi-Cannon Works I", "Munitions Mixer", "Sea Fire Works I", "Iron Cladding Station I"] },
+    "furniture": { "major": "Iron Capstan", "minor": ["Demi-Cannon Works I", "Culverin Works I", "Iron Cladding Station I", "Brazing Furnace I"] },
     "ammo": ["Standard Cannonball", "Burning Heart"],
     "rotation": "Approach 600m → Ram → Iron Capstan Anchor → Side-Pivot Zamzama-Spam + Hullcarver-Burst → Wrathful Ward reflektiert Damage passiv. Leopold-Mortar auf Adds.",
     "materials": ["Hullcarver: Y3S1 Smuggler Pass", "Wrathful Ward: The Helm permanent", "Iron Capstan: Vendor permanent"],
@@ -139,7 +139,7 @@
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
     "armor": { "item": "Royal Custodian", "rarity": "epic", "note": "Refortify — +35% Armor 12s nach Repair-Kit" },
-    "furniture": { "major": "First Aid Station", "minor": ["Bombard Works I", "Culverin Works I", "Scoping Station", "Munitions Mixer"] },
+    "furniture": { "major": "First Aid Station", "minor": ["Bombard Works I", "Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
     "rotation": "Soulsnatcher Bow-Salve auf Boss → Hullcarver Side-Pass Port → Termites Starboard auf Adds → bei Burst-Phase Repair-Kit + Refortify + First Aid Station. Soulsnatcher-Mending-Loop heilt kontinuierlich.",
     "materials": ["Soulsnatcher: Honorless Event (bis 09.06.2026)", "Hullcarver: Y3S1 Smuggler Pass", "Royal Custodian: World Event Merchant Convoy"],
@@ -162,7 +162,7 @@
       "auxiliary": { "item": "Roaring Meg", "rarity": "epic" }
     },
     "armor": { "item": "Ouroboros", "rarity": "epic" },
-    "furniture": { "major": "Bombard Works", "minor": ["Tuning Station", "Hubok Tuning Rack", "Lrange Barrel"] },
+    "furniture": { "major": "Hull Marker's Table", "minor": ["Bombard Works I", "Tuning Station I", "Hubac Tuning Rack"] },
     "ammo": ["Burning Heart", "Standard Cannonball"],
     "rotation": "Lightning-Twin-Synergie nutzen: Bow + Stern Divine Thunder gleichzeitig auf Weakpoint. Broadside-Bombards fuer Sustained-Structure-DPS. Roaring Meg als Mortar-Burst auf Tuerme. Schooner ist wendig - permanent Position halten ausserhalb der Fort-Counterfire-Range.",
     "materials": ["Divine Thunder: Williams' Shop / Dragon Beast", "Roaring Meg: Endgame-Vendor"],
@@ -172,29 +172,29 @@
   },
   {
     "id": "frigate-grit-tank",
-    "name": "Frigate Grit-Tank (Frostwail Broadside) — Empfehlung",
+    "name": "Frigate Grit-Tank (Carronade Broadside) — Empfehlung",
     "ship": "Frigate",
     "tier": "endgame",
-    "tags": ["solo", "pve", "tank", "broadside", "bombard", "grit", "y3s1"],
+    "tags": ["solo", "pve", "tank", "broadside", "carronade", "grit", "y3s1"],
     "activities": ["wt2-open-world", "roaming-fleets", "convoys", "megafort"],
-    "requirementsText": "Frigate Blueprint (Smuggler Pass Stufe 45). Williams' Weekly Frostwail. Ship Rank 18+, Upgrade IV+ empfohlen.",
+    "requirementsText": "Frigate Blueprint (Smuggler Pass Stufe 45). Williams' Weekly Carronade. Ship Rank 18+, Upgrade IV+ empfohlen.",
     "slots": {
-      "bow":       { "item": "Divine Thunder x6", "rarity": "epic", "note": "1000m Pull-Aggro, baut Stormstruck-Setup auf" },
-      "broadside": { "item": "Frostwail x13 (pro Seite)", "rarity": "epic", "note": "443 DPS/Slot, Countdown-Delayed-Explosion bei Mehrfachzielen" },
-      "stern":     { "item": "Divine Thunder x2", "rarity": "epic" },
-      "auxiliary": { "item": "Eye of Heaven x2", "rarity": "epic", "note": "Tempest-Lightning-Arc 150m" }
+      "bow":       { "item": "Divine Thunder", "rarity": "epic", "note": "1000m Pull-Aggro mit Heaven's Eye + Electric + Piercing" },
+      "broadside": { "item": "Carronade x2 (1 pro Seite)", "rarity": "epic", "note": "1510 DMG, 5.5s Reload, Riptide + Flooding. 13 Geschuetze pro Salve" },
+      "stern":     { "item": "Divine Thunder", "rarity": "epic" },
+      "auxiliary": { "item": "Eye of Heaven", "rarity": "epic", "note": "Tempest-Lightning-Arc 150m" }
     },
-    "armor": { "item": "Phoenix Crest", "rarity": "epic", "note": "Revile (Brace-Hits applizieren Taunted) + Gloat (+100% Brace-Recovery pro Taunted-Ship max 10). Perfekte Frigate-Tank-Synergie." },
+    "armor": { "item": "Wrathful Ward", "rarity": "epic", "note": "Venomous Vengeance — bei wiederholten Hits triggert -20% Incoming Damage 8s. Synergie mit Grit-Stack-Loop." },
     "furniture": {
       "major": "Iron Capstan",
-      "majorAlt": "Gunner's Quadrant (offensiv: -15% Reload nach Weakpoint-Hit)",
-      "minor": ["War Drums", "Megaphone", "Front Powder Kegs", "Hubac Tuning Rack", "Iron Cladding Station"]
+      "majorAlt": "Bombard Works I (offensive Minor) ist Minor — Major-Alternativen: Gunner's Quadrant, Megaphone, Munitions Mixer.",
+      "minor": ["Hubac Tuning Rack", "Iron Cladding Station I", "Maintenance Forge I", "Bombard Works I"]
     },
-    "ammo": ["Standard Cannonball", "Burning Heart (gegen Tanks)", "Piercing-Cannonball (Boss-Weakpoints)"],
-    "rotation": "1) Approach 800-1000m mit Divine Thunder Bow (Pull-Aggro). 2) Schließe auf 400-550m (Frostwail-Range). 3) Bewusst Hits absorbieren — Grit-Stacks aufbauen (max 10, je +40 Armor + 20% Damage Reduction). 4) Bei 10 Stacks triggert Resolve: +10% Brace, +100% Threat, -20% Status-Damage. 5) Phoenix Crest macht jeden Brace-Hit zu Taunted-Stack → +100% Brace-Recovery pro Taunted-Ship (max 10). 6) Frostwail-Vollsalve 13x = 43.173 Burst-Damage + Countdown-Explosions. 7) Side-Pivot zur anderen Broadside während Erstseite reloaded. 8) Bei <33% HP: Black-Prince-Resolute aktiviert -40% Damage Reduction. Repair-Kit als Backup.",
-    "materials": ["Frostwail: Williams' Weekly Rotation", "Black Prince: Community-Vendor / Quest", "Phoenix Crest: Endgame-Vendor", "Divine Thunder: Williams' Shop / Smuggler Pass"],
+    "ammo": ["Standard Cannonball", "Burning Heart (gegen Tanks)"],
+    "rotation": "1) Approach 800-1000m mit Divine Thunder Bow. 2) Schliesse auf 350-500m (Carronade-Range 600m). 3) Iron Capstan setzen sobald Position. 4) Grit-Stacks aufbauen (max 10, +40 Armor/Stack). 5) Wrathful Ward Resolute triggert bei Hit-Streak. 6) Carronade-Vollsalve 13x = 19.630 Burst + Riptide + Flooding-Apply. 7) Side-Pivot 5.5s Reload. 8) Eye of Heaven Mortar fuer Adds. 9) Bei <33% HP: Anchor loesen, Repair-Kit + Reposition.",
+    "materials": ["Carronade: Williams' Rotating Store (Weekly)", "Wrathful Ward: The Helm permanent / La Peste Strongbox", "Iron Capstan: Vendor permanent", "Divine Thunder: Williams' Rotating Store"],
     "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
-    "lastUpdated": "2026-05-27",
+    "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
   },
   {
@@ -204,23 +204,23 @@
     "tier": "endgame",
     "tags": ["solo", "pve", "mending", "sustain", "bombard", "y3s1"],
     "activities": ["solo-boss", "la-peste", "vikram", "kraken", "megafort", "sea-monsters"],
-    "requirementsText": "Frigate Blueprint. The Honorless Event (Soulsnatcher + Drowned Organ, bis 09.06.2026!).",
+    "requirementsText": "Frigate Blueprint. The Honorless Event (Soulsnatcher + Drowned Organ, bis 09.06.2026!). Mons Meg III aus Moonshine/Harbingers/Bloodied Strongbox.",
     "slots": {
-      "bow":       { "item": "Hullcarver x6", "rarity": "epic", "note": "Pulverize-Stack + Piercing III auf Boss-Weakpoints" },
-      "broadside": { "item": "Port: 13x Soulsnatcher (Mending) / Starboard: 13x Ashbreaker (Burst)", "rarity": "epic", "note": "Pivot-Spielweise: HP-volle Seite = Burst, HP-niedrig = Mending" },
-      "stern":     { "item": "Divine Thunder x2", "rarity": "epic" },
-      "auxiliary": { "item": "Eye of Heaven x2", "rarity": "epic" }
+      "bow":       { "item": "Hullcarver", "rarity": "epic", "note": "Pulverize + Piercing III auf Boss-Weakpoints" },
+      "broadside": { "item": "Port: Soulsnatcher (Mending) / Starboard: Mons Meg III (Structure-Burst)", "rarity": "epic", "note": "Asymmetrisch: Soulsnatcher heilt, Mons Meg III liefert Siege +50% Structure. Reload-versetzt." },
+      "stern":     { "item": "Divine Thunder", "rarity": "epic" },
+      "auxiliary": { "item": "Eye of Heaven", "rarity": "epic" }
     },
     "armor": { "item": "Floodbound", "rarity": "epic", "note": "Tide of Restoration: zusätzlicher Heal bei Flooded-Targets in 150m." },
     "furniture": {
       "major": "Drowned Organ",
-      "minor": ["Mortar Powderbench", "Long Gun Grinder", "Maintenance Forge", "Munitions Mixer", "Front Powder Kegs"]
+      "minor": ["Bombard Works I", "Mortar Powderbench", "Maintenance Forge I", "Iron Cladding Station I"]
     },
-    "ammo": ["Burning Heart (Ashbreaker-Burst)", "Standard Cannonball (Soulsnatcher Mending-Heal-Loop)", "Piercing (Hullcarver-Weakpoint)"],
-    "rotation": "1) Approach 600m mit Hullcarver Bow — Pulverize-Stacks (6 Hits = +12%, +18% bei Punctured). 2) Bei voller HP: Ashbreaker-Seite (Starboard) für Burst — Marauder-Perk baut Vulnerable-Status auf. 3) Bei <60% HP: zur Soulsnatcher-Seite pivotieren (Port) → Haunting Mend: 20-60% Damage = Hull-Heal (60% bei 3+ Targets in Blast). 4) Drowned Organ triggert: +20% Mending-Damage <60% Hull, +1% Max-HP pro Mending-Weapon (13 Soulsnatcher = +13% Max HP = +16.692 effektive HP). 5) Eye of Heaven kontinuierlich für Tempest-Lightning-Arc auf Adds. 6) Floodbound Tide of Restoration heilt zusätzlich aus Brace-Damage.",
-    "materials": ["Soulsnatcher x13 (!): The Honorless Event 12.05.-09.06.2026 — zeitlich limitiert!", "Drowned Organ: The Honorless Event", "Hullcarver: Smuggler Pass / WT3-Drops", "Ashbreaker x13: Moonshine Larceny Event 30.06.-28.07.2026 (Moonshine Strongbox / Account Ledger Sainte-Anne / Ascended Ashbreaker Chest fuer 1800 Illicit Moonshine)", "Floodbound: Williams' Seasonal Y3S1"],
+    "ammo": ["Standard Cannonball", "Burning Heart", "Piercing Cannonball"],
+    "rotation": "1) Approach 600m mit Hullcarver Bow. 2) Schliessen auf 550m. 3) Port Soulsnatcher = ~25.500 Heal-Loop. 4) Side-Pivot Starboard Mons Meg III = 39.975 Burst + Siege. 5) Bei <60% HP: Drowned Organ +20% Mending = ~30.500 Heal. 6) Floodbound heilt aus Brace-Damage gegen Flooded-Targets. 7) Eye of Heaven Mortar fuer Adds.",
+    "materials": ["Soulsnatcher: The Honorless Event (bis 09.06.2026)", "Drowned Organ: The Honorless Event", "Hullcarver: Y3S1 Smuggler Pass", "Mons Meg III: Moonshine/Harbingers/Bloodied Strongbox", "Floodbound: Williams' Y3S1 Seasonal"],
     "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
-    "lastUpdated": "2026-05-27",
+    "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
   },
   {
@@ -230,23 +230,23 @@
     "tier": "endgame",
     "tags": ["solo", "pve", "punctured", "piercing", "burst", "wt3", "wt4", "y3s1"],
     "activities": ["wt3", "wt4", "mythic-bosses", "endgame-speedrun"],
-    "requirementsText": "Frigate Upgrade VI+, Royal Ramming Works (Faction War Reward), Needle Shield (WT3/4 Drop). Power-Score 4000+.",
+    "requirementsText": "Frigate Upgrade IV+, Royal Ramming Works (Y3S1 Dominion War Effort), Needle Shield (Y3S1 Smuggler Pass).",
     "slots": {
-      "bow":       { "item": "Hullcarver x6", "rarity": "epic", "note": "Pulverize-Stack-Setup, baut Punctured auf" },
-      "broadside": { "item": "Urban's Great Gun x13 (pro Seite)", "rarity": "epic", "note": "461 DPS/Slot — höchster Culverin-DPS, 4.0s Reload" },
-      "stern":     { "item": "Hullcarver x2", "rarity": "epic", "note": "Pulverize-Stack-Erhalt von beiden Richtungen" },
-      "auxiliary": { "item": "Eye of Heaven x2", "rarity": "epic" }
+      "bow":       { "item": "Divine Thunder", "rarity": "epic", "note": "Pull-Aggro + Heaven's Eye" },
+      "broadside": { "item": "Hullcarver x2 (1 pro Seite)", "rarity": "epic", "note": "Pulverize + Piercing III. 13 Geschuetze pro Salve" },
+      "stern":     { "item": "Rahma's Ambition", "rarity": "epic", "note": "Cataclysmic + Flooding II auf 2 Stern-Geschuetzen" },
+      "auxiliary": { "item": "Eye of Heaven", "rarity": "epic" }
     },
-    "armor": { "item": "Needle Shield", "rarity": "epic", "note": "Brackish Bite: gegen Punctured-Targets +15% Armor + +9% Piercing-Damage." },
+    "armor": { "item": "Needle Shield", "rarity": "epic", "note": "Brackish Bite: gegen Punctured-Targets +Armor + +9% Piercing-Damage." },
     "furniture": {
       "major": "Royal Ramming Works",
-      "minor": ["Long Gun Grinder", "Front Powder Kegs", "Gunner's Quadrant", "Scoping Station", "Spikes Station"]
+      "minor": ["Culverin Works I", "Hubac Tuning Rack", "Iron Cladding Station I", "Maintenance Forge I"]
     },
-    "ammo": ["Piercing-Cannonball (Pulverize-Synergie)", "Standard (Reload-Effizienz)"],
-    "rotation": "1) Approach 600m mit Hullcarver Bow — Pulverize 6 Stacks aufbauen. 2) Ram-Distanz schließen (250m) — RAM triggert Royal Ramming Works: 50% Punctured + -20% Speed 20s. 3) Side-Pass mit 13x Urban's Great Gun (4.0s Reload = praktisch dauernde Vollsalven). 4) Pulverize geht von +12% auf +18% (Punctured-Bonus). 5) Brackish Bite Brace-Hits geben +9% Piercing-Damage 30s. 6) Burst pro Side-Salvo: 13 × 1845 DMG = 23.985 alle 4s = 5.996 DPS pro Seite. Mit Pulverize+Brackish: ~7.700 DPS/Seite. 7) Eye of Heaven für Add-Cleanup zwischen Salvos. 8) Bei niedrigem HP: Repair Kit + Reposition.",
-    "materials": ["Urban's Great Gun: Williams' Vendor / Y3S1-Drop", "Royal Ramming Works: Dominion War Effort Reward (Faction War)", "Needle Shield: WT3/WT4 Domain-Drop", "Hullcarver: Smuggler Pass"],
+    "ammo": ["Piercing Cannonball", "Standard"],
+    "rotation": "1) Approach 800m mit Divine Thunder Bow — Pull-Aggro. 2) Ram-Distanz schliessen (250m) — Royal Ramming Works triggert: 50% Punctured + -20% Speed 20s + +15% Piercing-Damage 20s. 3) Side-Pass-Pivot mit Hullcarver beide Seiten. 4) Pulverize-Stack: +12% (auf Punctured +18%). 5) Brackish Bite +9% Piercing 30s. 6) Sustained DPS pro Seite mit Royal Ramming Works ~4.189. 7) Rahma's Ambition Stern-Torpedo bei Side-Pass. 8) Eye of Heaven fuer Adds.",
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass / Pinnacle Store", "Royal Ramming Works: Y3S1 Dominion War Effort Reward", "Needle Shield: Y3S1 Smuggler Pass", "Divine Thunder: Williams' Rotating Store"],
     "sources": ["sources/y3s1-patch-notes.md", "raw.githubusercontent.com/SkullAndBonesTools/SkullAndBonesData"],
-    "lastUpdated": "2026-05-27",
+    "lastUpdated": "2026-05-28",
     "verifiedSeason": "Y3S1"
   },
   {
@@ -264,7 +264,7 @@
       "auxiliary": { "item": "Roaring Meg", "rarity": "epic" }
     },
     "armor": { "item": "Ouroboros", "rarity": "epic" },
-    "furniture": { "major": "Bombard Works", "minor": ["Termites III", "Lrange Barrel", "Tuning Station"] },
+    "furniture": { "major": "Munitions Mixer", "minor": ["Bombard Works I", "Tuning Station I", "Iron Cladding Station I", "Langrage Barrels"] },
     "ammo": ["Explosive Cannonball", "Standard Cannonball"],
     "rotation": "Detonate-Perk (+50% Structure) ist passiv. Defense Towers ZUERST - geben Hostile-Takeover-Progress-Bonus. Dann Settlement-Weakpoints. Padewakang ist langsam - vorsichtig positionieren, nicht stehen bleiben (Mortar-Bait). Roaring Meg fuer NPC-Verteidiger nur falls sie blocken.",
     "materials": ["Padewakang-Blueprint", "Basilisk III: Vendor / Quest"],
@@ -287,7 +287,7 @@
       "auxiliary": { "item": "Zamzama III", "rarity": "epic" }
     },
     "armor": { "item": "Buccaneer's Oath", "rarity": "epic", "note": "Damage-Buff bei niedrigem HP - passt zum Glass-Cannon-Stil" },
-    "furniture": { "major": "Bombard Works", "minor": ["Strange Elixir", "Tuning Station", "Hubok Tuning Rack"] },
+    "furniture": { "major": "Bilgefire Barrels", "minor": ["Bombard Works I", "Brazing Furnace I", "Tuning Station I", "Strange Elixir"] },
     "ammo": ["Burning Heart", "Standard Cannonball"],
     "rotation": "Erst Ablaze-Stacks legen (Fire Bombard Broadside), dann Scorched-Perk feuert auf brennende Ziele +Damage. Zamzama-Mortar als Burst. Sambuk hat NIEDRIGE Survivability - Distanz halten, kein Ram-Engage. Bei niedrigem HP triggert Buccaneer's Oath fuer Damage-Boost - kann zum Comeback-Tool werden.",
     "materials": ["Sambuk-Blueprint", "Fire-Waffen aus Vendor / Quest"],
@@ -309,8 +309,8 @@
       "stern": { "item": "Divine Thunder", "rarity": "epic" },
       "auxiliary": { "item": "Leopold III", "rarity": "rare", "altItem": "Roaring Meg" }
     },
-    "armor": { "item": "Ouroboros", "rarity": "epic", "altItem": "Pacea" },
-    "furniture": { "major": "Bombard Works", "minor": ["Iron Cladding Station", "Maintenance Forge", "Tuning Station", "Hubok Tuning Rack"] },
+    "armor": { "item": "Ouroboros", "rarity": "epic", "altItem": "Wrathful Ward" },
+    "furniture": { "major": "Iron Capstan", "minor": ["Bombard Works I", "Iron Cladding Station I", "Maintenance Forge I", "Tuning Station I"] },
     "ammo": ["Burning Heart", "Antipersonnel", "Standard Cannonball"],
     "rotation": "Tenacity-Perk gibt +Hull-HP und +Brace-Effizienz. Snow ist langsam, aber stark. Bracen wenn Damage einkommt - Lvl-10-Seasonal-Mastery-Perk Reactive Bulwark triggert dann eine 250m-Explosion. Solid fuer La Peste und andere Single-Target-Encounters wo Mobility weniger zaehlt.",
     "materials": ["Snow-Blueprint", "Standard-Endgame-Waffen"],
@@ -332,8 +332,8 @@
       "stern": { "item": "Divine Thunder", "rarity": "epic" },
       "auxiliary": { "item": "Roaring Meg", "rarity": "epic" }
     },
-    "armor": { "item": "Pacea", "rarity": "epic", "altItem": "Needle Shield (Piercing-Pivot)" },
-    "furniture": { "major": "Bombard Works", "minor": ["Tuning Station", "Hubok Tuning Rack", "Lrange Barrel", "Strange Elixir"] },
+    "armor": { "item": "Needle Shield", "rarity": "epic", "altItem": "Wrathful Ward" },
+    "furniture": { "major": "Gunner's Quadrant", "minor": ["Bombard Works I", "Tuning Station I", "Hubac Tuning Rack", "Strange Elixir"] },
     "ammo": ["Burning Heart", "Antipersonnel"],
     "rotation": "Garuda hat Reload-Synergie auf alle Slots - permanente Vollsalven moeglich. Long-Range-Kiting mit Spyglass-Vorscan. Wendekreis ist schwer - Routen vorausplanen, kein Hard-Turn unter Druck. Im WT4 als reines DPS-Schiff einsetzen, nicht als Tank.",
     "materials": ["Garuda-Blueprint (Endgame-Quest)", "Divine Thunder x5", "Nightshade Pearl fuer Mythic Mods"],
@@ -355,8 +355,8 @@
       "stern": { "item": "Long Gun V", "rarity": "uncommon" },
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
-    "armor": { "item": "Light Armor", "rarity": "uncommon", "note": "Cargo-Prioritaet ueber Hull" },
-    "furniture": { "major": "Cargo Hold Expansion", "minor": ["Cargo Brace", "Speed Sails", "Maintenance Forge"] },
+    "armor": { "item": "Standard Armor (Uncommon-Tier)", "rarity": "uncommon", "note": "Cargo-Prioritaet ueber Hull" },
+    "furniture": { "major": "Megaphone", "minor": ["Maintenance Forge I", "Hubac Tuning Rack", "Tuning Station I"] },
     "ammo": ["Standard Cannonball"],
     "rotation": "NICHT kaempfen - flieht. Speed + Cargo ist der ganze Point. Helm-Routen mit voll beladenem Smuggler-Cargo, Verfolger abhaengen ueber Brigantine-Speed-Range. Combat nur als Notwehr.",
     "materials": ["Sloop-Blueprint - frueh verfuegbar"],
@@ -402,7 +402,7 @@
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
     "armor": { "item": "Needle Shield", "rarity": "epic", "note": "Y3S1 Smuggler Pass Free Track" },
-    "furniture": { "major": "Tuning Station I", "minor": ["Iron Capstan", "Megaphone", "Gunner's Quadrant", "Maintenance Forge I"] },
+    "furniture": { "major": "Gunner's Quadrant", "minor": ["Tuning Station I", "Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
     "rotation": "Approach 600m mit Long-Gun-Bow, Stacks aufbauen. Schliessen auf 350-400m, Port-Vollsalve (14 Hullcarver-Geschuetze, Cap erreicht). Side-Pivot zu Starboard. Leopold-Mortar auf Adds. Maintenance Forge heilt passiv.",
     "materials": ["Hullcarver: Y3S1 Smuggler Pass Free Track", "Needle Shield: Y3S1 Smuggler Pass Free Track", "Leopold III: Vanderkill's Locker"],
@@ -425,7 +425,7 @@
       "auxiliary": { "item": "Leopold III", "rarity": "rare" }
     },
     "armor": { "item": "Wyrmhide", "rarity": "epic", "note": "Williams' Rotating Store" },
-    "furniture": { "major": "Drowned Organ", "minor": ["First Aid Station", "Iron Cladding Station I", "Bombard Works I", "Maintenance Forge I"] },
+    "furniture": { "major": "Drowned Organ", "minor": ["Bombard Works I", "Iron Cladding Station I", "Maintenance Forge I", "Brazing Furnace I"] },
     "ammo": ["Standard Cannonball", "Burning Heart"],
     "rotation": "Approach 500m Demi-Cannon, Flagbearer-Stacks. Schliessen auf 400m. Port Soulsnatcher-Vollsalve = 27500 Heal. Side-Pivot zu Starboard. Bei <60% HP: Drowned Organ +20% Mending. First Aid Station bei kritischem HP.",
     "materials": ["Soulsnatcher: Honorless Event (bis 09.06.2026)", "Drowned Organ: Honorless Event", "Wyrmhide: Williams' Rotating Store"],
@@ -448,7 +448,7 @@
       "auxiliary": { "item": "Eye of Heaven", "rarity": "epic" }
     },
     "armor": { "item": "Floodbound", "rarity": "epic", "note": "Tide of Restoration — Heal bei Flooded-Targets" },
-    "furniture": { "major": "Floodwarden Station", "minor": ["Megaphone", "Gunner's Quadrant", "Iron Capstan", "Maintenance Forge I"] },
+    "furniture": { "major": "Floodwarden Station", "minor": ["Culverin Works I", "Iron Cladding Station I", "Maintenance Forge I", "Tuning Station I"] },
     "ammo": ["Standard Cannonball", "Piercing Cannonball"],
     "rotation": "Approach 800m mit Hullcarver-Bow + Blightbearer Port, Flooded-Status aufbauen. Schliessen auf 500m. Starboard Carronade-Vollsalve auf Flooded = Riptide +50% Severe. Floodbound heilt aus Flooded-Targets in 150m. Eye-of-Heaven Mortar fuer Adds.",
     "materials": ["Hullcarver: Y3S1 Smuggler Pass Free Track", "Blightbearer + Floodbound + Floodwarden Station: Williams' Y3S1 Seasonal", "Carronade + Eye of Heaven: Williams' Weekly Rotation"],
