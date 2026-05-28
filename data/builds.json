@@ -386,5 +386,74 @@
     "sources": ["sources/y3s1-patch-notes.md"],
     "lastUpdated": "2026-05-26",
     "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "corvette-piercing-sustain",
+    "name": "Corvette Piercing-Sustain (Anfaenger WT1)",
+    "ship": "Corvette",
+    "tier": "beginner",
+    "tags": ["solo", "pve", "piercing", "flagbearer", "sustained-dps", "y3s1"],
+    "activities": ["wt1-quest-sweep", "convoys", "hostile-takeovers", "elite-ships"],
+    "requirementsText": "Corvette Upgrade 1-3/7, Kingpin niedrig. Items aus Y3S1 Smuggler Pass Free Track + Story-Drops.",
+    "slots": {
+      "bow": { "item": "Long Gun V", "rarity": "uncommon", "altItem": "Demi-Cannon" },
+      "broadside": { "item": "Hullcarver x2 (1 pro Slot)", "rarity": "epic" },
+      "stern": { "item": "Basilisk III", "rarity": "rare" },
+      "auxiliary": { "item": "Leopold III", "rarity": "rare" }
+    },
+    "armor": { "item": "Needle Shield", "rarity": "epic", "note": "Y3S1 Smuggler Pass Free Track" },
+    "furniture": { "major": "Tuning Station I", "minor": ["Iron Capstan", "Megaphone", "Gunner's Quadrant", "Maintenance Forge I"] },
+    "ammo": ["Standard Cannonball", "Piercing Cannonball"],
+    "rotation": "Approach 600m mit Long-Gun-Bow, Stacks aufbauen. Schliessen auf 350-400m, Port-Vollsalve (14 Hullcarver-Geschuetze, Cap erreicht). Side-Pivot zu Starboard. Leopold-Mortar auf Adds. Maintenance Forge heilt passiv.",
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass Free Track", "Needle Shield: Y3S1 Smuggler Pass Free Track", "Leopold III: Vanderkill's Locker"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-28",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "corvette-lifesteal-tank",
+    "name": "Corvette Lifesteal-Tank (Soulsnatcher)",
+    "ship": "Corvette",
+    "tier": "intermediate",
+    "tags": ["solo", "pve", "mending", "boss", "flagbearer", "honorless-event", "y3s1"],
+    "activities": ["la-peste", "sea-monsters", "vikram", "maelstrom", "long-convoys"],
+    "requirementsText": "Corvette Upgrade 2-4/7, Kingpin niedrig-mittel. Soulsnatcher + Drowned Organ aus Honorless Event (bis 09.06.2026).",
+    "slots": {
+      "bow": { "item": "Demi-Cannon", "rarity": "uncommon" },
+      "broadside": { "item": "Soulsnatcher x2 (1 pro Slot)", "rarity": "epic" },
+      "stern": { "item": "Standard Mortar", "rarity": "uncommon" },
+      "auxiliary": { "item": "Leopold III", "rarity": "rare" }
+    },
+    "armor": { "item": "Wyrmhide", "rarity": "epic", "note": "Williams' Rotating Store" },
+    "furniture": { "major": "Drowned Organ", "minor": ["First Aid Station", "Iron Cladding Station I", "Bombard Works I", "Maintenance Forge I"] },
+    "ammo": ["Standard Cannonball", "Burning Heart"],
+    "rotation": "Approach 500m Demi-Cannon, Flagbearer-Stacks. Schliessen auf 400m. Port Soulsnatcher-Vollsalve = 27500 Heal. Side-Pivot zu Starboard. Bei <60% HP: Drowned Organ +20% Mending. First Aid Station bei kritischem HP.",
+    "materials": ["Soulsnatcher: Honorless Event (bis 09.06.2026)", "Drowned Organ: Honorless Event", "Wyrmhide: Williams' Rotating Store"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-28",
+    "verifiedSeason": "Y3S1"
+  },
+  {
+    "id": "corvette-flooding-pressure",
+    "name": "Corvette Flooding-Pressure (Y3S1-Pure)",
+    "ship": "Corvette",
+    "tier": "intermediate",
+    "tags": ["solo", "pve", "flooding", "forts", "flagbearer", "y3s1"],
+    "activities": ["forts", "convoys", "hostile-takeovers", "megafort-patrouillen", "wt2-content"],
+    "requirementsText": "Corvette Upgrade 2-4/7, Kingpin niedrig-mittel. Items aus Y3S1 Williams' Rotating Store + Smuggler Pass.",
+    "slots": {
+      "bow": { "item": "Hullcarver", "rarity": "epic" },
+      "broadside": { "item": "Blightbearer (Port) + Carronade (Starboard)", "rarity": "epic" },
+      "stern": { "item": "Basilisk III", "rarity": "rare" },
+      "auxiliary": { "item": "Eye of Heaven", "rarity": "epic" }
+    },
+    "armor": { "item": "Floodbound", "rarity": "epic", "note": "Tide of Restoration — Heal bei Flooded-Targets" },
+    "furniture": { "major": "Floodwarden Station", "minor": ["Megaphone", "Gunner's Quadrant", "Iron Capstan", "Maintenance Forge I"] },
+    "ammo": ["Standard Cannonball", "Piercing Cannonball"],
+    "rotation": "Approach 800m mit Hullcarver-Bow + Blightbearer Port, Flooded-Status aufbauen. Schliessen auf 500m. Starboard Carronade-Vollsalve auf Flooded = Riptide +50% Severe. Floodbound heilt aus Flooded-Targets in 150m. Eye-of-Heaven Mortar fuer Adds.",
+    "materials": ["Hullcarver: Y3S1 Smuggler Pass Free Track", "Blightbearer + Floodbound + Floodwarden Station: Williams' Y3S1 Seasonal", "Carronade + Eye of Heaven: Williams' Weekly Rotation"],
+    "sources": ["sources/y3s1-patch-notes.md"],
+    "lastUpdated": "2026-05-28",
+    "verifiedSeason": "Y3S1"
   }
 ]

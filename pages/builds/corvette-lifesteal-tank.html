@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../../">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>Corvette Lifesteal-Tank — mikeandbones</title>
+  <meta name="description" content="Corvette Lifesteal-Tank Build mit Soulsnatcher + Drowned Organ. Solo-Boss-Killer für Y3S1.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cinzel:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/tooltips.css">
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <div class="page">
+    <div data-include="partials/sidebar.html"></div>
+    <main class="main">
+      <div class="main__inner">
+
+        <p class="caption"><a href="./">Start</a> › <a href="pages/builds/index.html">Builds</a> › Corvette Lifesteal-Tank</p>
+
+        <h1>Corvette Lifesteal-Tank</h1>
+        <p class="caption"><span class="badge badge-tier-intermediate">Intermediate</span> Soulsnatcher-Mending · WT2 Solo-Boss · Honorless-Event-Synergie</p>
+
+        <h2>Konzept</h2>
+        <p>Maximaler Self-Sustain durch Flagbearer-Repair-Multiplier + Soulsnatcher-Mending-Loop. Soulsnatcher (Bombard) heilt 20-60% des Damage als Hull-Heal. Mit 14 Geschützen pro Seite = riesige Heal-Throughput pro Salve. Flagbearer-Stacks geben +5% Heal-Effektivität pro Stack (max +50%). Plus Drowned Organ verstärkt Mending-Damage unter 60% HP. Funktioniert gegen einzelne Bosse (La Peste, Vikram, Maelstrom) wo Repair-Kit-Cooldown nicht reicht.</p>
+
+        <div class="box box-warning">
+          <span class="box__title">Zeitkritisch — Honorless Event!</span>
+          <strong>Soulsnatcher + Drowned Organ</strong> kommen aus dem Honorless Event (12.05.–09.06.2026). Wenn du diesen Build willst, jetzt Event-Farm starten — sonst musst du auf eine zukünftige Event-Rotation warten.
+        </div>
+
+        <h2>Loadout</h2>
+        <div class="table-wrap">
+        <table>
+          <thead><tr><th>Slot</th><th>Item</th><th>Quelle</th><th>Effekt</th></tr></thead>
+          <tbody>
+            <tr><td>Bow</td><td class="item item-uncommon">Demi-Cannon</td><td>Shipwright (permanent)</td><td>Weakpoint-Focus. 6 Bow-Geschütze für Crit-Setup.</td></tr>
+            <tr><td>Port Broadside</td><td class="item item-epic">Soulsnatcher</td><td>Honorless Event (bis 09.06.2026)</td><td>Haunting Mend — 20-60% Damage als Hull-Heal. 14 × 3.280 = 45.920 Burst.</td></tr>
+            <tr><td>Starboard Broadside</td><td class="item item-epic">Soulsnatcher</td><td>Honorless Event (bis 09.06.2026)</td><td>Symmetrisch — du brauchst 2 Soulsnatcher-Items für den Heal-Loop.</td></tr>
+            <tr><td>Stern</td><td class="item item-uncommon">Standard Mortar</td><td>Story-Vendor</td><td>Verfolger-AoE.</td></tr>
+            <tr><td>Auxiliary</td><td class="item item-rare">Leopold III</td><td>Vanderkill's Locker (permanent)</td><td>11.275 Mortar-Burst + Flooding II für Adds.</td></tr>
+            <tr><td>Armor</td><td class="item item-epic">Wyrmhide</td><td>Williams' Rotating Store</td><td>Entrenched + Bastion — passive Damage-Reduktion + Brace-Recovery.</td></tr>
+            <tr><td>Major Furniture</td><td class="item item-epic">Drowned Organ</td><td>Honorless Event (bis 09.06.2026!)</td><td>+20% Mending-Damage unter 60% Hull + AOE-Damage auf Flooded-Targets + 1% Max-HP pro Mending-Weapon.</td></tr>
+            <tr><td>Minor ×4 (1 Item pro Slot)</td><td>First Aid Station · Iron Cladding Station I · Bombard Works I · Maintenance Forge I</td><td>Vendor (alle permanent)</td><td>Heal-Burst + Armor + Bombard-Damage + Self-Repair.</td></tr>
+          </tbody>
+        </table>
+        </div>
+
+        <p><strong>Alternative Armor:</strong> <em>Tanashah</em> (Williams' Store, Dark Meditation + Reinforced) für höhere passive Tank-Stats. <em>Royal Custodian</em> (Convoy-Drop) wenn du Repair-Kit-Bursts spielen willst.</p>
+        <p><strong>Alternative Starboard:</strong> <em>Carronade</em> (Williams' Store, Riptide + Flooding) wenn du nur 1× Soulsnatcher hast — Riptide synergiert mit Drowned-Organ-AOE.</p>
+
+        <h2>Heal + DPS-Math</h2>
+        <ul>
+          <li><strong>Soulsnatcher Burst pro Seite (14 Geschütze):</strong> 14 × 3.280 = <strong>45.920 Burst</strong> pro Vollsalve.</li>
+          <li><strong>Sustained DPS pro Seite:</strong> 14 × 437 = <strong>6.118 DPS</strong> (Reload 7.5s).</li>
+          <li><strong>Mending-Heal pro Vollsalve:</strong> bei 3+ Targets in Blast → 60% Lifesteal = <strong>~27.500 Hull-Heal</strong> pro Salvo (vor Resi).</li>
+          <li><strong>Mit Drowned Organ +20%</strong> unter 60% HP: ~33.000 Heal pro Salvo.</li>
+          <li><strong>Mit Flagbearer-Stacks (max +50% Heal-Effektivität):</strong> bis ~49.500 Heal pro Salvo bei 20 Stacks.</li>
+          <li><strong>Max-HP-Boost:</strong> 2 Mending-Weapons × +1% = +2% Max Hull (zusätzliche ~1.600 HP bei Corvette-Base 80k).</li>
+        </ul>
+
+        <h2>Rotation</h2>
+        <ol>
+          <li><strong>Approach 500m</strong> mit Demi-Cannon Bow — Weakpoint-Damage, Flagbearer-Stacks aufbauen.</li>
+          <li><strong>Schließen auf 400m</strong> (Soulsnatcher Optimal-Range = 600m, aber näher = mehr Treffer).</li>
+          <li><strong>Erste Salve Port (Soulsnatcher)</strong> — sofort 27.500 Hull-Heal Buffer.</li>
+          <li><strong>Side-Pivot zu Starboard</strong> während Port reloadet (7.5s) — zweite Salve, Heal-Loop kontinuierlich.</li>
+          <li><strong>Wenn HP &lt; 60% fällt:</strong> Drowned Organ aktiv (+20% Mending-Damage) — Heal steigt auf ~33.000.</li>
+          <li><strong>Flagbearer-Cap halten</strong> — bei 20 Stacks +50% Heal-Effektivität, +10% Weakpoint-Damage.</li>
+          <li><strong>Leopold III Mortar</strong> kontinuierlich auf Adds — Flooded-Apply synergiert mit Drowned-Organ-AOE.</li>
+          <li><strong>First Aid Station</strong> bei kritischem HP-Drop — Burst-Heal zusätzlich.</li>
+          <li><strong>Wenn Adds tot:</strong> Heal-Throughput sinkt (weniger Blast-Targets) — Brace + Repositionieren.</li>
+        </ol>
+
+        <h2>Beste Aktivitäten</h2>
+        <ul>
+          <li><strong>La Peste Solo</strong> (Y3S1 elementangreifbar — Soulsnatcher-Bombard ist Burning, perfekte Synergie)</li>
+          <li><strong>Sea Monsters</strong> (Y3S1 jetzt vulnerable für alle Status)</li>
+          <li><strong>Vikram / Maelstrom-Bosse</strong></li>
+          <li><strong>Lange Convoy-Eskorten</strong> wo Repair-Kit-Cooldown nicht reicht</li>
+        </ul>
+
+        <h2>Wann anderer Build?</h2>
+        <ul>
+          <li><strong>WT1-Einstieg / Standard-Mob:</strong> <a href="pages/builds/corvette-piercing-sustain.html">Corvette Piercing-Sustain</a> — sicherer und niedrigere Setup-Kosten (kein Event-Farm nötig).</li>
+          <li><strong>Forts / Convoy-Pressure:</strong> <a href="pages/builds/corvette-flooding-pressure.html">Corvette Flooding-Pressure</a> — Floodbound + Carronade-Severe.</li>
+        </ul>
+
+        <p class="caption" style="margin-top:2em;">
+          <span class="verified-tag">Verifiziert: Y3S1 · Stand 28.05.2026</span><br>
+          Quelle: <a href="sources/y3s1-patch-notes.md">Ubisoft Y3S1 Patch Notes</a> · SkullAndBonesData-Repo · Community-Recherche.
+        </p>
+
+        <div data-include="partials/footer.html"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/item-links.js"></script>
+  <script type="module" src="assets/js/tooltips.js"></script>
+</body>
+</html>

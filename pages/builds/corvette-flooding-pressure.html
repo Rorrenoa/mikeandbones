@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../../">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>Corvette Flooding-Pressure — mikeandbones</title>
+  <meta name="description" content="Corvette Flooding-Pressure Build mit Floodbound + Carronade + Floodwarden Station. Forts und Convoys in Y3S1.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cinzel:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/tooltips.css">
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <div class="page">
+    <div data-include="partials/sidebar.html"></div>
+    <main class="main">
+      <div class="main__inner">
+
+        <p class="caption"><a href="./">Start</a> › <a href="pages/builds/index.html">Builds</a> › Corvette Flooding-Pressure</p>
+
+        <h1>Corvette Flooding-Pressure</h1>
+        <p class="caption"><span class="badge badge-tier-intermediate">Intermediate</span> Floodbound-Synergie · Forts & Convoys · Y3S1-Pure</p>
+
+        <h2>Konzept</h2>
+        <p>Asymmetrische Broadsides für Stacking-Flooding. <strong>Port = Blightbearer</strong> (Long Gun, Sickly + Toxic II + Piercing I, baut Flooded/DOT auf 1000m auf). <strong>Starboard = Carronade</strong> (Culverin, Riptide triggert +50% Severe Damage gegen Flooded-Targets bei 600m). Floodbound (Armor) heilt dich bei Flooded-Targets in 150m. Floodwarden Station verstärkt Flooding-Damage und Brace-Recovery. Komplette Y3S1-Synergie — alle Items aus aktuellem Williams' Store oder Y3S1-Quellen, kein Event-Lock.</p>
+
+        <div class="box box-info">
+          <span class="box__title">Warum dieser Build für Anfänger gut ist</span>
+          Alle Items sind <strong>jetzt</strong> aus aktiver Y3S1-Quelle erhältlich — Williams' Rotating Store (Carronade, Blightbearer, Floodbound, Floodwarden Station, Tanashah) plus permanente Vendor-Items. Kein Event-Zeitdruck wie beim Lifesteal-Tank. Plus: Flooding-Damage skaliert exzellent gegen Forts und große Targets (Convoys, Megafort-Patrols).
+        </div>
+
+        <h2>Loadout</h2>
+        <div class="table-wrap">
+        <table>
+          <thead><tr><th>Slot</th><th>Item</th><th>Quelle</th><th>Effekt</th></tr></thead>
+          <tbody>
+            <tr><td>Bow</td><td class="item item-epic">Hullcarver</td><td>Y3S1 Smuggler Pass (Free Track)</td><td>Pulverize + Piercing III. 6 Bow-Geschütze für Opener-Damage + Punctured-Setup.</td></tr>
+            <tr><td>Port Broadside</td><td class="item item-epic">Blightbearer</td><td>Williams' Y3S1 Seasonal</td><td>2050 DMG, 1000m Range, Sickly + Toxic II + Piercing I. 14 × 2050 = 28.700 Burst. Long-Range-Flooding-Opener.</td></tr>
+            <tr><td>Starboard Broadside</td><td class="item item-epic">Carronade</td><td>Williams' Rotating Store (Weekly)</td><td>1510 DMG, 5.5s Reload, Riptide + Flooding. 14 × 1510 = 21.140 Burst. Triggert Severe-Damage gegen Flooded.</td></tr>
+            <tr><td>Stern</td><td class="item item-rare">Basilisk III</td><td>Darktide Chest / Story-Drops</td><td>Raider + Piercing II.</td></tr>
+            <tr><td>Auxiliary</td><td class="item item-epic">Eye of Heaven</td><td>Williams' Rotating Store (Weekly)</td><td>Tempest-Lightning-Arc 150m für Adds + Stormstruck-Setup.</td></tr>
+            <tr><td>Armor</td><td class="item item-epic">Floodbound</td><td>Williams' Y3S1 Seasonal</td><td>Tide of Restoration — Heal bei Flooded-Targets in 150m. Self-Sustain ohne Event-Items.</td></tr>
+            <tr><td>Major Furniture</td><td class="item item-epic">Floodwarden Station</td><td>Williams' Y3S1 Seasonal</td><td>+Flooding-Damage-Amp + Brace-Recovery. Pflicht-Synergie mit Floodbound.</td></tr>
+            <tr><td>Minor ×4 (1 Item pro Slot)</td><td>Megaphone · Gunner's Quadrant · Iron Capstan · Maintenance Forge I</td><td>Vendor (alle permanent)</td><td>Reload + Weakpoint-Crit + Anchor-Tank + Self-Repair.</td></tr>
+          </tbody>
+        </table>
+        </div>
+
+        <p><strong>Alternative Armor:</strong> <em>Tanashah</em> (Williams' Store, Dark Meditation + Reinforced) für mehr passive Tank-Stats wenn Flooded-Heal nicht reicht.</p>
+        <p><strong>Alternative Bow:</strong> <em>Long Gun V</em> (Story) wenn Hullcarver noch nicht gefarmt — Hullcarver ist aber klar besser.</p>
+
+        <h2>Flooding-Math</h2>
+        <ul>
+          <li><strong>Blightbearer Burst (Port, 14 Geschütze):</strong> 14 × 2.050 = <strong>28.700 Burst</strong> auf 1000m. Sustained: 14 × 285 = <strong>3.990 DPS</strong>.</li>
+          <li><strong>Carronade Burst (Starboard, 14 Geschütze):</strong> 14 × 1.510 = <strong>21.140 Burst</strong> auf 600m. Reload 5.5s = höhere Frequenz. Sustained: 14 × 274 = <strong>3.836 DPS</strong>.</li>
+          <li><strong>Flooded-Target Severe-Bonus:</strong> Carronade's Riptide triggert +50% Severe-Damage auf bereits Flooded-Targets — Blightbearer-Flooded-Setup multipliziert sich auf Carronade-Salven.</li>
+          <li><strong>Floodbound Heal:</strong> ~3% Hull/Sek pro Flooded-Target in 150m. Bei 3-5 Targets = 9-15% Hull/Sek = praktisch permanente Sustain in Convoy-Encountern.</li>
+          <li><strong>Floodwarden Station:</strong> +Flooding-Weapon-Damage-Amp (typisch +15-20% in Community-Tests) + Brace-Recovery-Bonus.</li>
+        </ul>
+
+        <h2>Rotation</h2>
+        <ol>
+          <li><strong>Approach 800m</strong> mit Hullcarver Bow + Blightbearer Port — Long-Range-Opener, Flooded-Status auf Mehrfach-Targets aufbauen.</li>
+          <li><strong>Schließen auf 500m</strong> — Carronade-Range erreicht.</li>
+          <li><strong>Starboard-Vollsalve (Carronade)</strong> auf bereits geflutete Targets — Riptide triggert +50% Severe. 21.140 Burst + Severe-Multiplier.</li>
+          <li><strong>Side-Pivot zurück zu Port (Blightbearer)</strong> — Reload 7.2s vs Carronade 5.5s, alternieren.</li>
+          <li><strong>Floodbound aktiv</strong> sobald 1+ Flooded-Target in 150m — du heilst dich kontinuierlich.</li>
+          <li><strong>Eye of Heaven Mortar</strong> für Add-Cleanup + Stormstruck-Setup.</li>
+          <li><strong>Hostile Takeover / Fort-Push:</strong> Iron Capstan setzen (Anchor) sobald Position gehalten — Threat-Hold + -15% Incoming Damage.</li>
+          <li><strong>Bei niedrigem HP:</strong> Floodbound-Heal sollte ausreichen solange Flooded-Targets in Range. Wenn nicht: Repair-Kit + Reposition.</li>
+        </ol>
+
+        <h2>Engagement-Distanzen</h2>
+        <div class="table-wrap">
+        <table>
+          <thead><tr><th>Situation</th><th>Distanz</th><th>Strategie</th></tr></thead>
+          <tbody>
+            <tr><td>Fort-Push (klein)</td><td>600-800m</td><td>Blightbearer-Opener auf Türme, Flooded-Stack, dann Close-Range mit Carronade</td></tr>
+            <tr><td>Convoy-Eskorte</td><td>400m kreisen</td><td>Beide Broadsides nutzen, Floodbound heilt aus 5+ Flooded-Targets</td></tr>
+            <tr><td>Hostile Takeover</td><td>300m Anchor</td><td>Iron Capstan + Sustained-Fire, Threat-Hold</td></tr>
+            <tr><td>WT2 Standard-Mob</td><td>500m</td><td>Side-Pivot, Flagbearer-Cap halten</td></tr>
+            <tr><td>Megafort-Patrouille</td><td>700m</td><td>Long-Range Blightbearer-Spam, Disengage bei Counter-Fire</td></tr>
+          </tbody>
+        </table>
+        </div>
+
+        <h2>Beste Aktivitäten</h2>
+        <ul>
+          <li><strong>Forts</strong> — Flooding skaliert exzellent gegen Strukturen</li>
+          <li><strong>Convoy-Eskorten</strong> — mehrere Flooded-Targets = volle Floodbound-Heal</li>
+          <li><strong>Hostile Takeover</strong> — Anchor + Pressure</li>
+          <li><strong>Megafort-Patrouillen</strong> — Long-Range-Flooding-Opener</li>
+        </ul>
+
+        <h2>Wann anderer Build?</h2>
+        <ul>
+          <li><strong>WT1-Einstieg ohne Williams-Käufe:</strong> <a href="pages/builds/corvette-piercing-sustain.html">Corvette Piercing-Sustain</a> — nutzt nur Y3S1 Smuggler Pass Free Track.</li>
+          <li><strong>Solo-Boss-Killer (La Peste, Sea Monster):</strong> <a href="pages/builds/corvette-lifesteal-tank.html">Corvette Lifesteal-Tank</a> mit Soulsnatcher-Mending-Loop.</li>
+        </ul>
+
+        <p class="caption" style="margin-top:2em;">
+          <span class="verified-tag">Verifiziert: Y3S1 · Stand 28.05.2026</span><br>
+          Quelle: <a href="sources/y3s1-patch-notes.md">Ubisoft Y3S1 Patch Notes</a> · SkullAndBonesData-Repo · Community-Recherche.
+        </p>
+
+        <div data-include="partials/footer.html"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/item-links.js"></script>
+  <script type="module" src="assets/js/tooltips.js"></script>
+</body>
+</html>
